@@ -1,0 +1,1 @@
+- [Kristensen, David M, Y I Wolf, Arcady R Mushegian, and Eugene V Koonin. “Computational Methods for Gene Orthology Inference..” Briefings in Bioinformatics 12, no. 5 (September 2011): 379–91. doi:10.1093/bib/bbr030.](http://http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3178053)
