@@ -49,25 +49,13 @@ sub genome_seq {
 			my $in  = Bio::SeqIO->new(-file => $dirname. "/". $filename , -format => 'Fasta');
 			while ( my $seq = $in->next_seq() ) {
 				$genome_seq->{$seq->primary_id} = $seq;
-				#print $seq->primary_id, "\n";
-				#primary_id
-				#primary_seq
-				##display_id
-				##length
-				##primary_id
-				##desc
-				##seq
 			}
 		}
 	}
 	closedir(DIR);
 	return $genome_seq;
-#	foreach my $chr (keys %{$genome_seq}) {print $chr, "\t", $genome_seq->{$chr}->desc, "\n";}
 }
 sub SeqFetch{
-#	my @loc = ($feat->{seq_id},$feat->{strand},$feat->{start},$feat->{end});
-#	my $utr5seq = &SeqFetch(@loc);
-#	print "@_\n";
 	my ($loc, $genome) = @_;
 	my $chr;my $strand;my $st;my $ed;
 	if($loc =~ /^(\w*\d*)([+|-])(\d+)\.\.(\d+)$/){
@@ -190,17 +178,6 @@ while(<I>) {
 }
 close I;
 
-=cut
-1	protein_coding	gene	1109264	1133315	.	+	.	gene_id "ENSG00000162571"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding";
-1	protein_coding	transcript	1109283	1133315	.	+	.	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036";
-1	protein_coding	exon	1109283	1109306	.	+	.	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; exon_number "1"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036"; exon_id "ENSE00001480467";
-1	protein_coding	exon	1109646	1109701	.	+	.	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; exon_number "2"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036"; exon_id "ENSE00001480466";
-1	protein_coding	exon	1109804	1109869	.	+	.	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; exon_number "3"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036"; exon_id "ENSE00001480465";
-1	protein_coding	exon	1114569	1114713	.	+	.	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; exon_number "4"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036"; exon_id "ENSE00002321912";
-1	protein_coding	CDS	1114596	1114713	.	+	0	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; exon_number "4"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036"; protein_id "ENSP00000368592";
-1	protein_coding	start_codon	1114596	1114598	.	+	0	gene_id "ENSG00000162571"; transcript_id "ENST00000379290"; exon_number "4"; gene_name "TTLL10"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "TTLL10-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS44036";
-
-=cut
 #3
 open I, "< ". $opts{ensembl_gtf};
 #open I, "< ../sample/ensembl/release-22/oryza_sativa/gtf/test.gtf";#chr9
@@ -225,87 +202,6 @@ open I, "< ". $opts{ensembl_gtf};
 #open I, "< OS02G0671400.gtf";#
 =cut
 my $gtf;
-=cut
-#animal
-while(<I>){
-	chomp;
-	my @r = split /\t/,$_;
-	my $chr       = $r[0];
-	my $st        = $r[3];
-	my $ed        = $r[4];
-	my $strand    = $r[6];
-	my $frame     = $r[7];
-	my $phase;
-	my @attribute = split /;\s*/,$r[8];
-
-	if( $r[1] eq "protein_coding" ) {
-		my $gene_id = $1       if($attribute[0] =~ /gene_id\s\"(\S+)\"/);
-		my $transcript_id = $1 if($attribute[1] =~ /transcript_id\s\"(\S+)\"/);
-		my $exon_no += $1 if($attribute[2] =~ /exon_number\s*\"(\d+)\"/);
-		if( $r[2] eq "gene" ){
-			$gtf->{$gene_id}->{gene}->{chr}    = $chr;	
-			$gtf->{$gene_id}->{gene}->{strand} = $strand;	
-			$gtf->{$gene_id}->{gene}->{st}     = $st;	
-			$gtf->{$gene_id}->{gene}->{ed}     = $ed;	
-		}
-		elsif( $r[2] eq "transcript" ) {
-			next if(!defined $gtf->{$gene_id}->{gene}->{chr});
-
-			$gtf->{$gene_id}->{transcript}->{$transcript_id}->{chr}    = $chr;	
-			$gtf->{$gene_id}->{transcript}->{$transcript_id}->{strand} = $strand;	
-			$gtf->{$gene_id}->{transcript}->{$transcript_id}->{st}     = $st;	
-			$gtf->{$gene_id}->{transcript}->{$transcript_id}->{ed}     = $ed;	
-		}
-		elsif( $r[2] eq "exon" ) {
-			next if(!defined $gtf->{$gene_id}->{gene}->{chr});
-
-			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{chr}    = $chr;	
-			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{strand} = $strand;	
-			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{st}     = $st;	
-			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{ed}     = $ed;	
-		}
-		elsif( $r[2] eq "CDS" ) {
-			next if(!defined $gtf->{$gene_id}->{gene}->{chr});
-
-			$gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{chr}    = $chr;	
-			$gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{strand} = $strand;	
-			$gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{st}     = $st;	
-			$gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{ed}     = $ed;	
-			$gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{frame}  = $frame;	
-		}
-		elsif( $r[2] eq "start_codon" ){
-			next if(!defined $gtf->{$gene_id}->{gene}->{chr});
-			if( $frame == 0 ){
-				$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{start_codon} = 1;
-				$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{split_start_codon} = 1 if( $ed-$st < 2 );
-				#27434 0
-				#62645 1
-				# 162 2
-				#0: has no start_codon information; 1: has one start_codon information for one transcript; 2: start_codon was split at exon junction
-			
-				$gtf->{$gene_id}->{start_codon}->{$transcript_id}->{chr}    = $chr;	
-				$gtf->{$gene_id}->{start_codon}->{$transcript_id}->{strand} = $strand;	
-				$gtf->{$gene_id}->{start_codon}->{$transcript_id}->{st}     = $st;	
-				$gtf->{$gene_id}->{start_codon}->{$transcript_id}->{ed}     = $ed;	
-			}
-		}
-		elsif( $r[2] eq "stop_codon" ){
-			next if(!defined $gtf->{$gene_id}->{gene}->{chr});
-			if( $ed - $st == 2 || $frame != 0 ){
-				$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{stop_codon} = 1;
-
-				$gtf->{$gene_id}->{stop_codon}->{$transcript_id}->{chr}    = $chr;	
-				$gtf->{$gene_id}->{stop_codon}->{$transcript_id}->{strand} = $strand;	
-				$gtf->{$gene_id}->{stop_codon}->{$transcript_id}->{st}     = $st;	
-				$gtf->{$gene_id}->{stop_codon}->{$transcript_id}->{ed}     = $ed;
-			}
-		}
-		elsif( $r[2] eq "UTR" ){
-	
-		}
-	}
-}
-=cut
 while(<I>){
 	chomp;
 	my @r = split /\t/,$_;
@@ -579,11 +475,6 @@ foreach my $gene_id (keys %{$gtf}) {
 			$last_exon_no = $exon_no;
 		}
 		foreach my $exon_no (sort {$a<=>$b} keys %{$gtf->{$gene_id}->{exon}->{$transcript_id}}) {
-#			my $exon_seq = &SeqFetch($gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{loc});
-#			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{seq}            =                  $exon_seq  ;
-#			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{length}         =          length( $exon_seq );
-#			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{gc_content}     =     &gc_content( $exon_seq );
-#			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{purine_content} = &purine_content( $exon_seq );
 		}
 		foreach my $exon_no (sort {$a<=>$b} keys %{$gtf->{$gene_id}->{exon}->{$transcript_id}}) {
 			my $next_exon_no = $exon_no + 1;
@@ -602,61 +493,10 @@ foreach my $gene_id (keys %{$gtf}) {
 			
 			$gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{phase} = $gtf->{$gene_id}->{exon}->{$transcript_id}->{$next_exon_no}->{phase};
 			
-#			my $intron_seq = &SeqFetch($gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{loc});
-#			$gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{seq}            =                  $intron_seq  ;
-#			$gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{length}         =          length( $intron_seq );
-#			$gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{gc_content}     =     &gc_content( $intron_seq );
-#			$gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{purine_content} = &purine_content( $intron_seq );
-#			my $five_prime_splice_signal                                               = $1           if( $intron_seq =~ /^(\w{2}).*$/ );
-#			my $three_prime_splice_signal                                              = $1           if( $intron_seq =~ /^.*(\w{2})$/ );
-#			$gtf->{$gene_id}->{intron}->{$transcript_id}->{$exon_no}->{splice_signal}  = "$five_prime_splice_signal$three_prime_splice_signal";
 		}
 	}	
 }
 
-=cut
-foreach my $gene_id (keys %{$gtf}) {
-	foreach my $transcript_id (keys %{$gtf->{$gene_id}->{exon}}) {
-		my $transcript_id_start_codon_cnt = 0;my $transcript_id_stop_codon_cnt = 0;
-		foreach my $exon_no (sort {$a<=>$b} keys %{$gtf->{$gene_id}->{exon}->{$transcript_id}}) {if($gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{start_codon}){$transcript_id_start_codon_cnt += 1;}if($gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{stop_codon}){$transcript_id_stop_codon_cnt += 1;}}
-		if( $transcript_id_start_codon_cnt == 1 ){print $gene_id, "\t", $transcript_id, "\n";}
-		if( $transcript_id_stop_codon_cnt == 2 ){print $gene_id, "\t", $transcript_id, "\n";}}
-}
-
-foreach my $gene_id (keys %{$gtf}) {
-	foreach my $transcript_id (keys %{$gtf->{$gene_id}->{exon}}) {
-	
-		my $start_codon_exon = 0;
-		my $stop_codon_exon = 0;
-		foreach my $exon_no (sort {$a<=>$b} keys %{$gtf->{$gene_id}->{exon}->{$transcript_id}}) {
-			#exon frame / phase
-			$gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{frame} = ( defined $gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{frame} ) ?  $gtf->{$gene_id}->{CDS}->{$transcript_id}->{$exon_no}->{frame} : -1;	
-			$start_codon_exon = $exon_no if($gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{start_codon});
-			$stop_codon_exon  = $exon_no if($gtf->{$gene_id}->{exon}->{$transcript_id}->{$exon_no}->{stop_codon});
-		}
-		if( $start_codon_exon && $stop_codon_exon ){print "both\n";
-			$gtf->{$gene_id}->{gene}->{full_sructure} = 1;
-		}
-#		elsif( $start_codon_exon && !$stop_codon_exon ){print "5\n";}
-#		elsif( !$start_codon_exon && $stop_codon_exon ){print "3\n";}
-#		else {print "none\n";}
-#人转录本的结构信息统计
-# 203 3
-# 240 5
-#62567 both
-#27231 none
-	}
-	if($gtf->{$gene_id}->{gene}->{full_sructure}){
-		print "both\n";	
-	}
-	else{
-		print "not\n";
-	}
-#人的基因的结构统计，只要有一个转录本有结构信息，就认为有结构信息
-#84601 both
-# 793 not
-}
-=cut
 
 my $gene_feature = $gtf;
 
@@ -853,16 +693,6 @@ while(<I>){
 						$ref->{$ref_type}->{$pubmed_id}->{v_ed     } = $v_ed     ;
 						$ref->{$ref_type}->{$pubmed_id}->{pubmed_id} = $pubmed_id;
 						$ref->{$ref_type}->{$pubmed_id}->{doi_id   } = $doi_id   ;
-#						print R  $ref_type ,"\t";
-#						print R  $title    ,"\t";
-#						print R  $names    ,"\t";
-#						print R  $date     ,"\t";
-#						print R  $journal  ,"\t";
-#						print R  $v        ,"\t";
-#						print R  $v_st     ,"\t";
-#						print R  $v_ed     ,"\t";
-#						print R  $pubmed_id,"\t";
-#						print R  $doi_id   ,"\n";
 					}
 					else{
 						my $title_u = lc($title);
@@ -882,7 +712,6 @@ while(<I>){
 #						print R  "-"   ,"\n";
 					}
 					
-					#annotation type				annotation value, stored in an array(@)
 				}
 #				my $entry_xml = XML::XPath::XMLParser::as_string($node);
 			}
@@ -943,80 +772,6 @@ foreach my $gene_id (keys %{$gtf}) {
 	foreach my $transcript_id (keys %{$gtf->{$gene_id}->{exon}}) {
 		#print $gene_id, "\t$transcript_id\n";
 		my $last_exon_no;foreach my $exon_no (sort {$a<=>$b} keys %{$gtf->{$gene_id}->{exon}->{$transcript_id}}) {$last_exon_no = $exon_no;}
-=cut
-							#split start codon at exon junction
-							12	protein_coding	gene	57057127	57082159	.	-	.	gene_id "ENSG00000110958"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding";
-							12	protein_coding	transcript	57057127	57082084	.	-	.	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836";
-							12	protein_coding	exon	57081782	57082084	.	-	.	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; exon_number "1"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836"; exon_id "ENSE00002351897";
-							12	protein_coding	CDS	57081782	57081783	.	-	0	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; exon_number "1"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836"; protein_id "ENSP00000262033";
-							12	protein_coding	start_codon	57081782	57081783	.	-	0	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; exon_number "1"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836";
-							12	protein_coding	start_codon	57066849	57066849	.	-	1	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; exon_number "2"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836";
-							12	protein_coding	exon	57066736	57066849	.	-	.	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; exon_number "2"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836"; exon_id "ENSE00003478503";
-							12	protein_coding	CDS	57066736	57066849	.	-	1	gene_id "ENSG00000110958"; transcript_id "ENST00000262033"; exon_number "2"; gene_name "PTGES3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "PTGES3-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS31836"; protein_id "ENSP00000262033";
-
-							5	protein_coding	gene	138609441	138667360	.	+	.	gene_id "ENSG00000015479"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding";
-							5	protein_coding	transcript	138609793	138665446	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana";
-							5	protein_coding	exon	138609793	138609850	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "1"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00002076849";
-							5	protein_coding	exon	138611810	138611839	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "2"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00003680139";
-							5	protein_coding	exon	138614016	138614097	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "3"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00001477050";
-							5	protein_coding	exon	138614740	138614818	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "4"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00001477049";
-							5	protein_coding	exon	138650364	138650425	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "5"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00003620093";
-							5	protein_coding	exon	138651386	138651427	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "6"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00003651338";
-							5	protein_coding	CDS	138651426	138651427	.	+	0	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "6"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; protein_id "ENSP00000421218";
-							5	protein_coding	start_codon	138651426	138651427	.	+	0	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "6"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana";
-							5	protein_coding	start_codon	138651765	138651765	.	+	1	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "7"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana";
-							5	protein_coding	exon	138651765	138651877	.	+	.	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "7"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; exon_id "ENSE00003540350";
-							5	protein_coding	CDS	138651765	138651877	.	+	1	gene_id "ENSG00000015479"; transcript_id "ENST00000504203"; exon_number "7"; gene_name "MATR3"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "MATR3-012"; transcript_source "ensembl_havana"; protein_id "ENSP00000421218";
-
-							2	protein_coding	gene	32449522	32490923	.	-	.	gene_id "ENSG00000091106"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding";
-							2	protein_coding	transcript	32449522	32490801	.	-	.	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174";
-							2	protein_coding	exon	32490656	32490801	.	-	.	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "1"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174"; exon_id "ENSE00001559794";
-							2	protein_coding	exon	32481844	32481962	.	-	.	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "2"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174"; exon_id "ENSE00002173311";
-							2	protein_coding	CDS	32481844	32481844	.	-	0	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "2"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174"; protein_id "ENSP00000354159";
-							2	protein_coding	start_codon	32481844	32481844	.	-	0	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "2"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174";
-							2	protein_coding	start_codon	32477747	32477748	.	-	2	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "3"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174";
-							2	protein_coding	exon	32477488	32477748	.	-	.	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "3"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174"; exon_id "ENSE00001615005";
-							2	protein_coding	CDS	32477488	32477748	.	-	2	gene_id "ENSG00000091106"; transcript_id "ENST00000360906"; exon_number "3"; gene_name "NLRC4"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "NLRC4-002"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS33174"; protein_id "ENSP00000354159";
-
-							7	protein_coding	gene	116593292	116870157	.	+	.	gene_id "ENSG00000004866"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding";
-							7	protein_coding	transcript	116660272	116870157	.	+	.	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana";
-							7	protein_coding	exon	116660272	116660683	.	+	.	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "1"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana"; exon_id "ENSE00001515347";
-							7	protein_coding	exon	116738667	116738869	.	+	.	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "2"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana"; exon_id "ENSE00001515346";
-							7	protein_coding	CDS	116738869	116738869	.	+	0	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "2"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana"; protein_id "ENSP00000377089";
-							7	protein_coding	start_codon	116738869	116738869	.	+	0	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "2"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana";
-							7	protein_coding	start_codon	116739816	116739817	.	+	2	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "3"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana";
-							7	protein_coding	exon	116739816	116739898	.	+	.	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "3"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana"; exon_id "ENSE00003633228";
-							7	protein_coding	CDS	116739816	116739898	.	+	2	gene_id "ENSG00000004866"; transcript_id "ENST00000393443"; exon_number "3"; gene_name "ST7"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ST7-004"; transcript_source "havana"; protein_id "ENSP00000377089";
-						
-							#split stop codon at exon junction
-							4	protein_coding	exon	2928369	2928402	.	+	.	gene_id "ENSG00000087274"; transcript_id "ENST00000398125"; exon_number "15"; gene_name "ADD1"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ADD1-202"; transcript_source "ensembl"; tag "CCDS"; ccds_id "CCDS3364"; exon_id "ENSE00003642334";
-							4	protein_coding	CDS	2928369	2928400	.	+	2	gene_id "ENSG00000087274"; transcript_id "ENST00000398125"; exon_number "15"; gene_name "ADD1"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ADD1-202"; transcript_source "ensembl"; tag "CCDS"; ccds_id "CCDS3364"; protein_id "ENSP00000381193";
-							4	protein_coding	exon	2929898	2931789	.	+	.	gene_id "ENSG00000087274"; transcript_id "ENST00000398125"; exon_number "16"; gene_name "ADD1"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ADD1-202"; transcript_source "ensembl"; tag "CCDS"; ccds_id "CCDS3364"; exon_id "ENSE00001145248";
-							4	protein_coding	CDS	2929898	2929898	.	+	1	gene_id "ENSG00000087274"; transcript_id "ENST00000398125"; exon_number "16"; gene_name "ADD1"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ADD1-202"; transcript_source "ensembl"; tag "CCDS"; ccds_id "CCDS3364"; protein_id "ENSP00000381193";
-							4	protein_coding	stop_codon	2928401	2928402	.	+	0	gene_id "ENSG00000087274"; transcript_id "ENST00000398125"; exon_number "15"; gene_name "ADD1"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ADD1-202"; transcript_source "ensembl"; tag "CCDS"; ccds_id "CCDS3364";
-							4	protein_coding	stop_codon	2929898	2929898	.	+	1	gene_id "ENSG00000087274"; transcript_id "ENST00000398125"; exon_number "16"; gene_name "ADD1"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ADD1-202"; transcript_source "ensembl"; tag "CCDS"; ccds_id "CCDS3364";
-
-							7	protein_coding	exon	127013396	127015088	.	-	.	gene_id "ENSG00000048405"; transcript_id "ENST00000393313"; exon_number "5"; gene_name "ZNF800"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ZNF800-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS5795"; exon_id "ENSE00001209000";
-							7	protein_coding	CDS	127013398	127015088	.	-	2	gene_id "ENSG00000048405"; transcript_id "ENST00000393313"; exon_number "5"; gene_name "ZNF800"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ZNF800-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS5795"; protein_id "ENSP00000376989";
-							7	protein_coding	exon	127010097	127011868	.	-	.	gene_id "ENSG00000048405"; transcript_id "ENST00000393313"; exon_number "6"; gene_name "ZNF800"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ZNF800-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS5795"; exon_id "ENSE00001514790";
-							7	protein_coding	CDS	127011868	127011868	.	-	1	gene_id "ENSG00000048405"; transcript_id "ENST00000393313"; exon_number "6"; gene_name "ZNF800"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ZNF800-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS5795"; protein_id "ENSP00000376989";
-							7	protein_coding	stop_codon	127013396	127013397	.	-	0	gene_id "ENSG00000048405"; transcript_id "ENST00000393313"; exon_number "5"; gene_name "ZNF800"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ZNF800-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS5795";
-							7	protein_coding	stop_codon	127011868	127011868	.	-	1	gene_id "ENSG00000048405"; transcript_id "ENST00000393313"; exon_number "6"; gene_name "ZNF800"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ZNF800-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS5795";
-
-							1	protein_coding	exon	43917099	43917215	.	-	.	gene_id "ENSG00000178922"; transcript_id "ENST00000372432"; exon_number "7"; gene_name "HYI"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "HYI-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS488"; exon_id "ENSE00003555112";
-							1	protein_coding	CDS	43917100	43917215	.	-	2	gene_id "ENSG00000178922"; transcript_id "ENST00000372432"; exon_number "7"; gene_name "HYI"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "HYI-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS488"; protein_id "ENSP00000361509";
-							1	protein_coding	exon	43916829	43916982	.	-	.	gene_id "ENSG00000178922"; transcript_id "ENST00000372432"; exon_number "8"; gene_name "HYI"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "HYI-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS488"; exon_id "ENSE00001457779";
-							1	protein_coding	CDS	43916981	43916982	.	-	2	gene_id "ENSG00000178922"; transcript_id "ENST00000372432"; exon_number "8"; gene_name "HYI"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "HYI-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS488"; protein_id "ENSP00000361509";
-							1	protein_coding	stop_codon	43917099	43917099	.	-	0	gene_id "ENSG00000178922"; transcript_id "ENST00000372432"; exon_number "7"; gene_name "HYI"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "HYI-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS488";
-							1	protein_coding	stop_codon	43916981	43916982	.	-	2	gene_id "ENSG00000178922"; transcript_id "ENST00000372432"; exon_number "8"; gene_name "HYI"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "HYI-002"; transcript_source "havana"; tag "CCDS"; ccds_id "CCDS488";
-
-							2	protein_coding	exon	71211253	71211379	.	+	.	gene_id "ENSG00000144031"; transcript_id "ENST00000272421"; exon_number "6"; gene_name "ANKRD53"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ANKRD53-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS1913"; exon_id "ENSE00001364075";
-							2	protein_coding	CDS	71211253	71211378	.	+	0	gene_id "ENSG00000144031"; transcript_id "ENST00000272421"; exon_number "6"; gene_name "ANKRD53"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ANKRD53-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS1913"; protein_id "ENSP00000272421";
-							2	protein_coding	exon	71211741	71212626	.	+	.	gene_id "ENSG00000144031"; transcript_id "ENST00000272421"; exon_number "7"; gene_name "ANKRD53"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ANKRD53-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS1913"; exon_id "ENSE00001862215";
-							2	protein_coding	CDS	71211741	71211742	.	+	2	gene_id "ENSG00000144031"; transcript_id "ENST00000272421"; exon_number "7"; gene_name "ANKRD53"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ANKRD53-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS1913"; protein_id "ENSP00000272421";
-							2	protein_coding	stop_codon	71211379	71211379	.	+	0	gene_id "ENSG00000144031"; transcript_id "ENST00000272421"; exon_number "6"; gene_name "ANKRD53"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ANKRD53-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS1913";
-							2	protein_coding	stop_codon	71211741	71211742	.	+	2	gene_id "ENSG00000144031"; transcript_id "ENST00000272421"; exon_number "7"; gene_name "ANKRD53"; gene_source "ensembl_havana"; gene_biotype "protein_coding"; transcript_name "ANKRD53-001"; transcript_source "ensembl_havana"; tag "CCDS"; ccds_id "CCDS1913";
-=cut
 		my @transcript_stru = ();
 		my @transcript_phase = ();
 		my $transcript_seq;
@@ -1260,11 +1015,4 @@ my $Program = $1 if($0 =~ /(.*)\.pl/);
 open  LOG,">>$Program\_ProgramRunning.Log";
 print LOG "From \<$startTime\> to \<$endTime\>\tperl $0 $options\n";
 close LOG;
-
 __END__
-transcript_stru_summary
-transcript_seq
-chr
-1060
-1063
-1232
