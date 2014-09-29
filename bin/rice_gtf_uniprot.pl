@@ -1,8 +1,8 @@
 # Contact     : daweih@me.com
-# Date        : 
-# Last Update : 
-# Reference   : 
-# Description : 
+# Date        : may 21, 2014
+# Last Update : Mon Sep 29 14:09:06 CST 2014
+# Reference   : daweih@me.com
+# Description : generate data for IC4R seq database, rice.
 
 #===============================================================================================================
 use lib "/opt/perl5.12.3/lib/site_perl/5.12.3";
@@ -1008,7 +1008,6 @@ foreach my $gene_id (keys %{$gtf}) {
 
 ################################ Main ##########################################################################
 #===============================================================================================================
-
 my $options="-dir_ensembl_fasta_dna $opts{dir_ensembl_fasta_dna} -rapdb_locus_gtf $opts{rapdb_locus_gtf} -ensembl_gtf $opts{ensembl_gtf} -uniprot_xml $opts{uniprot_xml} ";
 my $endTime=localtime();
 my $Program = $1 if($0 =~ /(.*)\.pl/);
