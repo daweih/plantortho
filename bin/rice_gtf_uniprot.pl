@@ -22,15 +22,22 @@ use XML::XPath::XMLParser;
 use XML::XPath::Node::Attribute;
 
 my %opts;
-GetOptions(\%opts,'_:s');
+GetOptions(\%opts,'dir_ensembl_fasta_dna:s','rapdb_locus_gtf:s','ensembl_gtf:s','uniprot_xml:s');
 my $usage= <<"USAGE";
 	Program: $0
 	INPUT:
+			-dir_ensembl_fasta_dna
+			-rapdb_locus_gtf
+			-ensembl_gtf
+			-uniprot_xml
 	OUTPUT:
 	
 USAGE
 
-#die $usage unless ($opts{rapdb_list});
+die $usage unless ($opts{dir_ensembl_fasta_dna});
+die $usage unless ($opts{rapdb_locus_gtf});
+die $usage unless ($opts{ensembl_gtf});
+die $usage unless ($opts{uniprot_xml});
 my $startTime=localtime();
 ################################ Main ##########################################################################
 
@@ -181,11 +188,8 @@ close I;
 #3
 open I, "< ". $opts{ensembl_gtf};
 #open I, "< ../sample/ensembl/release-22/oryza_sativa/gtf/test.gtf";#chr9
+#open I, "< /Users/daweih/Archieve/database/ensembl/release-22/oryza_sativa/gtf/Oryza_sativa.IRGSP-1.0.22.gtf";
 =cut
-#open I, "< ENSG00000162571.gtf";
-#open I, "< head50000.gtf";
-#open I, "< /Users/daweih/Archieve/Homo_sapiens.GRCh37.75.gtf";
-#open I, "< ENSG00000256574.gtf";
 #split_start_codon
 #open I, "< 92_human_gene_with_2_cds_start_site_exon_162_transcripts/ENSG00000110958.gtf";#ENST00000262033
 #open I, "< 92_human_gene_with_2_cds_start_site_exon_162_transcripts/ENSG00000015479.gtf";#ENST00000504203
@@ -196,10 +200,6 @@ open I, "< ". $opts{ensembl_gtf};
 #open I, "< 91_human_gene_with_split_stop_codon_exon_133_transcripts/ENSG00000048405.gtf";#ENST00000393313
 #open I, "< 91_human_gene_with_split_stop_codon_exon_133_transcripts/ENSG00000178922.gtf";#ENST00000372432
 #open I, "< 91_human_gene_with_split_stop_codon_exon_133_transcripts/ENSG00000144031.gtf";#ENST00000272421
-
-#open I, "< /Users/daweih/Archieve/database/ensembl/release-22/oryza_sativa/gtf/Oryza_sativa.IRGSP-1.0.22.gtf";#
-#open I, "< /Users/daweih/Dropbox/CBB/RiceWiki/annotation/rice_genome_annotation_project/gene_list/data/example/genome/gtf/test.gtf";
-#open I, "< OS02G0671400.gtf";#
 =cut
 my $gtf;
 while(<I>){
@@ -1008,11 +1008,16 @@ foreach my $gene_id (keys %{$gtf}) {
 
 ################################ Main ##########################################################################
 #===============================================================================================================
-__END__
-my $options="-rapdb_list $opts{rapdb_list} -ensembl_fasta $opts{ensembl_fasta} -gff3 $opts{gff3}";
+
+my $options="-dir_ensembl_fasta_dna $opts{dir_ensembl_fasta_dna} -rapdb_locus_gtf $opts{rapdb_locus_gtf} -ensembl_gtf $opts{ensembl_gtf} -uniprot_xml $opts{uniprot_xml} ";
 my $endTime=localtime();
 my $Program = $1 if($0 =~ /(.*)\.pl/);
 open  LOG,">>$Program\_ProgramRunning.Log";
 print LOG "From \<$startTime\> to \<$endTime\>\tperl $0 $options\n";
 close LOG;
 __END__
+
+
+
+
+
