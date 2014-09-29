@@ -1,0 +1,1342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-07-25" modified="2014-05-14" version="61">
+<accession>Q52RG7</accession>
+<accession>Q655L2</accession>
+<accession>Q7F2G0</accession>
+<name>SGPL_ORYSJ</name>
+<protein>
+<recommendedName>
+<fullName>Sphingosine-1-phosphate lyase</fullName>
+<shortName>S1PL</shortName>
+<shortName>SP-lyase</shortName>
+<shortName>SPL</shortName>
+<ecNumber>4.1.2.27</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Sphingosine-1-phosphate aldolase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">SPL</name>
+<name type="ordered locus">Os01g0100900</name>
+<name type="ordered locus">LOC_Os01g01080</name>
+<name type="ORF">P0402A09.4</name>
+<name type="ORF">P0672D08.8</name>
+</gene>
+<organism>
+<name type="scientific">Oryza sativa subsp. japonica</name>
+<name type="common">Rice</name>
+<dbReference type="NCBI Taxonomy" id="39947" />
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BEP clade</taxon>
+<taxon>Ehrhartoideae</taxon>
+<taxon>Oryzeae</taxon>
+<taxon>Oryza</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2005-03" db="EMBL/GenBank/DDBJ databases">
+<title>Molecular and functional analysis of putative sphingosine-1-phosphate lyases from Arabidopsis thaliana and rice.</title>
+<authorList>
+<person name="Niu Y." />
+<person name="Wang J." />
+<person name="Liu K." />
+<person name="Wang D." />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>cv. Nipponbare</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2002" name="Nature" volume="420" first="312" last="316">
+<title>The genome sequence and structure of rice chromosome 1.</title>
+<authorList>
+<person name="Sasaki T." />
+<person name="Matsumoto T." />
+<person name="Yamamoto K." />
+<person name="Sakata K." />
+<person name="Baba T." />
+<person name="Katayose Y." />
+<person name="Wu J." />
+<person name="Niimura Y." />
+<person name="Cheng Z." />
+<person name="Nagamura Y." />
+<person name="Antonio B.A." />
+<person name="Kanamori H." />
+<person name="Hosokawa S." />
+<person name="Masukawa M." />
+<person name="Arikawa K." />
+<person name="Chiden Y." />
+<person name="Hayashi M." />
+<person name="Okamoto M." />
+<person name="Ando T." />
+<person name="Aoki H." />
+<person name="Arita K." />
+<person name="Hamada M." />
+<person name="Harada C." />
+<person name="Hijishita S." />
+<person name="Honda M." />
+<person name="Ichikawa Y." />
+<person name="Idonuma A." />
+<person name="Iijima M." />
+<person name="Ikeda M." />
+<person name="Ikeno M." />
+<person name="Ito S." />
+<person name="Ito T." />
+<person name="Ito Y." />
+<person name="Ito Y." />
+<person name="Iwabuchi A." />
+<person name="Kamiya K." />
+<person name="Karasawa W." />
+<person name="Katagiri S." />
+<person name="Kikuta A." />
+<person name="Kobayashi N." />
+<person name="Kono I." />
+<person name="Machita K." />
+<person name="Maehara T." />
+<person name="Mizuno H." />
+<person name="Mizubayashi T." />
+<person name="Mukai Y." />
+<person name="Nagasaki H." />
+<person name="Nakashima M." />
+<person name="Nakama Y." />
+<person name="Nakamichi Y." />
+<person name="Nakamura M." />
+<person name="Namiki N." />
+<person name="Negishi M." />
+<person name="Ohta I." />
+<person name="Ono N." />
+<person name="Saji S." />
+<person name="Sakai K." />
+<person name="Shibata M." />
+<person name="Shimokawa T." />
+<person name="Shomura A." />
+<person name="Song J." />
+<person name="Takazaki Y." />
+<person name="Terasawa K." />
+<person name="Tsuji K." />
+<person name="Waki K." />
+<person name="Yamagata H." />
+<person name="Yamane H." />
+<person name="Yoshiki S." />
+<person name="Yoshihara R." />
+<person name="Yukawa K." />
+<person name="Zhong H." />
+<person name="Iwama H." />
+<person name="Endo T." />
+<person name="Ito H." />
+<person name="Hahn J.H." />
+<person name="Kim H.-I." />
+<person name="Eun M.-Y." />
+<person name="Yano M." />
+<person name="Jiang J." />
+<person name="Gojobori T." />
+</authorList>
+<dbReference type="PubMed" id="12447438" />
+<dbReference type="DOI" id="10.1038/nature01184" />
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Nipponbare</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Cleaves phosphorylated sphingoid bases (PSBs), such as sphingosine-1-phosphate, into fatty aldehydes and phosphoethanolamine. Elevates stress-induced ceramide production and apoptosis (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<text>Sphinganine 1-phosphate = phosphoethanolamine + palmitaldehyde.</text>
+</comment>
+<comment type="cofactor">
+<text>Pyridoxal phosphate (By similarity).</text>
+</comment>
+<comment type="pathway">
+<text>Lipid metabolism; sphingolipid metabolism.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Endoplasmic reticulum membrane</location>
+<topology status="by similarity">Single-pass type III membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text>Belongs to the group II decarboxylase family. Sphingosine-1-phosphate lyase subfamily.</text>
+</comment>
+<comment type="sequence caution">
+<conflict type="erroneous gene model prediction">
+<sequence resource="EMBL-CDS" id="BAB62623" version="1" />
+</conflict>
+</comment>
+<comment type="sequence caution">
+<conflict type="erroneous gene model prediction">
+<sequence resource="EMBL-CDS" id="BAD45497" version="1" />
+</conflict>
+</comment>
+<dbReference type="EC" id="4.1.2.27" />
+<dbReference type="EMBL" id="AY972084">
+<property type="protein sequence ID" value="AAX89367.1" />
+<property type="molecule type" value="mRNA" />
+</dbReference>
+<dbReference type="EMBL" id="AP003610">
+<property type="protein sequence ID" value="BAB62623.1" />
+<property type="status" value="ALT_SEQ" />
+<property type="molecule type" value="Genomic_DNA" />
+</dbReference>
+<dbReference type="EMBL" id="AP003727">
+<property type="protein sequence ID" value="BAD45497.1" />
+<property type="status" value="ALT_SEQ" />
+<property type="molecule type" value="Genomic_DNA" />
+</dbReference>
+<dbReference type="RefSeq" id="NP_001041740.2">
+<property type="nucleotide sequence ID" value="NM_001048275.2" />
+</dbReference>
+<dbReference type="UniGene" id="Os.21356" />
+<dbReference type="ProteinModelPortal" id="Q52RG7" />
+<dbReference type="GeneID" id="4326459" />
+<dbReference type="KEGG" id="osa:4326459" />
+<dbReference type="Gramene" id="Q52RG7" />
+<dbReference type="eggNOG" id="COG0076" />
+<dbReference type="HOGENOM" id="HOG000190693" />
+<dbReference type="KO" id="K01634" />
+<dbReference type="UniPathway" id="UPA00222" />
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane" />
+<property type="evidence" value="IEA:UniProtKB-SubCell" />
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane" />
+<property type="evidence" value="IEA:UniProtKB-KW" />
+</dbReference>
+<dbReference type="GO" id="GO:0016831">
+<property type="term" value="F:carboxy-lyase activity" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0030170">
+<property type="term" value="F:pyridoxal phosphate binding" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0008117">
+<property type="term" value="F:sphinganine-1-phosphate aldolase activity" />
+<property type="evidence" value="IEA:UniProtKB-EC" />
+</dbReference>
+<dbReference type="GO" id="GO:0006915">
+<property type="term" value="P:apoptotic process" />
+<property type="evidence" value="IEA:UniProtKB-KW" />
+</dbReference>
+<dbReference type="GO" id="GO:0019752">
+<property type="term" value="P:carboxylic acid metabolic process" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0030149">
+<property type="term" value="P:sphingolipid catabolic process" />
+<property type="evidence" value="IEA:EnsemblPlants/Gramene" />
+</dbReference>
+<dbReference type="Gene3D" id="3.40.640.10">
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="InterPro" id="IPR002129">
+<property type="entry name" value="PyrdxlP-dep_de-COase" />
+</dbReference>
+<dbReference type="InterPro" id="IPR015424">
+<property type="entry name" value="PyrdxlP-dep_Trfase" />
+</dbReference>
+<dbReference type="InterPro" id="IPR015421">
+<property type="entry name" value="PyrdxlP-dep_Trfase_major_sub1" />
+</dbReference>
+<dbReference type="Pfam" id="PF00282">
+<property type="entry name" value="Pyridoxal_deC" />
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53383">
+<property type="entry name" value="SSF53383" />
+<property type="match status" value="1" />
+</dbReference>
+<proteinExistence type="evidence at transcript level" />
+<keyword id="KW-0053">Apoptosis</keyword>
+<keyword id="KW-0181">Complete proteome</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0456">Lyase</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0663">Pyridoxal phosphate</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0746">Sphingolipid metabolism</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" status="potential">
+<location>
+<begin position="1" />
+<end position="46" />
+</location>
+</feature>
+<feature type="chain" description="Sphingosine-1-phosphate lyase" id="PRO_0000247464">
+<location>
+<begin position="47" />
+<end position="539" />
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" status="potential">
+<location>
+<begin position="47" />
+<end position="54" />
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical;" status="potential">
+<location>
+<begin position="55" />
+<end position="75" />
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" status="potential">
+<location>
+<begin position="76" />
+<end position="539" />
+</location>
+</feature>
+<feature type="modified residue" description="N6-(pyridoxal phosphate)lysine" status="by similarity">
+<location>
+<position position="344" />
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAX89367." ref="1">
+<original>PYFFS</original>
+<variation>HQFVA</variation>
+<location>
+<begin position="365" />
+<end position="369" />
+</location>
+</feature>
+<sequence length="539" mass="58331" checksum="A690FABE1C24331D" modified="2006-07-25" version="2" precursor="true">
+MELAMDFALRLRDAANHHLSRYEPLVLLAAPLLALLAARTLHAAAAAVADRGLRTVLLAL
+AMTAIKLLPGVSAYINAEKRKVVDQLQSGGTSTKSTLRTELPTVGLSNQVINDLETLKAR
+DVNWQGKCSGTVYIAGSESEGHFALINKAYSMFSHTNPLHQDVFKSVAQLEAEVVAMTAA
+LLGIKEKSSGGQICGNMTSGGTESILLAVKTSRDYMRTKKGITKPEMIIAESAHSAYDKA
+AQYFNIKVRRVPVNKEFLADVKGFKRCINGNTIMMVGSAPGFPHGLIDPIEELGELASRY
+DICLHVDLCLGGFVLPFARKLGYPIPPFDFCVKGVTSISTDVHKYGLAPKGTSIVLYKNH
+EIRKPYFFSVTEWTGGLYVSPTIAGSRPGGLIAGAWAAMTSLGLNGYMENTGHIMEVSKK
+IQRGIEDIPGLFVIGKPDMTVVAFGSDSVDIFEVNDIMSSKGWHLNALQRPNSLHICVTL
+QHTVIYEEFLKDLKDSVDTVKANPGPISGGRAPIYGAAGKMPDRGMVRELLVEFMDASC
+</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2009-02-10" modified="2014-06-11" version="50">
+<accession>B7FAK6</accession>
+<accession>Q0JRH4</accession>
+<name>B7FAK6_ORYSJ</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Os01g0100900 protein</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="4">Uncharacterized protein</fullName>
+</submittedName>
+<submittedName>
+<fullName evidence="5">cDNA, clone: J100082C01, full insert sequence</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="3">Os01g0100900</name>
+<name type="ORF" evidence="4">OsJ_00009</name>
+</gene>
+<organism evidence="5">
+<name type="scientific">Oryza sativa subsp. japonica</name>
+<name type="common">Rice</name>
+<dbReference type="NCBI Taxonomy" id="39947" />
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BEP clade</taxon>
+<taxon>Ehrhartoideae</taxon>
+<taxon>Oryzeae</taxon>
+<taxon>Oryza</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="journal article" date="2005" name="Nature" volume="436" first="793" last="800">
+<title>The map-based sequence of the rice genome.</title>
+<authorList>
+<consortium name="International rice genome sequencing project (IRGSP)" />
+</authorList>
+<dbReference type="PubMed" id="16100779" />
+<dbReference type="DOI" id="10.1038/nature03895" />
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1">cv. Nipponbare</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="journal article" date="2005" name="Nature" volume="436" first="793" last="800">
+<title>The map-based sequence of the rice genome.</title>
+<authorList>
+<consortium name="International Rice Genome Sequencing Project" />
+<person name="Matsumoto T." />
+<person name="Wu J." />
+<person name="Kanamori H." />
+<person name="Katayose Y." />
+<person name="Fujisawa M." />
+<person name="Namiki N." />
+<person name="Mizuno H." />
+<person name="Yamamoto K." />
+<person name="Antonio B.A." />
+<person name="Baba T." />
+<person name="Sakata K." />
+<person name="Nagamura Y." />
+<person name="Aoki H." />
+<person name="Arikawa K." />
+<person name="Arita K." />
+<person name="Bito T." />
+<person name="Chiden Y." />
+<person name="Fujitsuka N." />
+<person name="Fukunaka R." />
+<person name="Hamada M." />
+<person name="Harada C." />
+<person name="Hayashi A." />
+<person name="Hijishita S." />
+<person name="Honda M." />
+<person name="Hosokawa S." />
+<person name="Ichikawa Y." />
+<person name="Idonuma A." />
+<person name="Iijima M." />
+<person name="Ikeda M." />
+<person name="Ikeno M." />
+<person name="Ito K." />
+<person name="Ito S." />
+<person name="Ito T." />
+<person name="Ito Y." />
+<person name="Ito Y." />
+<person name="Iwabuchi A." />
+<person name="Kamiya K." />
+<person name="Karasawa W." />
+<person name="Kurita K." />
+<person name="Katagiri S." />
+<person name="Kikuta A." />
+<person name="Kobayashi H." />
+<person name="Kobayashi N." />
+<person name="Machita K." />
+<person name="Maehara T." />
+<person name="Masukawa M." />
+<person name="Mizubayashi T." />
+<person name="Mukai Y." />
+<person name="Nagasaki H." />
+<person name="Nagata Y." />
+<person name="Naito S." />
+<person name="Nakashima M." />
+<person name="Nakama Y." />
+<person name="Nakamichi Y." />
+<person name="Nakamura M." />
+<person name="Meguro A." />
+<person name="Negishi M." />
+<person name="Ohta I." />
+<person name="Ohta T." />
+<person name="Okamoto M." />
+<person name="Ono N." />
+<person name="Saji S." />
+<person name="Sakaguchi M." />
+<person name="Sakai K." />
+<person name="Shibata M." />
+<person name="Shimokawa T." />
+<person name="Song J." />
+<person name="Takazaki Y." />
+<person name="Terasawa K." />
+<person name="Tsugane M." />
+<person name="Tsuji K." />
+<person name="Ueda S." />
+<person name="Waki K." />
+<person name="Yamagata H." />
+<person name="Yamamoto M." />
+<person name="Yamamoto S." />
+<person name="Yamane H." />
+<person name="Yoshiki S." />
+<person name="Yoshihara R." />
+<person name="Yukawa K." />
+<person name="Zhong H." />
+<person name="Yano M." />
+<person name="Yuan Q." />
+<person name="Ouyang S." />
+<person name="Liu J." />
+<person name="Jones K.M." />
+<person name="Gansberger K." />
+<person name="Moffat K." />
+<person name="Hill J." />
+<person name="Bera J." />
+<person name="Fadrosh D." />
+<person name="Jin S." />
+<person name="Johri S." />
+<person name="Kim M." />
+<person name="Overton L." />
+<person name="Reardon M." />
+<person name="Tsitrin T." />
+<person name="Vuong H." />
+<person name="Weaver B." />
+<person name="Ciecko A." />
+<person name="Tallon L." />
+<person name="Jackson J." />
+<person name="Pai G." />
+<person name="Aken S.V." />
+<person name="Utterback T." />
+<person name="Reidmuller S." />
+<person name="Feldblyum T." />
+<person name="Hsiao J." />
+<person name="Zismann V." />
+<person name="Iobst S." />
+<person name="de Vazeille A.R." />
+<person name="Buell C.R." />
+<person name="Ying K." />
+<person name="Li Y." />
+<person name="Lu T." />
+<person name="Huang Y." />
+<person name="Zhao Q." />
+<person name="Feng Q." />
+<person name="Zhang L." />
+<person name="Zhu J." />
+<person name="Weng Q." />
+<person name="Mu J." />
+<person name="Lu Y." />
+<person name="Fan D." />
+<person name="Liu Y." />
+<person name="Guan J." />
+<person name="Zhang Y." />
+<person name="Yu S." />
+<person name="Liu X." />
+<person name="Zhang Y." />
+<person name="Hong G." />
+<person name="Han B." />
+<person name="Choisne N." />
+<person name="Demange N." />
+<person name="Orjeda G." />
+<person name="Samain S." />
+<person name="Cattolico L." />
+<person name="Pelletier E." />
+<person name="Couloux A." />
+<person name="Segurens B." />
+<person name="Wincker P." />
+<person name="D'Hont A." />
+<person name="Scarpelli C." />
+<person name="Weissenbach J." />
+<person name="Salanoubat M." />
+<person name="Quetier F." />
+<person name="Yu Y." />
+<person name="Kim H.R." />
+<person name="Rambo T." />
+<person name="Currie J." />
+<person name="Collura K." />
+<person name="Luo M." />
+<person name="Yang T." />
+<person name="Ammiraju J.S.S." />
+<person name="Engler F." />
+<person name="Soderlund C." />
+<person name="Wing R.A." />
+<person name="Palmer L.E." />
+<person name="de la Bastide M." />
+<person name="Spiegel L." />
+<person name="Nascimento L." />
+<person name="Zutavern T." />
+<person name="O'Shaughnessy A." />
+<person name="Dike S." />
+<person name="Dedhia N." />
+<person name="Preston R." />
+<person name="Balija V." />
+<person name="McCombie W.R." />
+<person name="Chow T." />
+<person name="Chen H." />
+<person name="Chung M." />
+<person name="Chen C." />
+<person name="Shaw J." />
+<person name="Wu H." />
+<person name="Hsiao K." />
+<person name="Chao Y." />
+<person name="Chu M." />
+<person name="Cheng C." />
+<person name="Hour A." />
+<person name="Lee P." />
+<person name="Lin S." />
+<person name="Lin Y." />
+<person name="Liou J." />
+<person name="Liu S." />
+<person name="Hsing Y." />
+<person name="Raghuvanshi S." />
+<person name="Mohanty A." />
+<person name="Bharti A.K." />
+<person name="Gaur A." />
+<person name="Gupta V." />
+<person name="Kumar D." />
+<person name="Ravi V." />
+<person name="Vij S." />
+<person name="Kapur A." />
+<person name="Khurana P." />
+<person name="Khurana P." />
+<person name="Khurana J.P." />
+<person name="Tyagi A.K." />
+<person name="Gaikwad K." />
+<person name="Singh A." />
+<person name="Dalal V." />
+<person name="Srivastava S." />
+<person name="Dixit A." />
+<person name="Pal A.K." />
+<person name="Ghazi I.A." />
+<person name="Yadav M." />
+<person name="Pandit A." />
+<person name="Bhargava A." />
+<person name="Sureshbabu K." />
+<person name="Batra K." />
+<person name="Sharma T.R." />
+<person name="Mohapatra T." />
+<person name="Singh N.K." />
+<person name="Messing J." />
+<person name="Nelson A.B." />
+<person name="Fuks G." />
+<person name="Kavchok S." />
+<person name="Keizer G." />
+<person name="Linton E." />
+<person name="Llaca V." />
+<person name="Song R." />
+<person name="Tanyolac B." />
+<person name="Young S." />
+<person name="Ho-Il K." />
+<person name="Hahn J.H." />
+<person name="Sangsakoo G." />
+<person name="Vanavichit A." />
+<person name="de Mattos Luiz.A.T." />
+<person name="Zimmer P.D." />
+<person name="Malone G." />
+<person name="Dellagostin O." />
+<person name="de Oliveira A.C." />
+<person name="Bevan M." />
+<person name="Bancroft I." />
+<person name="Minx P." />
+<person name="Cordum H." />
+<person name="Wilson R." />
+<person name="Cheng Z." />
+<person name="Jin W." />
+<person name="Jiang J." />
+<person name="Leong S.A." />
+<person name="Iwama H." />
+<person name="Gojobori T." />
+<person name="Itoh T." />
+<person name="Niimura Y." />
+<person name="Fujii Y." />
+<person name="Habara T." />
+<person name="Sakai H." />
+<person name="Sato Y." />
+<person name="Wilson G." />
+<person name="Kumar K." />
+<person name="McCouch S." />
+<person name="Juretic N." />
+<person name="Hoen D." />
+<person name="Wright S." />
+<person name="Bruskiewich R." />
+<person name="Bureau T." />
+<person name="Miyao A." />
+<person name="Hirochika H." />
+<person name="Nishikawa T." />
+<person name="Kadowaki K." />
+<person name="Sugiura M." />
+<person name="Burr B." />
+<person name="Sasaki T." />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="3" evidence="1 4">
+<citation type="journal article" date="2005" name="PLoS Biol." volume="3" first="266" last="281">
+<title>The genomes of Oryza sativa: a history of duplications.</title>
+<authorList>
+<person name="Yu J." />
+<person name="Wang J." />
+<person name="Lin W." />
+<person name="Li S." />
+<person name="Li H." />
+<person name="Zhou J." />
+<person name="Ni P." />
+<person name="Dong W." />
+<person name="Hu S." />
+<person name="Zeng C." />
+<person name="Zhang J." />
+<person name="Zhang Y." />
+<person name="Li R." />
+<person name="Xu Z." />
+<person name="Li S." />
+<person name="Li X." />
+<person name="Zheng H." />
+<person name="Cong L." />
+<person name="Lin L." />
+<person name="Yin J." />
+<person name="Geng J." />
+<person name="Li G." />
+<person name="Shi J." />
+<person name="Liu J." />
+<person name="Lv H." />
+<person name="Li J." />
+<person name="Wang J." />
+<person name="Deng Y." />
+<person name="Ran L." />
+<person name="Shi X." />
+<person name="Wang X." />
+<person name="Wu Q." />
+<person name="Li C." />
+<person name="Ren X." />
+<person name="Wang J." />
+<person name="Wang X." />
+<person name="Li D." />
+<person name="Liu D." />
+<person name="Zhang X." />
+<person name="Ji Z." />
+<person name="Zhao W." />
+<person name="Sun Y." />
+<person name="Zhang Z." />
+<person name="Bao J." />
+<person name="Han Y." />
+<person name="Dong L." />
+<person name="Ji J." />
+<person name="Chen P." />
+<person name="Wu S." />
+<person name="Liu J." />
+<person name="Xiao Y." />
+<person name="Bu D." />
+<person name="Tan J." />
+<person name="Yang L." />
+<person name="Ye C." />
+<person name="Zhang J." />
+<person name="Xu J." />
+<person name="Zhou Y." />
+<person name="Yu Y." />
+<person name="Zhang B." />
+<person name="Zhuang S." />
+<person name="Wei H." />
+<person name="Liu B." />
+<person name="Lei M." />
+<person name="Yu H." />
+<person name="Li Y." />
+<person name="Xu H." />
+<person name="Wei S." />
+<person name="He X." />
+<person name="Fang L." />
+<person name="Zhang Z." />
+<person name="Zhang Y." />
+<person name="Huang X." />
+<person name="Su Z." />
+<person name="Tong W." />
+<person name="Li J." />
+<person name="Tong Z." />
+<person name="Li S." />
+<person name="Ye J." />
+<person name="Wang L." />
+<person name="Fang L." />
+<person name="Lei T." />
+<person name="Chen C." />
+<person name="Chen H." />
+<person name="Xu Z." />
+<person name="Li H." />
+<person name="Huang H." />
+<person name="Zhang F." />
+<person name="Xu H." />
+<person name="Li N." />
+<person name="Zhao C." />
+<person name="Li S." />
+<person name="Dong L." />
+<person name="Huang Y." />
+<person name="Li L." />
+<person name="Xi Y." />
+<person name="Qi Q." />
+<person name="Li W." />
+<person name="Zhang B." />
+<person name="Hu W." />
+<person name="Zhang Y." />
+<person name="Tian X." />
+<person name="Jiao Y." />
+<person name="Liang X." />
+<person name="Jin J." />
+<person name="Gao L." />
+<person name="Zheng W." />
+<person name="Hao B." />
+<person name="Liu S." />
+<person name="Wang W." />
+<person name="Yuan L." />
+<person name="Cao M." />
+<person name="McDermott J." />
+<person name="Samudrala R." />
+<person name="Wang J." />
+<person name="Wong G.K." />
+<person name="Yang H." />
+</authorList>
+<dbReference type="PubMed" id="15685292" />
+<dbReference type="DOI" id="10.1371/journal.pbio.0030038" />
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1">cv. Nipponbare</strain>
+</source>
+</reference>
+<reference key="4" evidence="3">
+<citation type="submission" date="2005-02" db="EMBL/GenBank/DDBJ databases">
+<title>Oryza sativa nipponbare(GA3) genomic DNA, chromosome 1.</title>
+<authorList>
+<consortium name="IRGSP(International Rice Genome Sequencing Project)" />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="5" evidence="3">
+<citation type="submission" date="2005-02" db="EMBL/GenBank/DDBJ databases">
+<title>The Second Rice Annotation Project Meeting (RAP2).</title>
+<authorList>
+<consortium name="The Rice Annotation Project (RAP)" />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="6" evidence="3">
+<citation type="journal article" date="2006" name="Nucleic Acids Res." volume="34" first="D741" last="D744">
+<title>The Rice Annotation Project Database (RAP-DB): hub for Oryza sativa ssp. japonica genome information.</title>
+<authorList>
+<person name="Ohyanagi H." />
+<person name="Tanaka T." />
+<person name="Sakai H." />
+<person name="Shigemoto Y." />
+<person name="Yamaguchi K." />
+<person name="Habara T." />
+<person name="Fujii Y." />
+<person name="Antonio B.A." />
+<person name="Nagamura Y." />
+<person name="Imanishi T." />
+<person name="Ikeo K." />
+<person name="Itoh T." />
+<person name="Gojobori T." />
+<person name="Sasaki T." />
+</authorList>
+<dbReference type="PubMed" id="16381971" />
+<dbReference type="DOI" id="10.1093/nar/gkj094" />
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="7" evidence="5">
+<citation type="submission" date="2006-10" db="EMBL/GenBank/DDBJ databases">
+<title>Oryza sativa full length cDNA.</title>
+<authorList>
+<person name="Kikuchi S." />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="5">Root of seedling</tissue>
+</source>
+</reference>
+<reference key="8" evidence="3">
+<citation type="journal article" date="2007" name="Genome Res." volume="17" first="175" last="183">
+<title>Curated Genome Annotation of Oryza sativa ssp. japonica and Comparative Genome Analysis with Arabidopsis thaliana.</title>
+<authorList>
+<consortium name="The Rice Annotation Project (RAP)" />
+<person name="Itoh T." />
+<person name="Tanaka T." />
+<person name="Barrero R.A." />
+<person name="Yamasaki C." />
+<person name="Fujii Y." />
+<person name="Hilton P.B." />
+<person name="Antonio B.A." />
+<person name="Aono H." />
+<person name="Apweiler R." />
+<person name="Bruskiewich R." />
+<person name="Bureau T." />
+<person name="Burr F." />
+<person name="Costa de Oliveira A." />
+<person name="Fuks G." />
+<person name="Habara T." />
+<person name="Haberer G." />
+<person name="Han B." />
+<person name="Harada E." />
+<person name="Hiraki A.T." />
+<person name="Hirochika H." />
+<person name="Hoen D." />
+<person name="Hokari H." />
+<person name="Hosokawa S." />
+<person name="Hsing Y." />
+<person name="Ikawa H." />
+<person name="Ikeo K." />
+<person name="Imanishi T." />
+<person name="Ito Y." />
+<person name="Jaiswal P." />
+<person name="Kanno M." />
+<person name="Kawahara Y." />
+<person name="Kawamura T." />
+<person name="Kawashima H." />
+<person name="Khurana J.P." />
+<person name="Kikuchi S." />
+<person name="Komatsu S." />
+<person name="Koyanagi K.O." />
+<person name="Kubooka H." />
+<person name="Lieberherr D." />
+<person name="Lin Y.C." />
+<person name="Lonsdale D." />
+<person name="Matsumoto T." />
+<person name="Matsuya A." />
+<person name="McCombie W.R." />
+<person name="Messing J." />
+<person name="Miyao A." />
+<person name="Mulder N." />
+<person name="Nagamura Y." />
+<person name="Nam J." />
+<person name="Namiki N." />
+<person name="Numa H." />
+<person name="Nurimoto S." />
+<person name="O'donovan C." />
+<person name="Ohyanagi H." />
+<person name="Okido T." />
+<person name="Oota S." />
+<person name="Osato N." />
+<person name="Palmer L.E." />
+<person name="Quetier F." />
+<person name="Raghuvanshi S." />
+<person name="Saichi N." />
+<person name="Sakai H." />
+<person name="Sakai Y." />
+<person name="Sakata K." />
+<person name="Sakurai T." />
+<person name="Sato F." />
+<person name="Sato Y." />
+<person name="Schoof H." />
+<person name="Seki M." />
+<person name="Shibata M." />
+<person name="Shimizu Y." />
+<person name="Shinozaki K." />
+<person name="Shinso Y." />
+<person name="Singh N.K." />
+<person name="Smith-White B." />
+<person name="Takeda J." />
+<person name="Tanino M." />
+<person name="Tatusova T." />
+<person name="Thongjuea S." />
+<person name="Todokoro F." />
+<person name="Tsugane M." />
+<person name="Tyagi A.K." />
+<person name="Vanavichit A." />
+<person name="Wang A." />
+<person name="Wing R.A." />
+<person name="Yamaguchi K." />
+<person name="Yamamoto M." />
+<person name="Yamamoto N." />
+<person name="Yu Y." />
+<person name="Zhang H." />
+<person name="Zhao Q." />
+<person name="Higo K." />
+<person name="Burr B." />
+<person name="Gojobori T." />
+<person name="Sasaki T." />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="9" evidence="1">
+<citation type="journal article" date="2008" name="Nucleic Acids Res." volume="36" first="D1028" last="D1033">
+<title>The rice annotation project database (RAP-DB): 2008 update.</title>
+<authorList>
+<consortium name="The rice annotation project (RAP)" />
+</authorList>
+<dbReference type="PubMed" id="18089549" />
+<dbReference type="DOI" id="10.1093/nar/gkm978" />
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain evidence="1">cv. Nipponbare</strain>
+</source>
+</reference>
+<reference key="10" evidence="3">
+<citation type="journal article" date="2008" name="Nucleic Acids Res." volume="36" first="D1028" last="D1033">
+<title>The Rice Annotation Project Database (RAP-DB): 2008 update.</title>
+<authorList>
+<consortium name="The Rice Annotation Project (RAP)" />
+<person name="Tanaka T." />
+<person name="Antonio B.A." />
+<person name="Kikuchi S." />
+<person name="Matsumoto T." />
+<person name="Nagamura Y." />
+<person name="Numa H." />
+<person name="Sakai H." />
+<person name="Wu J." />
+<person name="Itoh T." />
+<person name="Sasaki T." />
+<person name="Aono R." />
+<person name="Fujii Y." />
+<person name="Habara T." />
+<person name="Harada E." />
+<person name="Kanno M." />
+<person name="Kawahara Y." />
+<person name="Kawashima H." />
+<person name="Kubooka H." />
+<person name="Matsuya A." />
+<person name="Nakaoka H." />
+<person name="Saichi N." />
+<person name="Sanbonmatsu R." />
+<person name="Sato Y." />
+<person name="Shinso Y." />
+<person name="Suzuki M." />
+<person name="Takeda J." />
+<person name="Tanino M." />
+<person name="Todokoro F." />
+<person name="Yamaguchi K." />
+<person name="Yamamoto N." />
+<person name="Yamasaki C." />
+<person name="Imanishi T." />
+<person name="Okido T." />
+<person name="Tada M." />
+<person name="Ikeo K." />
+<person name="Tateno Y." />
+<person name="Gojobori T." />
+<person name="Lin Y.C." />
+<person name="Wei F.J." />
+<person name="Hsing Y.I." />
+<person name="Zhao Q." />
+<person name="Han B." />
+<person name="Kramer M.R." />
+<person name="McCombie R.W." />
+<person name="Lonsdale D." />
+<person name="O'Donovan C.C." />
+<person name="Whitfield E.J." />
+<person name="Apweiler R." />
+<person name="Koyanagi K.O." />
+<person name="Khurana J.P." />
+<person name="Raghuvanshi S." />
+<person name="Singh N.K." />
+<person name="Tyagi A.K." />
+<person name="Haberer G." />
+<person name="Fujisawa M." />
+<person name="Hosokawa S." />
+<person name="Ito Y." />
+<person name="Ikawa H." />
+<person name="Shibata M." />
+<person name="Yamamoto M." />
+<person name="Bruskiewich R.M." />
+<person name="Hoen D.R." />
+<person name="Bureau TE." />
+<person name="Namiki N." />
+<person name="Ohyanagi H." />
+<person name="Sakai Y." />
+<person name="Nobushima S." />
+<person name="Sakata K." />
+<person name="Barrero R.A." />
+<person name="Sato Y." />
+<person name="Souvorov A." />
+<person name="Smith-White B." />
+<person name="Tatusova T." />
+<person name="An S." />
+<person name="An G." />
+<person name="OOta S." />
+<person name="Fuks G." />
+<person name="Messing J." />
+<person name="Christie K.R." />
+<person name="Lieberherr D." />
+<person name="Kim H." />
+<person name="Zuccolo A." />
+<person name="Wing R.A." />
+<person name="Nobuta K." />
+<person name="Green P.J." />
+<person name="Lu C." />
+<person name="Meyers BC." />
+<person name="Chaparro C." />
+<person name="Piegu B." />
+<person name="Panaud O." />
+<person name="Echeverria M." />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="11" evidence="4">
+<citation type="submission" date="2008-12" db="EMBL/GenBank/DDBJ databases">
+<title>Improved gene annotation of the rice (Oryza sativa) genomes.</title>
+<authorList>
+<person name="Wang J." />
+<person name="Li R." />
+<person name="Fan W." />
+<person name="Huang Q." />
+<person name="Zhang J." />
+<person name="Zhou Y." />
+<person name="Hu Y." />
+<person name="Zi S." />
+<person name="Li J." />
+<person name="Ni P." />
+<person name="Zheng H." />
+<person name="Zhang Y." />
+<person name="Zhao M." />
+<person name="Hao Q." />
+<person name="McDermott J." />
+<person name="Samudrala R." />
+<person name="Kristiansen K." />
+<person name="Wong G.K.-S." />
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<comment type="cofactor">
+<text evidence="2">Pyridoxal phosphate (By similarity).</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the group II decarboxylase family.</text>
+</comment>
+<dbReference type="EMBL" id="AP008207">
+<property type="protein sequence ID" value="BAF03654.2" />
+<property type="molecule type" value="Genomic_DNA" />
+</dbReference>
+<dbReference type="EMBL" id="AK243573">
+<property type="protein sequence ID" value="BAH01654.1" />
+<property type="molecule type" value="mRNA" />
+</dbReference>
+<dbReference type="EMBL" id="CM000138">
+<property type="protein sequence ID" value="EEE53694.1" />
+<property type="molecule type" value="Genomic_DNA" />
+</dbReference>
+<dbReference type="RefSeq" id="NP_001041740.2">
+<property type="nucleotide sequence ID" value="NM_001048275.2" />
+</dbReference>
+<dbReference type="UniGene" id="Os.21356" />
+<dbReference type="ProteinModelPortal" id="B7FAK6" />
+<dbReference type="EnsemblPlants" id="OS01T0100900-01">
+<property type="protein sequence ID" value="OS01T0100900-01" />
+<property type="gene ID" value="OS01G0100900" />
+</dbReference>
+<dbReference type="GeneID" id="4326459" />
+<dbReference type="KEGG" id="osa:4326459" />
+<dbReference type="HOGENOM" id="HOG000190693" />
+<dbReference type="KO" id="K01634" />
+<dbReference type="OMA" id="DACLGSF" />
+<dbReference type="GO" id="GO:0016831">
+<property type="term" value="F:carboxy-lyase activity" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0030170">
+<property type="term" value="F:pyridoxal phosphate binding" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0019752">
+<property type="term" value="P:carboxylic acid metabolic process" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0030149">
+<property type="term" value="P:sphingolipid catabolic process" />
+<property type="evidence" value="IEA:EnsemblPlants/Gramene" />
+</dbReference>
+<dbReference type="Gene3D" id="3.40.640.10">
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="InterPro" id="IPR002129">
+<property type="entry name" value="PyrdxlP-dep_de-COase" />
+</dbReference>
+<dbReference type="InterPro" id="IPR015424">
+<property type="entry name" value="PyrdxlP-dep_Trfase" />
+</dbReference>
+<dbReference type="InterPro" id="IPR015421">
+<property type="entry name" value="PyrdxlP-dep_Trfase_major_sub1" />
+</dbReference>
+<dbReference type="Pfam" id="PF00282">
+<property type="entry name" value="Pyridoxal_deC" />
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53383">
+<property type="entry name" value="SSF53383" />
+<property type="match status" value="1" />
+</dbReference>
+<proteinExistence type="evidence at transcript level" />
+<keyword id="KW-0181" evidence="1">Complete proteome</keyword>
+<keyword id="KW-0456" evidence="2">Lyase</keyword>
+<keyword id="KW-0663" evidence="2">Pyridoxal phosphate</keyword>
+<keyword id="KW-1185" evidence="1">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000313" />
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU000382" />
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAF03654.2" />
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EEE53694.1" />
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAH01654.1" />
+</source>
+</evidence>
+<sequence length="539" mass="58272" checksum="74D809622A81342E" modified="2009-02-10" version="1">
+MELAMDFALRLRDAANHHLSRYEPLVLLAAPLLALLAARTLHAAAAAVADRGLRTVLLAL
+AMTAIKLLPGVSAYINAEKRKVVDQLQSGGTSTKSTLRTELPTVGLSNQVINDLETLKAR
+DVNWQGKCSGTVYIAGSESEGHFALINKAYSMFSHTNPLHQDVFKSVAQLEAEVVAMTAA
+LLGIKEKSSGGQICGNMTSGGTESILLAVKTSRDYMRTKKGITKPEMIIAESAHSAYDKA
+AQYFNIKVRRVPVNKEFLADVKGFKRCINGNTIMMVGSAPGFPHGLIDPIEELGELASRY
+DICLHVDLCLGGFVLPFARKLGYPIPPFDFCVKGVTSISTDVHKYGLAPKGTSIVLYKNH
+EIRKHQFVAVTEWTGGLYVSPTIAGSRPGGLIAGAWAAMTSLGLNGYMENTGHIMEVSKK
+IQRGIEDIPGLFVIGKPDMTVVAFGSDSVDIFEVNDIMSSKGWHLNALQRPNSLHICVTL
+QHTVIYEEFLKDLKDSVDTVKANPGPISGGRAPIYGAAGKMPDRGMVRELLVEFMDASC
+</sequence>
+</entry>
+<entry dataset="TrEMBL" created="2006-10-03" modified="2014-05-14" version="53">
+<accession>Q0JRH3</accession>
+<name>Q0JRH3_ORYSJ</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Os01g0101200 protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="2">Os01g0101200</name>
+</gene>
+<organism evidence="1 2">
+<name type="scientific">Oryza sativa subsp. japonica</name>
+<name type="common">Rice</name>
+<dbReference type="NCBI Taxonomy" id="39947" />
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BEP clade</taxon>
+<taxon>Ehrhartoideae</taxon>
+<taxon>Oryzeae</taxon>
+<taxon>Oryza</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="1">
+<citation type="journal article" date="2005" name="Nature" volume="436" first="793" last="800">
+<title>The map-based sequence of the rice genome.</title>
+<authorList>
+<consortium name="International rice genome sequencing project (IRGSP)" />
+</authorList>
+<dbReference type="PubMed" id="16100779" />
+<dbReference type="DOI" id="10.1038/nature03895" />
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="1">cv. Nipponbare</strain>
+</source>
+</reference>
+<reference key="2" evidence="1">
+<citation type="journal article" date="2008" name="Nucleic Acids Res." volume="36" first="D1028" last="D1033">
+<title>The rice annotation project database (RAP-DB): 2008 update.</title>
+<authorList>
+<consortium name="The rice annotation project (RAP)" />
+</authorList>
+<dbReference type="PubMed" id="18089549" />
+<dbReference type="DOI" id="10.1093/nar/gkm978" />
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain evidence="1">cv. Nipponbare</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AP008207">
+<property type="protein sequence ID" value="BAF03655.1" />
+<property type="molecule type" value="Genomic_DNA" />
+</dbReference>
+<dbReference type="RefSeq" id="NP_001041741.1">
+<property type="nucleotide sequence ID" value="NM_001048276.1" />
+</dbReference>
+<dbReference type="UniGene" id="Os.19507" />
+<dbReference type="ProteinModelPortal" id="Q0JRH3" />
+<dbReference type="PRIDE" id="Q0JRH3" />
+<dbReference type="EnsemblPlants" id="OS01T0101200-02">
+<property type="protein sequence ID" value="OS01T0101200-02" />
+<property type="gene ID" value="OS01G0101200" />
+</dbReference>
+<dbReference type="GeneID" id="4326460" />
+<dbReference type="KEGG" id="osa:4326460" />
+<dbReference type="Gramene" id="Q0JRH3" />
+<dbReference type="KO" id="K09880" />
+<dbReference type="GO" id="GO:0009570">
+<property type="term" value="C:chloroplast stroma" />
+<property type="evidence" value="IEA:EnsemblPlants/Gramene" />
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol" />
+<property type="evidence" value="IEA:EnsemblPlants/Gramene" />
+</dbReference>
+<dbReference type="GO" id="GO:0043874">
+<property type="term" value="F:acireductone synthase activity" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0000287">
+<property type="term" value="F:magnesium ion binding" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="GO" id="GO:0019509">
+<property type="term" value="P:L-methionine salvage from methylthioadenosine" />
+<property type="evidence" value="IEA:InterPro" />
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1000">
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="InterPro" id="IPR023943">
+<property type="entry name" value="Enolase-ppase_E1" />
+</dbReference>
+<dbReference type="InterPro" id="IPR023214">
+<property type="entry name" value="HAD-like_dom" />
+</dbReference>
+<dbReference type="Pfam" id="PF13419">
+<property type="entry name" value="HAD_2" />
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56784">
+<property type="entry name" value="SSF56784" />
+<property type="match status" value="1" />
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01691">
+<property type="entry name" value="enolase-ppase" />
+<property type="match status" value="1" />
+</dbReference>
+<proteinExistence type="predicted" />
+<keyword id="KW-0181" evidence="1">Complete proteome</keyword>
+<keyword id="KW-1185" evidence="1">Reference proteome</keyword>
+<feature type="non-terminal residue" evidence="2">
+<location>
+<position position="1" />
+</location>
+</feature>
+<evidence key="1" type="ECO:0000313" />
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAF03655.1" />
+</source>
+</evidence>
+<sequence length="306" mass="33467" checksum="972F2D3F155E793D" modified="2006-10-03" version="1" fragment="single">
+QMQMQQATTVLSSSSNRPWTLWCHPVPVVSSPSHAKNKKHGLRLRAGMAMASSELPDLSA
+IQRVVLDIEGTTTPISFVADVLFPYARDNVRRHLAATYGSSEETRADVALLRAQVEEDLA
+QGVDGAVAVPPDAEGEGEGAVVEALAANVESMIRADRKVTALKQLQGRIWRRGFDSGELR
+SEVYDDAADALRRWRAKAYIYSSGSREAQRLIFANTAAHGDLRDHLCGFFDTTIGAKREV
+SSYYEIWQTLGTDRPSQILFLTDVYQEAAAAKTAGLEVIISVRPGNAPLPDNHGFHTITS
+FAEISI
+</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution-NoDerivs License
+</copyright>
+</uniprot>
