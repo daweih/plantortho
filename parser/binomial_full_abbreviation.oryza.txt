@@ -1,0 +1,10 @@
+oryza_barthii	Obar
+oryza_brachyantha	Obra
+oryza_glaberrima	Ogla
+oryza_glumaepatula	Oglu
+oryza_indica	Oind
+oryza_meridionalis	Omer
+oryza_nivara	Oniv
+oryza_punctata	Opun
+oryza_rufipogon	Oruf
+oryza_sativa	Osat
