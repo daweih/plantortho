@@ -1,4 +1,4 @@
-- [ ] Achieve the pipeline from GreenDB.:octocat:
+- [ ] Achieve the pipeline from GreenDB.
   - [ ] Run the whole pipeline.
   - [ ] Test the pipeline with gramene ortholog data.
   - [ ] Find other database for testing.
