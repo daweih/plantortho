@@ -1,6 +1,7 @@
 - [ ] Achieve the pipeline from GreenDB.
   - [ ] Run the whole pipeline.
   - [ ] Test the pipeline with gramene ortholog data.
+    - [x] Extract proteins for test in fasta format: [parser](https://github.com/daweih/plantortho/blob/master/parser/leaf_nodes_species2pep_fa.emf.parser.pl), [data](https://github.com/daweih/plantortho/tree/master/pipeline)
   - [ ] Find other database for testing.
 - [ ] Run inparanoid pipeline on server.
 - [ ] OrthoMCL on Qomo.
