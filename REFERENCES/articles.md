@@ -1,2 +1,3 @@
 - [Kristensen, David M, Y I Wolf, Arcady R Mushegian, and Eugene V Koonin. “Computational Methods for Gene Orthology Inference..” Briefings in Bioinformatics 12, no. 5 (September 2011): 379–91. doi:10.1093/bib/bbr030.](http://http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3178053)
-- [{Rouard:2011jn}](http://http://www.ncbi.nlm.nih.gov/pubmed/?term=)
+- [Rouard, Mathieu, Valentin Guignon, Christelle Aluome, Marie-Angélique Laporte, Gaetan Droc, Christian Walde, Christian M Zmasek, Christophe Perin, and Matthieu G Conte. “GreenPhylDB v2.0: Comparative and Functional Genomics in Plants..” Nucleic Acids Research 39, no. Database issue (January 2011): D1095–D1102. doi:10.1093/nar/gkq811.](http://http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3013755)
+
