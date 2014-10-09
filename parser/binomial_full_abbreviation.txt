@@ -1,43 +1,43 @@
-aegilops_tauschii	Atau
-amborella_trichopoda	Atri
-arabidopsis_lyrata	Alyr
-arabidopsis_thaliana	Atha
-brachypodium_distachyon	Bdis
-brassica_oleracea	Bole
-brassica_rapa	Brap
-caenorhabditis_elegans	Cele
-chlamydomonas_reinhardtii	Crei
-ciona_savignyi	Csav
-cyanidioschyzon_merolae	Cmer
-drosophila_melanogaster	Dmel
-glycine_max	Gmax
-homo_sapiens	Hsap
-hordeum_vulgare	Hvul
-leersia_perrieri	Lper
-medicago_truncatula	Mtru
-musa_acuminata	Macu
-oryza_barthii	Obar
-oryza_brachyantha	Obra
-oryza_glaberrima	Ogla
-oryza_glumaepatula	Oglu
-oryza_indica	Oind
-oryza_meridionalis	Omer
-oryza_nivara	Oniv
-oryza_punctata	Opun
-oryza_rufipogon	Oruf
-oryza_sativa	Osat
-ostreococcus_lucimarinus	Oluc
-physcomitrella_patens	Ppat
-populus_trichocarpa	Ptri
-prunus_persica	Pper
-saccharomyces_cerevisiae	Scer
-selaginella_moellendorffii	Smoe
-setaria_italica	Sita
-solanum_lycopersicum	Slyc
-solanum_tuberosum	Stub
-sorghum_bicolor	Sbic
-theobroma_cacao	Tcac
-triticum_aestivum	Taes
-triticum_urartu	Tura
-vitis_vinifera	Vvin
-zea_mays	Zmay
+aegilops_tauschii	Atau	monocot
+amborella_trichopoda	Atri	Other
+arabidopsis_lyrata	Alyr	dicot
+arabidopsis_thaliana	Atha	dicot
+brachypodium_distachyon	Bdis	monocot
+brassica_oleracea	Bole	dicot
+brassica_rapa	Brap	dicot
+caenorhabditis_elegans	Cele	Other
+chlamydomonas_reinhardtii	Crei	Other
+ciona_savignyi	Csav	Other
+cyanidioschyzon_merolae	Cmer	Other
+drosophila_melanogaster	Dmel	Other
+glycine_max	Gmax	dicot
+homo_sapiens	Hsap	Other
+hordeum_vulgare	Hvul	monocot
+leersia_perrieri	Lper	Other
+medicago_truncatula	Mtru	dicot
+musa_acuminata	Macu	monocot
+oryza_barthii	Obar	monocot
+oryza_brachyantha	Obra	monocot
+oryza_glaberrima	Ogla	monocot
+oryza_glumaepatula	Oglu	monocot
+oryza_indica	Oind	monocot
+oryza_meridionalis	Omer	monocot
+oryza_nivara	Oniv	monocot
+oryza_punctata	Opun	monocot
+oryza_rufipogon	Oruf	monocot
+oryza_sativa	Osat	monocot
+ostreococcus_lucimarinus	Oluc	Other
+physcomitrella_patens	Ppat	Other
+populus_trichocarpa	Ptri	dicot
+prunus_persica	Pper	dicot
+saccharomyces_cerevisiae	Scer	Other
+selaginella_moellendorffii	Smoe	Other
+setaria_italica	Sita	monocot
+solanum_lycopersicum	Slyc	dicot
+solanum_tuberosum	Stub	dicot
+sorghum_bicolor	Sbic	monocot
+theobroma_cacao	Tcac	dicot
+triticum_aestivum	Taes	monocot
+triticum_urartu	Tura	monocot
+vitis_vinifera	Vvin	dicot
+zea_mays	Zmay	monocot
