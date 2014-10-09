@@ -2,7 +2,7 @@
 # Date        : Thu Oct  9 15:28:46 CST 2014
 # Last Update : 
 # Reference   : 
-# Description : 
+# Description : 根据 monocot/dicot/other 的标签来拆分文件
 
 #===============================================================================================================
 use lib "/opt/perl5.12.3/lib/site_perl/5.12.3";
@@ -22,6 +22,7 @@ my $species;
 while(<I>){
 	chomp;
 	my @r = split /\t/, $_;
+	#注意修改下一行：用物种二名法的全名还是用缩写来做正则表达式匹配？
 	$species->{lc($r[1])} = $r[$kind_column_no];
 }
 close I;
