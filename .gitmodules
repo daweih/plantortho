@@ -1,6 +1,3 @@
-[submodule "bin/cloudcat"]
-	path = bin/cloudcat
-	url = git@github.com:daweih/cloudcat.git
 [submodule "bin/ncbi_genetic_codes"]
 	path = bin/ncbi_genetic_codes
 	url = git@github.com:daweih/ncbi_genetic_codes.git
