@@ -40,8 +40,8 @@ $amino_acids->{"W"} = {"abb" => "Trp", "full" => "Tryptophan",    "polarity" => 
 $amino_acids->{"Y"} = {"abb" => "Tyr", "full" => "Tyrosine",      "polarity" => "polar"       ,"atomic_mass" => "181.19"};#Tyrosine	Tyr	Y	polar
 foreach my $symbol (keys %{$amino_acids}){
 	$amino_acids->{$symbol}->{"symbol"} = $symbol;
-	$amino_acids->{lc($amino_acids->{$symbol}->{abb})} = $amino_acids->{$symbol};
-	$amino_acids->{lc($amino_acids->{$symbol}->{full})} = $amino_acids->{$symbol};
+	$amino_acids->{uc($amino_acids->{$symbol}->{abb})} = $amino_acids->{$symbol};
+	$amino_acids->{uc($amino_acids->{$symbol}->{full})} = $amino_acids->{$symbol};
 }
 my $nucleic_acids = {
 "a" => "Adenosine",
@@ -71,7 +71,7 @@ sub aa_nt_info{
 		return $nucleic_acids->{lc($str)};
 	}
 	elsif($type eq "aa"){
-		return $amino_acids->{lc($str)};
+		return $amino_acids->{uc($str)};
 	}
 }
 1;
