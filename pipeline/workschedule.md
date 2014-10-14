@@ -26,10 +26,10 @@ $cat 01_04tree.phy
 ../03tree/accuratemulalign03.phy  
 ../04tree/accuratemulalign04.phy  
 ***
-a:trimal -compareset 01_04tree.phy -gt 0.8 -st 0.001 -cons 60 -phylip -out 01_04tree_a.phy                         
-b:trimal -compareset 01_04tree.phy -phylip -out 01_04tree_b.phy                       
-c:trimal -compareset 01_04tree.phy -gt 0.8 -st 0.001  -phylip -out 01_04tree_c.phy            
-d:trimal -compareset 01_04tree.phy  -phylip -out 01_04tree_d.phy -automated1       
+a: trimal -compareset 01_04tree.phy -gt 0.8 -st 0.001 -cons 60 -phylip -out 01_04tree_a.phy                         
+b: trimal -compareset 01_04tree.phy -phylip -out 01_04tree_b.phy                       
+c: trimal -compareset 01_04tree.phy -gt 0.8 -st 0.001  -phylip -out 01_04tree_c.phy            
+d: trimal -compareset 01_04tree.phy  -phylip -out 01_04tree_d.phy -automated1       
 *[note: -compareset    File Selected:	../03tree/accuratemulalign03.phy]*
 
 ##id_regain.pl
