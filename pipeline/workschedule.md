@@ -4,7 +4,8 @@
 **1. description:** get normal .fa file with short name from newick.parser.pl output.     
 **2. parameter:**                                                        
 
-- perl fiter_newick.parser.out.pl out.txt id_index                  
+- perl fiter_newick.parser.out.pl out.txt id_index 
+                 
 ##mafft  
 **1. description:**  multiple allignment                                                            
 **2. parameter:**           
