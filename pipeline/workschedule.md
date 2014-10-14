@@ -21,7 +21,7 @@
 
 ***
 $cat 01_04tree.phy  
-../01tree/accuratemulalign01.phy 
+../01tree/accuratemulalign01.phy   
 ../02tree/accuratemulalign02.phy  
 ../03tree/accuratemulalign03.phy  
 ../04tree/accuratemulalign04.phy  
