@@ -9,14 +9,15 @@
 **1. description:**  multiple allignment                                                            
 **2. parameter:**           
                                
-- /usr/bin/mafft  --auto --phylipout --reorder ../out2 > accuratemulalign01.phy *[note: --auto = FFT-NS-i]*                
+- /usr/bin/mafft  --auto --phylipout --reorder ../out2 > accuratemulalign01.phy *[note: --auto = FFT-NS-i]*     
 - /usr/bin/mafft --lop --auto --phylipout --reorder ../out2> accuratemulalign02.phy *[note: --auto =FFT-NS-2]*
 - /usr/bin/mafft  --genafpair  --maxiterate 16 --phylipout --reorder ../out2 > accuratemulalign03.phy *[note: E-INS-i]*
 - /usr/bin/mafft  --globalpair --maxiterate 16 --phylipout --reorder ../out2 > accuratemulalign04.phy *[note: G-INS-i]*
 
 ##trimal
-**1. description:**multiple allignment mask  
+**1. description:** multiple allignment mask  
 **2. parameter:**   
+
 ***
 $cat 01_04tree.phy  
 ../01tree/accuratemulalign01.phy 
