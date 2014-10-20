@@ -20,3 +20,4 @@
 ## How to write in to do list
  - [Markdown on github](https://help.github.com/articles/writing-on-github/)
  - [Github flavored markdown](https://help.github.com/articles/github-flavored-markdown/)
+ - [Markdown quick ref](http://www.darkcoding.net/software/markdown-quick-reference/)
