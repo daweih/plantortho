@@ -9,7 +9,7 @@
     - [x] [trimAl](http://trimal.cgenomics.org/downloads): same function to AL2CO.
       - [ ] test option -compareset in trimAl. nanlandetian
     - [ ] PhyML: phylogenetic construction with 100 bootstraps
-      -[x] PhyML test: 10 bootstraps
+      - [x] PhyML test: 10 bootstraps
     - [ ] RIO: gene rooting and orthologous scoring
       - [ ] make species tree in phyloXML format including the plants we use. daweih
       - [ ] reformat gene tree id fitted with phyloXML id format required by RIO.
