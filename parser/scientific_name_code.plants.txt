@@ -1,0 +1,206 @@
+      <id provider="uniprot">131567</id>
+      <scientific_name>cellular organisms</scientific_name>
+
+      <taxonomy>
+        <scientific_name>Neomura</scientific_name>
+
+          <id provider="uniprot">2759</id>
+          <scientific_name>Eukaryota</scientific_name>
+
+                    <id provider="uniprot">33090</id>
+                    <scientific_name>Viridiplantae</scientific_name>
+
+                      <id provider="uniprot">3193</id>
+                      <scientific_name>Embryophyta</scientific_name>
+
+                        <id provider="uniprot">58023</id>
+                        <scientific_name>Tracheophyta</scientific_name>
+
+                          <id provider="uniprot">58024</id>
+                          <scientific_name>Spermatophyta</scientific_name>
+
+                            <id provider="uniprot">3398</id>
+                            <scientific_name>Magnoliophyta</scientific_name>
+
+                                <id provider="uniprot">71240</id>
+                                <scientific_name>eudicotyledons</scientific_name>
+
+                                  <id provider="uniprot">91827</id>
+                                  <scientific_name>core eudicotyledons</scientific_name>
+
+                                    <id provider="uniprot">71275</id>
+                                    <scientific_name>rosids</scientific_name>
+
+                                        <id provider="uniprot">91835</id>
+                                        <scientific_name>fabids</scientific_name>
+
+                                              <id provider="uniprot">3745</id>
+                                              <scientific_name>Rosaceae</scientific_name>
+
+                                                <code>FRAVE</code><scientific_name>Fragaria vesca</scientific_name>
+
+                                                <code>PRUPE</code><scientific_name>Prunus persica</scientific_name>
+
+                                              <code>CUCSA</code><scientific_name>Cucumis sativus</scientific_name>
+
+                                            <id provider="uniprot">3814</id>
+                                            <scientific_name>Papilionoideae</scientific_name>
+
+                                              <code>SOYBN</code><scientific_name>Glycine max</scientific_name>
+
+                                              <code>MEDTR</code><scientific_name>Medicago truncatula</scientific_name>
+
+                                          <id provider="uniprot">3646</id>
+                                          <scientific_name>Malpighiales</scientific_name>
+
+                                            <id provider="uniprot">3977</id>
+                                            <scientific_name>Euphorbiaceae</scientific_name>
+
+                                              <code>MANES</code><scientific_name>Manihot esculenta</scientific_name>
+
+                                              <code>RICCO</code><scientific_name>Ricinus communis</scientific_name>
+
+                                            <code>POPTR</code><scientific_name>Populus trichocarpa</scientific_name>
+
+                                        <id provider="uniprot">91836</id>
+                                        <scientific_name>malvids</scientific_name>
+
+                                            <id provider="uniprot">3699</id>
+                                            <scientific_name>Brassicales</scientific_name>
+
+                                              <id provider="uniprot">3700</id>
+                                              <scientific_name>Brassicaceae</scientific_name>
+
+                                                <id provider="uniprot">3701</id>
+                                                <scientific_name>Arabidopsis</scientific_name>
+
+                                                  <code>ARALY</code><scientific_name>Arabidopsis lyrata</scientific_name>
+
+                                                  <code>ARATH</code><scientific_name>Arabidopsis thaliana</scientific_name>
+
+                                                <code>THEHA</code><scientific_name>Thellungiella halophila</scientific_name>
+
+                                              <code>CARPA</code><scientific_name>Carica papaya</scientific_name>
+
+                                            <id provider="uniprot">2706</id>
+                                            <scientific_name>Citrus</scientific_name>
+
+                                              <code>CCLXX</code><scientific_name>Citrus clementina</scientific_name>
+
+                                              <code>CITSI</code><scientific_name>Citrus sinensis</scientific_name>
+
+                                          <code>EUCGR</code><scientific_name>Eucalyptus grandis</scientific_name>
+
+                                      <code>VITVI</code><scientific_name>Vitis vinifera</scientific_name>
+
+                                    <id provider="uniprot">91888</id>
+                                    <scientific_name>lamiids</scientific_name>
+
+                                      <id provider="uniprot">4070</id>
+                                      <scientific_name>Solanaceae</scientific_name>
+
+                                        <id provider="uniprot">4107</id>
+                                        <scientific_name>Solanum</scientific_name>
+
+                                          <id provider="uniprot">49274</id>
+                                          <scientific_name>Lycopersicon</scientific_name>
+
+                                            <code>SOLLC</code><scientific_name>Solanum lycopersicum</scientific_name>
+
+                                            <code>SOLPI</code><scientific_name>Solanum pimpinellifolium</scientific_name>
+
+                                          <code>SOLTU</code><scientific_name>Solanum tuberosum</scientific_name>
+
+                                        <code>TOBAC</code><scientific_name>Nicotiana tabacum</scientific_name>
+
+                                      <code>MIMGU</code><scientific_name>Mimulus guttatus</scientific_name>
+
+                                  <code>AQUCA</code><scientific_name>Aquilegia caerulea</scientific_name>
+
+                                <id provider="uniprot">4447</id>
+                                <scientific_name>Liliopsida</scientific_name>
+
+                                  <id provider="uniprot">4479</id>
+                                  <scientific_name>Poaceae</scientific_name>
+
+                                    <id provider="uniprot">147369</id>
+                                    <scientific_name>Panicoideae</scientific_name>
+
+                                      <id provider="uniprot">147429</id>
+                                      <scientific_name>Andropogoneae</scientific_name>
+
+                                        <code>SORBI</code><scientific_name>Sorghum bicolor</scientific_name>
+
+                                        <code>MAIZE</code><scientific_name>Zea mays</scientific_name>
+
+                                      <id provider="uniprot">147428</id>
+                                      <scientific_name>Paniceae</scientific_name>
+
+                                        <code>PANVG</code><scientific_name>Panicum virgatum</scientific_name>
+
+                                        <code>SETIT</code><scientific_name>Setaria italica</scientific_name>
+
+                                    <id provider="uniprot">359160</id>
+                                    <scientific_name>BEP clade</scientific_name>
+
+                                      <id provider="uniprot">4527</id>
+                                      <scientific_name>Oryza</scientific_name>
+
+                                        <code>ORYSA</code><scientific_name>Oryza sativa</scientific_name>
+
+                                        <code>ORYSJ</code><scientific_name>Oryza sativa subsp. japonica</scientific_name>
+
+                                      <id provider="uniprot">147368</id>
+                                      <scientific_name>Pooideae</scientific_name>
+
+                                        <code>BRADI</code><scientific_name>Brachypodium distachyon</scientific_name>
+
+                                        <code>HORVD</code><scientific_name>Hordeum vulgare var. distichum</scientific_name>
+
+                                  <code>MUSAM</code><scientific_name>Musa acuminata subsp. malaccensis</scientific_name>
+
+                              <code>AMBTC</code><scientific_name>Amborella trichopoda</scientific_name>
+
+                            <code>PICAB</code><scientific_name>Picea abies</scientific_name>
+
+                          <code>SELML</code><scientific_name>Selaginella moellendorffii</scientific_name>
+
+                        <code>PHYPA</code><scientific_name>Physcomitrella patens subsp. patens</scientific_name>
+
+                      <id provider="uniprot">3041</id>
+                      <scientific_name>Chlorophyta</scientific_name>
+
+                        <id provider="uniprot">13792</id>
+                        <scientific_name>Mamiellales</scientific_name>
+
+                          <id provider="uniprot">70447</id>
+                          <scientific_name>Ostreococcus</scientific_name>
+
+                            <code>OSTLU</code><scientific_name>Ostreococcus lucimarinus (strain CCE9901)</scientific_name>
+
+                            <code>ORCXX</code><scientific_name>Ostreococcus sp. RCC809</scientific_name>
+
+                            <code>OSTTA</code><scientific_name>Ostreococcus tauri</scientific_name>
+
+                          <id provider="uniprot">38832</id>
+                          <scientific_name>Micromonas</scientific_name>
+
+                            <code>MICPC</code><scientific_name>Micromonas pusilla (strain CCMP1545)</scientific_name>
+
+                            <code>MICSR</code><scientific_name>Micromonas sp. (strain RCC299 / NOUM17)</scientific_name>
+
+                          <id provider="uniprot">75966</id>
+                          <scientific_name>Trebouxiophyceae</scientific_name>
+
+                            <code>ASCXX</code><scientific_name>Asterochloris sp. Cgr/DA1pho</scientific_name>
+
+                            <code>CHLVA</code><scientific_name>Chlorella variabilis</scientific_name>
+
+                            <code>CSUXX</code><scientific_name>Coccomyxa subellipsoidea C-169</scientific_name>
+
+                          <id provider="uniprot">3042</id>
+                          <scientific_name>Chlamydomonadales</scientific_name>
+
+                            <code>CHLRE</code><scientific_name>Chlamydomonas reinhardtii</scientific_name>
+
+                            <code>VOLCA</code><scientific_name>Volvox carteri</scientific_name>

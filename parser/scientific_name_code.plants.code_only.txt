@@ -1,0 +1,45 @@
+FRAVE	Fragaria vesca
+PRUPE	Prunus persica
+CUCSA	Cucumis sativus
+SOYBN	Glycine max
+MEDTR	Medicago truncatula
+MANES	Manihot esculenta
+RICCO	Ricinus communis
+POPTR	Populus trichocarpa
+ARALY	Arabidopsis lyrata
+ARATH	Arabidopsis thaliana
+THEHA	Thellungiella halophila
+CARPA	Carica papaya
+CCLXX	Citrus clementina
+CITSI	Citrus sinensis
+EUCGR	Eucalyptus grandis
+VITVI	Vitis vinifera
+SOLLC	Solanum lycopersicum
+SOLPI	Solanum pimpinellifolium
+SOLTU	Solanum tuberosum
+TOBAC	Nicotiana tabacum
+MIMGU	Mimulus guttatus
+AQUCA	Aquilegia caerulea
+SORBI	Sorghum bicolor
+MAIZE	Zea mays
+PANVG	Panicum virgatum
+SETIT	Setaria italica
+ORYSA	Oryza sativa
+ORYSJ	Oryza sativa subsp. japonica
+BRADI	Brachypodium distachyon
+HORVD	Hordeum vulgare var. distichum
+MUSAM	Musa acuminata subsp. malaccensis
+AMBTC	Amborella trichopoda
+PICAB	Picea abies
+SELML	Selaginella moellendorffii
+PHYPA	Physcomitrella patens subsp. patens
+OSTLU	Ostreococcus lucimarinus (strain CCE9901)
+ORCXX	Ostreococcus sp. RCC809
+OSTTA	Ostreococcus tauri
+MICPC	Micromonas pusilla (strain CCMP1545)
+MICSR	Micromonas sp. (strain RCC299 / NOUM17)
+ASCXX	Asterochloris sp. Cgr/DA1pho
+CHLVA	Chlorella variabilis
+CSUXX	Coccomyxa subellipsoidea C-169
+CHLRE	Chlamydomonas reinhardtii
+VOLCA	Volvox carteri
