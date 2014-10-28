@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns="http://www.phyloxml.org">
-<phylogeny rooted="true" rerootable="false">
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd"
+   xmlns="http://www.phyloxml.org">
+<phylogeny rooted="true">
   <name>tol_154.xml</name>
   <clade>
     <taxonomy>
@@ -19,8 +21,6 @@
         </taxonomy>
         <clade>
           <name>Bikonta</name>
-          <reference doi="10.1099/ijs.0.63216-0">
-          </reference>
           <clade>
             <name>Plants+HC+SAR megagroup</name>
             <clade>
