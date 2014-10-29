@@ -12,17 +12,33 @@ use warnings;
 use Bio::TreeIO;
 use Data::Dumper;
 
-open I, "< ../../../parser/binomial_full_abbreviation.v22.txt";
+my $tree_species_abrv;
+my $treeio = Bio::TreeIO->new(-format => 'newick',
+								-file   => '../accuratemulalign3_longname.phy_phyml_boot_trees.txt');
+while( my $tree = $treeio->next_tree ) {
+	my @nodes  = $tree->get_leaf_nodes();
+	foreach my $node (@nodes){
+#		print $node->id, "\n";
+		my $name_abbriviation;
+		$name_abbriviation = $1 if($node->id =~ /.*_(\w{4})_/);
+		$tree_species_abrv->{$name_abbriviation} = 1;
+	}
+	last;
+}
+
+
+open I, "< ../../../parser/binomial_full_abbreviation.txt";
 my $binomial;
 while(<I>){
 	chomp;
 	#oryza_sativa	Osat	monocot
 	my @r = split /\t/,$_;
-	$binomial->{$r[0]} = \@r;
+	next if( ! defined $tree_species_abrv->{$r[1]} );
+	$binomial->{$r[0]}->{binomial_full_abbreviation} = \@r;
 }
 close I;
 
-my $treeio = Bio::TreeIO->new(-format => 'phyloxml',
+$treeio = Bio::TreeIO->new(-format => 'phyloxml',
 #								-file   => '../../../bin/RIO/bcl_2.xml');
 								-file   => '../../../parser/species_tree_rio.Plants.xml');
 #								-file   => '../../../bin/RIO/ncbi_taxonomy.xml');
@@ -36,7 +52,9 @@ while( my $tree = $treeio->next_tree ) {
 			   $leaf_scientific_name_formatted =~s/species:\s//;
 			   $leaf_scientific_name_formatted =~s/\s/_/;
 			next if( ! exists $binomial->{$leaf_scientific_name_formatted} );
-		
+
+			$binomial->{$leaf_scientific_name_formatted}->{leaf_node} = $node;
+
 			my $predecessor = $node->ancestor;
 			my $ac = $predecessor->annotation();
 			while( ! $ac->get_Annotations("taxonomy") ){
@@ -49,21 +67,19 @@ while( my $tree = $treeio->next_tree ) {
 				}
 #				print $ac->{"_annotation"}->{"taxonomy"}[0]->{"_annotation"}->{"rank"}[0]->{"_annotation"}->{"_text"}[0]->{"value"}, "\n";
 			}
-
-			if($ac->get_Annotations("taxonomy")){
-#				print Dumper($ac);
-				print &get_scientific_name($node), "\t";			
-				print &get_rank($predecessor), "\t";			
-				print &get_scientific_name($predecessor), "\n";			
-			}
-			else{
-				print "No\n";
-			}
+=cut
+			print &get_scientific_name($node), "\t";			
+			print &get_rank($predecessor), "\t";			
+			print &get_scientific_name($predecessor), "\n";
+=cut
         }
 	}
 	
 }
 
+foreach my $binomial_key (keys %{$binomial}){
+	print $binomial_key, "\n" if( ! defined $binomial->{$binomial_key}->{leaf_node} );
+}
 sub predecessor{
 	my ($node,$search_string) = @_;
 
