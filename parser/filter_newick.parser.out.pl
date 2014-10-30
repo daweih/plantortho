@@ -22,8 +22,9 @@ while(<IN>){
 	next if /^no/;
 	my @entry = split /\s/; 
 	print OUT ">$i\n$entry[3]\n";
-	print OUT2 "$i\t$entry[2]_$entry[1]_\n";
+	print OUT2 "$i\t$entry[2]_$entry[1]\n";
 	$i++;
 }
 close IN;
 close OUT;
+close OUT2;
