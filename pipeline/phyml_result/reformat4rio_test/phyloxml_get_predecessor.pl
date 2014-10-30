@@ -53,6 +53,8 @@ while( my $tree = $treeio->next_tree ) {
 			   $leaf_scientific_name_formatted =~s/\s/_/;
 			next if( ! exists $binomial->{$leaf_scientific_name_formatted} );
 
+			$node->set_tag_value("using","1");
+
 			$binomial->{$leaf_scientific_name_formatted}->{leaf_node} = $node;
 
 			my $predecessor = $node->ancestor;
@@ -76,9 +78,50 @@ while( my $tree = $treeio->next_tree ) {
 	}
 	
 }
-
-foreach my $binomial_key (keys %{$binomial}){
-	print $binomial_key, "\n" if( ! defined $binomial->{$binomial_key}->{leaf_node} );
+__END__
+my $ncbi_taxonomy = Bio::TreeIO->new(-format => 'phyloxml',
+#								-file   => '../../../bin/RIO/bcl_2.xml');
+#								-file   => '../../../parser/species_tree_rio.Plants.xml');
+								-file   => '../../../bin/RIO/ncbi_taxonomy.xml');
+while( my $tree = $ncbi_taxonomy->next_tree ) {
+	foreach my $node ($tree->get_nodes){
+		if( $node->is_Leaf ) {
+			my $leaf_scientific_name_formatted = lc(&get_scientific_name($node));
+			   $leaf_scientific_name_formatted =~s/\s/_/;
+			my $need_or_not = 0;
+			foreach my $binomial_key (keys %{$binomial}){
+				if( ! defined $binomial->{$binomial_key}->{leaf_node} ){
+					if( $leaf_scientific_name_formatted eq $binomial_key ){
+						$need_or_not = 1;
+#						my @tags = $node->get_all_tags();						
+#						print $node->get_tag_values("taxonomy");
+#						print $node->get_tag_values("using");
+#						print "found: $binomial_key\n";
+						my $ancestor = $node->ancestor;
+						while($ancestor){
+							print $ancestor->depth, "\n";
+#							$ancestor->set_tag_value("using","1");
+							$ancestor = $ancestor->ancestor;
+						}
+					}
+				}
+			}
+			if($need_or_not == 0){
+			}
+		}
+	}
+	print  $tree->number_nodes, "\n";	
+=cut
+	foreach my $node ($tree->get_nodes){
+		if($node->has_tag("using")){
+		
+		}
+		else{
+#			$tree->remove_Node($node);
+		}
+	}
+=cut
+	print  $tree->number_nodes, "\n";
 }
 sub predecessor{
 	my ($node,$search_string) = @_;
