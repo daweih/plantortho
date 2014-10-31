@@ -43,8 +43,10 @@ d: trimal -compareset 01_04tree.phy  -phylip -out 01_04tree_d.phy -automated1
 ##Phyml
 **1.description:** phylogenetic construction.      
 **2. parameter:**  
-d: AA
-
+01_04tree_al.phy  d: AA  bootstrap: 10     
+01_04tree_bl.phy  d: AA    
+01_04tree_cl.phy  d: AA    
+01_04tree_dl.phy  d: AA    
   
  
  
