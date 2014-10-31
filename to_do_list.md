@@ -15,6 +15,8 @@
       - [ ] reformat gene tree id fitted with phyloXML id format required by RIO.
   - [ ] Find other database for testing.
 - [ ] Run inparanoid pipeline on server.  nanlandetian
+  - [ ] Run BLAST.  nanlandetian
+  - [ ] Run clustering with inparanoid.  nanlandetian
 - [ ] OrthoMCL on Qomo. dotswing
 
 ## How to write in to do list
