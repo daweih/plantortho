@@ -5,25 +5,25 @@
                          Copyright CNRS - Universite Montpellier II                                 
  oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
-. Sequence filename: 			accuratemulalign3_longname.phy
+. Sequence filename: 			01_04tree_al.phy
 . Data set: 				#1
 . Tree topology search : 		NNIs
 . Initial tree: 			BioNJ
 . Model of amino acids substitution: 	LG
 . Number of taxa: 			236
-. Log-likelihood: 			-15935.78332
-. Unconstrained likelihood: 		-5990.08256
-. Parsimony: 				2516
-. Tree size: 				47.95156
+. Log-likelihood: 			-12957.95748
+. Unconstrained likelihood: 		-3242.86072
+. Parsimony: 				2077
+. Tree size: 				38.55853
 . Discrete gamma model: 		Yes
   - Number of categories: 		4
-  - Gamma shape parameter: 		0.713
+  - Gamma shape parameter: 		0.782
 
 . Run ID:				none
-. Random seed:				1412830775
+. Random seed:				1414680255
 . Subtree patterns aliasing:		no
 . Version:				20120412
-. Time used:				1h5m27s (3927 seconds)
+. Time used:				0h34m22s (2062 seconds)
 
  oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
  Suggested citations:
