@@ -14,13 +14,13 @@ use Data::Dumper;
 
 my $tree_species_abrv;
 my $treeio = Bio::TreeIO->new(-format => 'newick',
-								-file   => '../accuratemulalign3_longname.phy_phyml_boot_trees.txt');
+								-file   => '../01_04tree_al.phy_phyml_boot_trees.txt');
 while( my $tree = $treeio->next_tree ) {
 	my @nodes  = $tree->get_leaf_nodes();
 	foreach my $node (@nodes){
 #		print $node->id, "\n";
 		my $name_abbriviation;
-		$name_abbriviation = $1 if($node->id =~ /.*_(\w{4})_/);
+		$name_abbriviation = $1 if($node->id =~ /.*_(\w{4})/);
 		$tree_species_abrv->{$name_abbriviation} = 1;
 	}
 	last;
@@ -40,7 +40,7 @@ close I;
 
 $treeio = Bio::TreeIO->new(-format => 'phyloxml',
 #								-file   => '../../../bin/RIO/bcl_2.xml');
-								-file   => '../../../parser/species_tree_rio.Plants.xml');
+								-file   => '../../../parser/species_tree_rio.Plants_complete.xml');
 #								-file   => '../../../bin/RIO/ncbi_taxonomy.xml');
 while( my $tree = $treeio->next_tree ) {
 #	print Dumper($tree);
