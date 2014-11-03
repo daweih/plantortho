@@ -586,14 +586,6 @@
                                         <rank>species</rank>
                                       </taxonomy>
                                     </clade>
-                                    <clade>
-                                      <taxonomy>
-                                        <id provider="uniprot">39947</id>
-                                        <code>ORYSJ</code>
-                                        <scientific_name>Oryza sativa subsp. japonica</scientific_name>
-                                        <common_name>Rice</common_name>
-                                      </taxonomy>
-                                    </clade>
                                   </clade>
                                   <clade>
                                     <taxonomy>
