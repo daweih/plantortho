@@ -5,7 +5,8 @@
 # Description : 根据 monocot/dicot/other 的标签来拆分文件
 
 #===============================================================================================================
-use lib "/opt/perl5.12.3/lib/site_perl/5.12.3";
+#use lib "/opt/perl5.12.3/lib/site_perl/5.12.3";
+#!/usr/bin/perl;
 use strict;
 use warnings;
 
