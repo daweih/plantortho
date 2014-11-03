@@ -228,11 +228,12 @@
                                             		<rank>genus</rank>
                                             	</taxonomy>
                                             	<clade>
+                                            	<taxonomy>
                                             		<code>Brap</code>
                                             		<scientific_name>Brassica rapa</scientific_name>
                                             		<rank>species</rank>
-                                            	</clade>
-                                            	
+                                            	</taxonomy>
+                                            	</clade>	
                                             </clade>
                                             <clade>
                                               <taxonomy>
