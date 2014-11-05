@@ -1,0 +1,38 @@
+Aegilops tauschii	Aegilops tauschii	37682	Aegilops_tauschii.GCA_000347335.1.23.	AEGTA	Aegilops tauschii
+Brachypodium distachyon	Brachypodium distachyon	15368	Brachypodium_distachyon.v1.0.23.	BRADI	Brachypodium distachyon
+Hordeum vulgare	Hordeum vulgare	112509	Hordeum_vulgare.030312v2.23.	HORVD	Hordeum vulgare var. distichum
+Leersia perrieri	Leersia perrieri	77586	Leersia_perrieri.Lperr_V1.4.23.	LEEPE	Leersia perrieri
+Musa acuminata	Musa acuminata subsp. malaccensis	214687	Musa_acuminata.MA1.23.	MUSAM	Musa acuminata subsp. malaccensis
+Oryza barthii	Oryza barthii	65489	Oryza_barthii.ABRL00000000.23.	ORYBA	Oryza barthii
+Oryza brachyantha	Oryza brachyantha	4533	Oryza_brachyantha.Oryza_brachyantha.v1.4b.23.	ORYBR	Oryza brachyantha
+Oryza glaberrima	Oryza glaberrima	4538	Oryza_glaberrima.AGI1.1.23.	ORYGL	Oryza glaberrima
+Oryza glumaepatula	Oryza glumaepatula	40148	Oryza_glumaepatula.ALNU02000000.23.	ORYGU	Oryza glumaepatula
+Oryza meridionalis	Oryza meridionalis	40149	Oryza_meridionalis.ALNW00000000.23.	ORYME	Oryza meridionalis
+Oryza nivara	Oryza nivara	4536	Oryza_nivara.AWHD00000000.23.	ORYNI	Oryza nivara
+Oryza punctata	Oryza punctata	4537	Oryza_punctata.AVCL00000000.23.	ORYPU	Oryza punctata
+Oryza rufipogon	Oryza rufipogon	4529	Oryza_rufipogon.PRJEB4137.23.	ORYRU	Oryza rufipogon
+Oryza sativa Indica	Oryza sativa Indica Group	39946	Oryza_indica.ASM465v1.23.	ORYSI	Oryza sativa subsp. indica
+Oryza sativa Japonica	Oryza sativa Japonica Group	39947	Oryza_sativa.IRGSP-1.0.23.	ORYSJ	Oryza sativa subsp. japonica
+Setaria italica	Setaria italica	4555	Setaria_italica.JGIv2.0.23.	SETIT	Setaria italica
+Sorghum bicolor	Sorghum bicolor	4558	Sorghum_bicolor.Sorbi1.23.	SORBI	Sorghum bicolor
+Triticum aestivum	Triticum aestivum	4565	Triticum_aestivum.IWGSP1.23.	WHEAT	Triticum aestivum
+Triticum urartu	Triticum urartu	4572	Triticum_urartu.GCA_000347455.1.23.	TRIUA	Triticum urartu
+Zea mays	Zea mays	4577	Zea_mays.AGPv3.23.	MAIZE	Zea mays
+Arabidopsis lyrata	Arabidopsis lyrata subsp. lyrata	81972	Arabidopsis_lyrata.v.1.0.23.	ARALL	Arabidopsis lyrata subsp. lyrata
+Arabidopsis thaliana	Arabidopsis thaliana	3702	Arabidopsis_thaliana.TAIR10.23.	ARATH	Arabidopsis thaliana
+Brassica oleracea	Brassica oleracea var. oleracea	109376	Brassica_oleracea.v2.1.23.	BRAOO	Brassica oleracea var. oleracea
+Brassica rapa	Brassica rapa subsp. pekinensis	51351	Brassica_rapa.IVFCAASv1.23.	BRARP	Brassica rapa subsp. pekinensis
+Glycine max	Glycine max	3847	Glycine_max.V1.0.23.	SOYBN	Glycine max
+Medicago truncatula	Medicago truncatula	3880	Medicago_truncatula.GCA_000219495.1.23.	MEDTR	Medicago truncatula
+Populus trichocarpa	Populus trichocarpa	3694	Populus_trichocarpa.JGI2.0.23.	POPTR	Populus trichocarpa
+Prunus persica	Prunus persica	3760	Prunus_persica.GCA_000346465.1.23.	PRUPE	Prunus persica
+Solanum lycopersicum	Solanum lycopersicum	4081	Solanum_lycopersicum.SL2.40.23.	SOLLC	Solanum lycopersicum
+Solanum tuberosum	Solanum tuberosum	4113	Solanum_tuberosum.3.0.23.	SOLTU	Solanum tuberosum
+Theobroma cacao	Theobroma cacao	3641	Theobroma_cacao.GCA_000403535.1.23.	THECC	Theobroma cacao
+Vitis vinifera	Vitis vinifera	29760	Vitis_vinifera.IGGP_12x.23.	VITVI	Vitis vinifera
+Selaginella moellendorffii	Selaginella moellendorffii	88036	Selaginella_moellendorffii.v1.0.23.	SELML	Selaginella moellendorffii
+Physcomitrella patens	Physcomitrella patens	3218	Physcomitrella_patens.ASM242v1.23.	PHYPA	Physcomitrella patens subsp. patens
+Chlamydomonas reinhardtii	Chlamydomonas reinhardtii	3055	Chlamydomonas_reinhardtii.v3.1.23.	CHLRE	Chlamydomonas reinhardtii
+Ostreococcus lucimarinus	Ostreococcus lucimarinus CCE9901	436017	Ostreococcus_lucimarinus.GCA_000092065.1.23.	OSTLU	Ostreococcus lucimarinus (strain CCE9901)
+Cyanidioschyzon merolae	Cyanidioschyzon merolae strain 10D	280699	Cyanidioschyzon_merolae.ASM9120v1.23.	CYA10	Cyanidioschyzon merolae strain 10D
+Amborella trichopoda	Amborella trichopoda	13333	Amborella_trichopoda.GCA_000471905.1.23.	AMBTC	Amborella trichopoda
