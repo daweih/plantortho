@@ -29,5 +29,8 @@ perl ../../parser/id_regain.pl 01_04tree_a.phy ../id_index3 01_04tre_al3.phy
 **2. parameter:**  
 01_04tree_al.phy  d: AA
 phyml result: 01_04tree_al3.phy_phyml_tree.txt
-
-
+cd ../
+##forester_1036.jar
+**1.description:** ortholog inference.      
+**2. parameter:** 
+java -Xmx2048m -cp ../bin/RIO/forester_1036.jar org.forester.application.rio ./phyml_result/01_04tree_al3.phy_phyml_tree.txt species_tree_rio.Plants_complete.xml rio_out
