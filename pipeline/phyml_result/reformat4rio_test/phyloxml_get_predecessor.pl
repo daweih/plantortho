@@ -41,7 +41,7 @@ close I;
 
 $treeio = Bio::TreeIO->new(-format => 'phyloxml',
 #								-file   => '../../../bin/RIO/bcl_2.xml');
-								-file   => '../../../parser/species_tree_rio.Plants_complete.xml');
+								-file   => '../../../parser/species_tree_rio.Plants.xml');
 #								-file   => '../../../bin/RIO/ncbi_taxonomy.xml');
 while( my $tree = $treeio->next_tree ) {
 #	print Dumper($tree);
