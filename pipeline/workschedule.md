@@ -1,4 +1,5 @@
 #Pipeline mark
+***this file is replaced by pipeline.md***
 ***(file path is based on my ubuntu)***
 ##fiter_newick.parser.out.pl
 **1. description:** get normal .fa file with short name from newick.parser.pl output.     
