@@ -1,0 +1,1 @@
+From <Mon Nov 17 16:11:51 2014> to <Mon Nov 17 16:11:52 2014>	perl leaf_nodes_species2pep_fa.emf.parser.pl -newick_tree ../sample/ensembl/web_download/OS05G0113900.genetree.newick.tree -species_list binomial_full_abbreviation.v22.txt -pep_dir ../sample/ensembl/release-22/plants/fasta/pep/ortho_OS05G0113900/ 
