@@ -1,4 +1,4 @@
-#Pipeline mark    
+‹#Pipeline mark    
 
 ##files:    
 out.txt: output of newick.parser.species.pl*[the fasta file of our gene family]*  
