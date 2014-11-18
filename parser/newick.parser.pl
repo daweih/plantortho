@@ -13,21 +13,36 @@ use Data::Dumper;
 
 
 my %opts;
-GetOptions(\%opts,'option:s');
+GetOptions(\%opts,'newick:s');
 my $usage= <<"USAGE";
 	Program: $0
 	INPUT:
-		-option			some option content
+		-newick			some option content
 	OUTPUT:
 	
 USAGE
 
-die $usage unless ($opts{option});
+die $usage unless ($opts{newick});
 my $startTime=localtime();
 ################################ Main ##########################################################################
+use Bio::TreeIO;
+use Data::Dumper;
+my $treeio = Bio::TreeIO->new(-format => 'newick',
+								-file   => $opts{newick});
+print $treeio->format(), "\n";
+while( my $tree = $treeio->next_tree ) {
+	my @nodes  = $tree->get_leaf_nodes();
+	foreach my $node (@nodes){
+		print $node->id;
+#		print "\t", $node->branch_length;
+		print "\n";
+	}
+	last;
+}
+
 ################################ Main ##########################################################################
 #===============================================================================================================
-my $options="-option $opts{option}";
+my $options="-newick $opts{newick}";
 my $endTime=localtime();
 my $Program = $1 if($0 =~ /(.*)\.pl/);
 open  LOG,">>$Program\_ProgramRunning.Log";
@@ -35,19 +50,6 @@ print LOG "From \<$startTime\> to \<$endTime\>\tperl $0 $options\n";
 close LOG;
 
 
-use Bio::TreeIO;
-use Data::Dumper;
-my $treeio = Bio::TreeIO->new(-format => 'newick',
-								-file   => 'gene_trees_rio.nh');
-print $treeio->format(), "\n";
-while( my $tree = $treeio->next_tree ) {
-	my @nodes  = $tree->get_leaf_nodes();
-	foreach my $node (@nodes){
-		print $node->id, "\t";
-		print $node->branch_length, "\t";
-		print "\n";
-	}
-}
 __END__
 
 __END__
