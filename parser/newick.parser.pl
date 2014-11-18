@@ -37,7 +37,7 @@ while( my $tree = $treeio->next_tree ) {
 #		print "\t", $node->branch_length;
 		print "\n";
 	}
-	last;
+#	last;
 }
 
 ################################ Main ##########################################################################
