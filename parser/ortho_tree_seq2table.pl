@@ -34,23 +34,6 @@ my $startTime=localtime();
 
 my @id;
 my $treeio = Bio::TreeIO->new(-format => 'newick',
-								-file   => '../pipeline/phyml_result/01_04tree_al2.phy_phyml_boot100_tree.txt');
-while( my $tree = $treeio->next_tree ) {
-	my @nodes  = $tree->get_leaf_nodes();
-	foreach my $node (@nodes){
-		my $id = $node->id;
-		$id =~ s/_\w{4}_$//g;
-#		print "$id\n";
-		push @id, $id;
-	}
-}
-foreach(@id){
-	print $_, "\n";
-}
-
-__END__
-my @id;
-my $treeio = Bio::TreeIO->new(-format => 'newick',
 								-file   => '../pipeline/OS05G0113900.genetree.newick.tree');
 while( my $tree = $treeio->next_tree ) {
 	my @nodes  = $tree->get_leaf_nodes();
@@ -90,14 +73,15 @@ while(<I>){
 	}
 	if($score < 0.1){
 		$ortholog_info->{$r[3]} = $r[0];
-	}
 #		print "$score\t$r[0]\t$r[3]\t$q\n";
+	}
 }
 close I;
 
-open I, "< ../pipeline/rio_out.txt";
+open I, "< ../pipeline/bootstrap100.rio.txt";
 my $line_no = 0;
 my @title_column;
+my $title_row_selected;
 while(<I>){
 	chomp;
 	$_ =~ s/^\s+//;
@@ -131,13 +115,80 @@ foreach my $ortholog_info_key (keys %{$ortholog_info} ){
 #		print $editDistance, "\t";
 		if( $score >= $editDistance ){
 			$score = $editDistance;
-			$q = $query;
+			$q = $_;
 		}
 	}
-	print "$score\t$ortholog_info->{$ortholog_info_key}\t$ortholog_info_key\t$q\n";
+	if( $score < 0.05 ){
+#		print "$score\t$ortholog_info->{$ortholog_info_key}\t$ortholog_info_key\t$q\n";
+		$title_row_selected->{$q} = 1;
+=cut
+0.000	Arabidopsis lyrata	fgenesh1_pg.C_scaffold_8001992Histone H2A  [Source: UniProtKB/TrEMBL; acc: D7MT39]	fgenesh1_pg
+0.000	Arabidopsis lyrata	fgenesh1_pg.C_scaffold_8001991Histone H2A  [Source: UniProtKB/TrEMBL; acc: D7MT38]	fgenesh1_pg
+0.000	Arabidopsis thaliana	AT5G59870HTA6 histone H2A 6 [Source: TAIR_LOCUS; acc: AT5G59870]	AT5G59870
+0.000	Arabidopsis thaliana	AT5G02560HTA12 histone H2A 12 [Source: TAIR_LOCUS; acc: AT5G02560]	AT5G02560
+0.000	Brassica rapa	Bra002523AT5G59870 (E=6e-053) HTA6 | HTA6; DNA binding 	Bra002523
+0.000	Brassica rapa	Bra006688AT5G59870 (E=6e-054) HTA6 | HTA6; DNA binding 	Bra006688
+0.000	Brassica rapa	Bra020278AT5G59870 (E=9e-032) HTA6 | HTA6; DNA binding 	Bra020278
+0.000	Brassica rapa	Bra028869AT5G02560 (E=2e-039) HTA12 | HTA12; DNA binding 	Bra028869
+0.000	Glycine max	GLYMA13G40900Histone H2A  [Source: UniProtKB/TrEMBL; acc: I1M4U3]	GLYMA13G40900
+0.000	Glycine max	GLYMA15G04530Histone H2A  [Source: UniProtKB/TrEMBL; acc: I1MDH5]	GLYMA15G04530
+0.000	Glycine max	GLYMA13G40890Histone H2A  [Source: UniProtKB/TrEMBL; acc: C6TMV8]	GLYMA13G40890
+0.000	Glycine max	GLYMA15G04540Histone H2A  [Source: UniProtKB/TrEMBL; acc: C6SWA6]	GLYMA15G04540
+0.000	Glycine max	GLYMA13G40940Histone H2A  [Source: UniProtKB/TrEMBL; acc: C6SZZ2]	GLYMA13G40940
+0.000	Glycine max	GLYMA15G04520Histone H2A  [Source: UniProtKB/TrEMBL; acc: C6SWA6]	GLYMA15G04520
+0.045	Musa acuminata	GSMUA_Achr10G02580_001Probable histone H2A.1 [Source: GMGC_GENE; acc: GSMUA_Achr10G02580_001]	GSMUA_Achr10P02580_001
+0.000	Oryza barthii	OBART05G01020No description	OBART05G01020
+0.000	Oryza brachyantha	OB05G11010Histone H2A  [Source: UniProtKB/TrEMBL; acc: J3M3C7]	OB05G11010
+0.000	Oryza glaberrima	ORGLA05G0010500Histone H2A  [Source: UniProtKB/TrEMBL; acc: I1PRV7]	ORGLA05G0010500
+0.000	Oryza glumaepatula	OGLUM05G01030No description	OGLUM05G01030
+0.000	Oryza meridionalis	OMERI05G01050No description	OMERI05G01050
+0.000	Oryza nivara	ONIVA05G01040No description	ONIVA05G01040
+0.000	Oryza punctata	OPUNC05G00910No description	OPUNC05G00910
+0.000	Oryza sativa Indica	BGIOSGA019051Probable histone H2A.6  [Source: UniProtKB/Swiss-Prot; acc: A2XZN0]	BGIOSGA019051
+0.000	Populus trichocarpa	POPTR_0006s08230Putative uncharacterized protein [Source: UniProtKB/TrEMBL; acc: A9PDX1_POPTR]	POPTR_0006s08230
+0.000	Solanum lycopersicum	Solyc01g099410.2Histone H2A.1  [Source: UniProtKB/Swiss-Prot; acc: P25469]	Solyc01g099410
+0.000	Vitis vinifera	VIT_00s0259g00040Histone H2A  [Source: UniProtKB/TrEMBL; acc: F6GZ08]	VIT_00s0259g00040
+0.000	Vitis vinifera	VIT_06s0004g04270Histone H2A  [Source: UniProtKB/TrEMBL; acc: A5AFR3]	VIT_06s0004g04270
+0.000	Vitis vinifera	VIT_00s0753g00020Histone H2A  [Source: UniProtKB/TrEMBL; acc: F6HWV9]	VIT_00s0753g00020
+0.000	Vitis vinifera	VIT_00s0259g00020Histone H2A  [Source: UniProtKB/TrEMBL; acc: F6GZ06]	VIT_00s0259g00020
+0.000	Vitis vinifera	VIT_00s0194g00360Histone H2A  [Source: UniProtKB/TrEMBL; acc: F6HCX1]	VIT_00s0194g00360
+0.000	Vitis vinifera	VIT_08s0040g03300Histone H2A  [Source: UniProtKB/TrEMBL; acc: A5BE97]	VIT_08s0040g03300
+=cut
+	}
 }
 close I;
 
+
+open I, "< ../pipeline/bootstrap100.rio.txt";
+
+$line_no = 0;
+while(<I>){
+	chomp;
+	$_ =~ s/^\s+//;
+	my @r = split /\t/,$_;
+	if( $line_no == 0 ){
+		@title_row = @r;
+#		print scalar(@r), "\n";
+		foreach(@title_row){
+			$_ =~ s/_\w{5}$//;
+		}
+	}
+	else{
+		my $title_column = shift @r;
+		my $species_id = $1 if( $title_column =~ /.*_(\w{5})$/ );
+		$title_column =~ s/_\w{5}$//;
+		next if( !defined $title_row_selected->{$title_column} );
+		print $species_id, "\t", $title_column;
+		foreach(0..$#r){
+			if( defined $title_row_selected->{$title_row[$_]} ){
+				print "\t", $r[$_];
+			}
+		}
+		print "\n";
+	}
+	$line_no+=1;
+}
+close I;
 
 ################################ Main ##########################################################################
 #===============================================================================================================
