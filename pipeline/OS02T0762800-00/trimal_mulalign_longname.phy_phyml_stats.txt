@@ -1,0 +1,37 @@
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                  ---  PhyML 20120412  ---                                             
+                            http://www.atgc-montpellier.fr/phyml                                          
+                         Copyright CNRS - Universite Montpellier II                                 
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+. Sequence filename: 			trimal_mulalign_longname.phy
+. Data set: 				#1
+. Tree topology search : 		NNIs
+. Initial tree: 			BioNJ
+. Model of amino acids substitution: 	LG
+. Number of taxa: 			153
+. Log-likelihood: 			-115149.68764
+. Unconstrained likelihood: 		-25453.63754
+. Parsimony: 				22039
+. Tree size: 				66.81838
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		0.839
+
+. Run ID:				none
+. Random seed:				1416400844
+. Subtree patterns aliasing:		no
+. Version:				20120412
+. Time used:				1h33m46s (5626 seconds)
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citations:
+ S. Guindon, JF. Dufayard, V. Lefort, M. Anisimova, W. Hordijk, O. Gascuel
+ "New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0."
+ Systematic Biology. 2010. 59(3):307-321.
+
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
