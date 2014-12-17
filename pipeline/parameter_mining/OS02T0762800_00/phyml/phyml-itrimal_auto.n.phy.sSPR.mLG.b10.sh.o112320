@@ -1,0 +1,314 @@
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 itrimal_auto.n.phy.sSPR.mLG.b10
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 10
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 LG
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 model
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 SPRs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1418699075
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+. 2203 patterns found (out of a total of 2908 sites). 
+
+. 834 sites without polymorphism (28.68%).
+
+. Computing pairwise distances...
+
+. Building BioNJ tree...
+
+. WARNING: this analysis requires at least 764 MB of memory space.
+
+. Do you really want to proceed? [Y/n] 
+
+. Maximizing likelihood (using SPR moves)...
+
+. Refining the tree...
+
+. (    8 sec) [   -125234.2850] [23927] [depth=    1]
+. (   11 sec) [   -125211.2462] [23927] [depth=    1]
+. (   13 sec) [   -125210.7343] [23926] [depth=    2]
+. (   18 sec) [   -125209.2423] [23926] [depth=    1]
+. (   20 sec) [   -125206.4078] [23926] [depth=    4]
+. (   24 sec) [   -125205.7267] [23926] [depth=    1]
+. (   26 sec) [   -125180.1092] [23919] [depth=    3]
+. (   28 sec) [   -125177.1198] [23920] [depth=    1]
+. (   30 sec) [   -125174.2658] [23920] [depth=    2]
+. (   32 sec) [   -125174.0763] [23920] [depth=    3]
+. (   36 sec) [   -125170.8788] [23920] [depth=    3]
+. (   41 sec) [   -125170.7114] [23920] [depth=    1]
+. (   53 sec) [   -125137.1392] [23910] [depth=    2]
+. (   56 sec) [   -125125.7309] [23909] [depth=    1]
+. (   62 sec) [   -125108.7106] [23910] [depth=    1]
+. (   64 sec) [   -124999.4112] [23872] [depth=    8]
+. (   66 sec) [   -124950.1453] [23858] [depth=   10]
+. (   68 sec) [   -124914.3365] [23845] [depth=    2]
+. (   74 sec) [   -124911.7964] [23849] [depth=    1]
+. (   80 sec) [   -124911.5038] [23851] [depth=    2]
+. (   86 sec) [   -124892.2501] [23851] [depth=    1]
+. (   88 sec) [   -124856.2768] [23840] [depth=    1]
+. (   89 sec) [   -124848.6875] [23847] [depth=    1]
+. (   94 sec) [   -124845.1786] [23841] [depth=    1]
+. (  100 sec) [   -124782.7485] [23819] [depth=    1]
+. (  105 sec) [   -124775.9199] [23819] [depth=    1]
+. (  108 sec) [   -124769.0141] [23812] [depth=    1]
+. (  115 sec) [   -124727.8505] [23816] [depth=    1]
+. (  118 sec) [   -124597.1044] [23808] [depth=    3]
+. (  120 sec) [   -124576.2653] [23792] [depth=    2]
+. (  126 sec) [   -124551.3451] [23790] [depth=    2]
+. (  128 sec) [   -124480.7651] [23779] [depth=    2]
+. (  134 sec) [   -124449.2225] [23778] [depth=    2]
+. (  136 sec) [   -124443.8157] [23778] [depth=    1]
+. (  145 sec) [   -124442.8799] [23778] [depth=    2]
+. (  147 sec) [   -124442.1779] [23778] [depth=    2]
+. (  158 sec) [   -124441.8702] [23778] [depth=    2]
+. (  163 sec) [   -124441.7593] [23778] [depth=    2]
+. (  168 sec) [   -124441.2652] [23778] [depth=    2]
+. (  170 sec) [   -124438.7545] [23780] [depth=    1]
+. (  172 sec) [   -124434.7538] [23781] [depth=    3]
+. (  178 sec) [   -124430.5976] [23779] [depth=    1]
+. (  180 sec) [   -124424.6835] [23780] [depth=    1]
+. (  183 sec) [   -124421.2241] [23772] [depth=    1]
+. (  187 sec) [   -124395.0531] [23772] [depth=    1]
+. (  203 sec) [   -124359.8961] [23758] [depth=    1]
+. (  205 sec) [   -124359.6544] [23758] [depth=    2]
+. (  211 sec) [   -124299.7084] [23747] [depth=    1]
+. (  213 sec) [   -124272.4924] [23743] [depth=    1]
+. (  215 sec) [   -124262.7832] [23744] [depth=    1]
+. (  217 sec) [   -124256.8245] [23735] [depth=    1]
+. (  220 sec) [   -124253.7505] [23737] [depth=    2]
+. (  222 sec) [   -124252.7309] [23742] [depth=    1]
+. (  225 sec) [   -124167.2714] [23732] [depth=    2]
+. (  229 sec) [   -124161.9876] [23738] [depth=    1]
+. (  235 sec) [   -124158.0822] [23732] [depth=    1]
+. (  236 sec) [   -124138.1867] [23730] [depth=    2]
+. (  238 sec) [   -123847.3671] [23667] [depth=    4]
+. (  240 sec) [   -123820.6098] [23665] [depth=    2]
+. (  242 sec) [   -123808.6836] [23666] [depth=    1]
+. (  244 sec) [   -123796.2064] [23665] [depth=    1]
+. (  252 sec) [   -123704.7169] [23674] [depth=    1]
+. (  259 sec) [   -123684.0365] [23681] [depth=    1]
+. (  262 sec) [   -123619.9776] [23695] [depth=    1]
+. (  271 sec) [   -123610.3917] [23696] [depth=    1]
+. (  273 sec) [   -123608.4672] [23731] [depth=    1]
+. (  278 sec) [   -123603.4341] [23724] [depth=    1]
+. (  283 sec) [   -123602.5425] [23723] [depth=    1]
+. (  285 sec) [   -123599.2871] [23723] [depth=    1]
+. (  289 sec) [   -123599.1503] [23722] [depth=    1]
+. (  291 sec) [   -123596.9306] [23722] [depth=    1]
+. (  298 sec) [   -123596.1229] [23722] [depth=    1]
+. (  300 sec) [   -123595.0229] [23722] [depth=    1]
+. (  302 sec) [   -123594.8670] [23722] [depth=    2]
+. (  305 sec) [   -123594.2329] [23722] [depth=    1]
+. (  307 sec) [   -123593.7353] [23722] [depth=    2]
+. (  309 sec) [   -123593.4744] [23722] [depth=    1]
+. (  318 sec) [   -123518.9321] [23714] [depth=    1]
+. (  322 sec) [   -123331.9896] [23687] [depth=    3]
+. (  324 sec) [   -123245.1782] [23661] [depth=    1]
+. (  328 sec) [   -123197.7146] [23653] [depth=    3]
+. (  329 sec) [   -123197.6954] [23649] [depth=    2]
+. (  331 sec) [   -123138.5537] [23647] [depth=    1]
+. (  335 sec) [   -123115.8122] [23649] [depth=    1]
+. (  337 sec) [   -123115.4514] [23649] [depth=    2]
+. (  339 sec) [   -123115.1415] [23654] [depth=    2]
+. (  342 sec) [   -123113.1958] [23653] [depth=    1]
+. (  346 sec) [   -123106.4940] [23647] [depth=    1]
+. (  357 sec) [   -123095.4983] [23643] [depth=    1]
+. (  360 sec) [   -123086.1581] [23640] [depth=    1]
+. (  362 sec) [   -123082.6723] [23641] [depth=    1]
+. (  364 sec) [   -123017.9667] [23634] [depth=    1]
+. (  371 sec) [   -123011.1842] [23640] [depth=    1]
+. (  374 sec) [   -123010.0866] [23642] [depth=    1]
+. (  382 sec) [   -122866.4703] [23619] [depth=    7]
+. (  387 sec) [   -122807.6844] [23635] [depth=    1]
+. (  388 sec) [   -122795.6482] [23619] [depth=    1]
+. (  392 sec) [   -122753.4258] [23611] [depth=    1]
+. (  395 sec) [   -122747.4468] [23612] [depth=    1]
+. (  399 sec) [   -122643.6994] [23606] [depth=    2]
+. (  401 sec) [   -122608.4300] [23602] [depth=    1]
+. (  403 sec) [   -122447.2707] [23603] [depth=    1]
+. (  404 sec) [   -122420.5034] [23604] [depth=    1]
+. (  414 sec) [   -122416.9110] [23627] [depth=    1]
+. (  417 sec) [   -122403.1642] [23633] [depth=    1]
+. (  419 sec) [   -122346.1030] [23627] [depth=    1]
+. (  424 sec) [   -122337.9277] [23655] [depth=    1]
+. (  427 sec) [   -122333.7825] [23672] [depth=    1]
+. (  432 sec) [   -122323.9844] [23670] [depth=    2]
+. (  434 sec) [   -122310.1399] [23673] [depth=    1]
+. (  440 sec) [   -122278.0381] [23659] [depth=    2]
+. (  442 sec) [   -122206.5627] [23651] [depth=    3]
+. (  451 sec) [   -122180.5684] [23655] [depth=    1]
+. (  456 sec) [   -122140.0578] [23651] [depth=    1]
+. (  458 sec) [   -122071.8829] [23621] [depth=    1]
+. (  461 sec) [   -122041.6984] [23598] [depth=    2]
+. (  463 sec) [   -122003.7321] [23602] [depth=    1]
+. (  474 sec) [   -121997.7035] [23610] [depth=    1]
+. (  478 sec) [   -121996.3824] [23614] [depth=    1]
+. (  480 sec) [   -121995.9881] [23614] [depth=    2]
+. (  483 sec) [   -121994.2528] [23615] [depth=    2]
+. (  485 sec) [   -121986.6808] [23614] [depth=    2]
+. (  486 sec) [   -121967.1299] [23614] [depth=    2]
+. (  490 sec) [   -121896.8907] [23602] [depth=    1]
+. (  494 sec) [   -121868.5277] [23598] [depth=    1]
+. (  498 sec) [   -121847.0717] [23599] [depth=    2]
+. (  501 sec) [   -121786.7479] [23585] [depth=    3]
+. (  504 sec) [   -121782.2478] [23587] [depth=    1]
+. (  508 sec) [   -121765.9113] [23589] [depth=    1]
+. (  513 sec) [   -121755.8656] [23588] [depth=    1]
+. (  539 sec) [   -121735.5662] [Alpha              ][  0.884129]
+. (  574 sec) [   -120174.1348] [23588] [depth=    2]
+. (  580 sec) [   -120174.0220] [23588] [depth=    2]
+. (  587 sec) [   -120173.7867] [23588] [depth=    2]
+. (  589 sec) [   -120173.7651] [23588] [depth=    2]
+. (  601 sec) [   -120160.7825] [23584] [depth=    1]
+. (  603 sec) [   -120139.5691] [23577] [depth=    1]
+. (  605 sec) [   -120139.3967] [23577] [depth=    1]
+. (  625 sec) [   -120124.9233] [23574] [depth=    1]
+. (  642 sec) [   -120122.7229] [23540] [depth=    1]
+. (  657 sec) [   -120122.6550] [23540] [depth=    1]
+. (  664 sec) [   -120119.0825] [23538] [depth=    1]
+. (  674 sec) [   -120113.5543] [23535] [depth=    1]
+. (  682 sec) [   -120113.5398] [23535] [depth=    2]
+. (  693 sec) [   -120113.5180] [23535] [depth=    2]
+. (  700 sec) [   -120113.5043] [23535] [depth=    2]
+. (  712 sec) [   -120113.4376] [23535] [depth=    1]
+. (  715 sec) [   -120106.4676] [23533] [depth=    1]
+. (  729 sec) [   -120105.5623] [23533] [depth=    2]
+. (  739 sec) [   -120105.1430] [23531] [depth=    1]
+. (  772 sec) [   -120104.6749] [23533] [depth=    1]
+. (  801 sec) [   -120103.5194] [23531] [depth=    2]
+. (  821 sec) [   -120103.3459] [23531] [depth=    1]
+. (  857 sec) [   -120101.1517] [23531] [depth=    1]
+. (  864 sec) [   -120095.6573] [23530] [depth=    1]
+. (  902 sec) [   -120090.8327] [23526] [depth=    1]
+. (  907 sec) [   -120074.3681] [23501] [depth=    1]
+. (  941 sec) [   -120069.8626] [23501] [depth=    1]
+. (  943 sec) [   -120068.7979] [23502] [depth=    1]
+. (  954 sec) [   -120063.9778] [23500] [depth=    1]
+. (  963 sec) [   -120062.8379] [23513] [depth=    1]
+. (  982 sec) [   -120059.4988] [23513] [depth=    1]
+. (  993 sec) [   -120054.4258] [23514] [depth=    1]
+. ( 1020 sec) [   -120045.3302] [Alpha              ][  0.948252]
+. ( 1036 sec) [   -118507.4530] [Alpha              ][  0.872980]
+. ( 1052 sec) [   -118506.5385] [23514] [depth=    3]
+. ( 1071 sec) [   -118505.8970] [23514] [depth=    2]
+. ( 1077 sec) [   -118505.2774] [23514] [depth=    1]
+. ( 1081 sec) [   -118502.7477] [23514] [depth=    3]
+. ( 1093 sec) [   -118502.6655] [23514] [depth=    1]
+. ( 1102 sec) [   -118502.2418] [23514] [depth=    3]
+. ( 1108 sec) [   -118501.4057] [23514] [depth=    1]
+. ( 1113 sec) [   -118500.8962] [23514] [depth=    1]
+. ( 1118 sec) [   -118500.7999] [23514] [depth=    1]
+. ( 1224 sec) [   -118500.7820] [23514] [depth=    1]
+. ( 1396 sec) [   -118499.0156] [23515] [depth=    1]
+. ( 1537 sec) [   -118498.9985] [23515] [depth=    1]
+. ( 1682 sec) [   -118493.8579] [23519] [depth=    2]
+. ( 1725 sec) [   -118490.0975] [23522] [depth=    1]
+. ( 1805 sec) [   -118488.5192] [23510] [depth=    1]
+. ( 1924 sec) [   -118331.2565] [Branch lengths     ]
+. ( 1929 sec) [   -118328.1537] [Alpha              ][  0.830529]
+. ( 1965 sec) [   -118328.0868] [23510] [depth=    2]
+. ( 2123 sec) [   -118328.0733] [23510] [depth=    1]
+. ( 2200 sec) [   -118328.0601] [23510] [depth=    1]
+. ( 2352 sec) [   -118327.2335] [23490] [depth=    2]
+. ( 2421 sec) [   -118327.2188] [23490] [depth=    1]
+. ( 2572 sec) [   -118325.8046] [23492] [depth=    1]
+. ( 2724 sec) [   -118325.6748] [23492] [depth=    1]
+. ( 2808 sec) [   -118267.1862] [Branch lengths     ]
+. ( 2813 sec) [   -118266.9820] [Alpha              ][  0.821344]
+. ( 3107 sec) [   -118266.9690] [23492] [depth=    1]
+. ( 3691 sec) [   -118249.3393] [Branch lengths     ]
+. ( 3699 sec) [   -118248.9197] [Alpha              ][  0.808246]
+. ( 4575 sec) [   -118243.3580] [Branch lengths     ]
+. ( 4577 sec) [   -118243.3580] [Topology           ][# nnis=  2]
+. ( 4617 sec) [   -118237.6688] [Topology           ][# nnis=  0]
+. ( 4656 sec) [   -118234.0277] [Topology           ][# nnis=  0]
+. ( 4696 sec) [   -118233.4707] [Topology           ]
+. ( 4703 sec) [   -118232.9133] [Alpha              ][  0.793554]
+. ( 4707 sec) [   -118232.9133] [Topology           ][# nnis=  0]
+. ( 4747 sec) [   -118232.5449] [Topology           ][# nnis=  0]
+. ( 4786 sec) [   -118232.3769] [Topology           ]
+. ( 4788 sec) [   -118232.3769] [Branch lengths     ]
+. ( 4813 sec) [   -118232.2090] [Alpha              ][  0.789926]
+. ( 4817 sec) [   -118232.2090] [Branch lengths     ]
+. ( 4841 sec) [   -118232.1240] [Alpha              ][  0.789137]
+. ( 4845 sec) [   -118232.1240] [Branch lengths     ]
+. ( 4871 sec) [   -118232.0894] [Alpha              ][  0.788250]
+. ( 4875 sec) [   -118232.0894] [Branch lengths     ]
+. ( 4900 sec) [   -118232.0740] [Alpha              ][  0.788250]
+. ( 4904 sec) [   -118232.0740] [Branch lengths     ]
+. ( 4931 sec) [   -118232.0672] [Alpha              ][  0.787461]
+. ( 4936 sec) [   -118232.0672] [Branch lengths     ]
+. ( 4959 sec) [   -118232.0638] [Alpha              ][  0.787461]
+. ( 4964 sec) [   -118232.0638] [Branch lengths     ]
+. ( 4987 sec) [   -118232.0624] [Alpha              ][  0.787461]
+. ( 4992 sec) [   -118232.0624] [Branch lengths     ]
+. ( 5016 sec) [   -118232.0618] [Alpha              ][  0.787461]
+. ( 5026 sec) [   -118232.0618] [Alpha              ][  0.787461]
+
+. Checking for NNIs, optimizing five branches...
+
+. ( 5399 sec) [   -118231.2783] [Topology           ]
+. ( 5401 sec) [   -118231.2783] [Branch lengths     ]
+. ( 5428 sec) [   -118231.2382] [Alpha              ][  0.786674]
+. ( 5432 sec) [   -118231.2382] [Branch lengths     ]
+. ( 5456 sec) [   -118231.2279] [Alpha              ][  0.786674]
+. ( 5460 sec) [   -118231.2279] [Branch lengths     ]
+. ( 5484 sec) [   -118231.2268] [Alpha              ][  0.786674]
+. ( 5488 sec) [   -118231.2268] [Branch lengths     ]
+. ( 5512 sec) [   -118231.2266] [Alpha              ][  0.786674]
+. ( 5521 sec) [   -118231.2266] [Alpha              ][  0.786674]
+
+. Checking for NNIs, optimizing five branches...
+
+. ( 5894 sec) [   -118230.7203] [Topology           ]
+. ( 5896 sec) [   -118230.7203] [Branch lengths     ]
+. ( 5922 sec) [   -118230.7140] [Alpha              ][  0.786674]
+. ( 5926 sec) [   -118230.7140] [Branch lengths     ]
+. ( 5952 sec) [   -118230.7134] [Alpha              ][  0.786674]
+. ( 5963 sec) [   -118230.7134] [Alpha              ][  0.786674]
+
+. Checking for NNIs, optimizing five branches...
+
+
+. Log likelihood of the current tree: -118230.713422.
+
+. Launch bootstrap analysis on the most likely tree...
+
+
+. Non parametric bootstrap analysis 
+
+  [..........]   10/  10
+ 
+. Printing the most likely tree in file 'itrimal_auto.n.phy.sSPR.mLG.b10_phyml_tree.txt'...
+
+. Time used 20h26m48s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

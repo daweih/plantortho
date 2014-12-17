@@ -1,0 +1,19 @@
+cp trimal_auto.n.phy itrimal_auto.n.phy.sNNI.mLG.b10
+cp trimal_auto.n.phy itrimal_auto.n.phy.sSPR.mLG.b10
+cp trimal_auto.n.phy itrimal_auto.n.phy.sBEST.mLG.b10
+cp trimal_auto.n.phy itrimal_auto.n.phy.sNNI.mJTT.b10
+cp trimal_auto.n.phy itrimal_auto.n.phy.sSPR.mJTT.b10
+cp trimal_auto.n.phy itrimal_auto.n.phy.sBEST.mJTT.b10
+cp trimal_localpair.n.phy itrimal_localpair.n.phy.sNNI.mLG.b10
+cp trimal_localpair.n.phy itrimal_localpair.n.phy.sSPR.mLG.b10
+cp trimal_localpair.n.phy itrimal_localpair.n.phy.sBEST.mLG.b10
+cp trimal_localpair.n.phy itrimal_localpair.n.phy.sNNI.mJTT.b10
+cp trimal_localpair.n.phy itrimal_localpair.n.phy.sSPR.mJTT.b10
+cp trimal_localpair.n.phy itrimal_localpair.n.phy.sBEST.mJTT.b10
+cp trimal_genafpair.n.phy itrimal_genafpair.n.phy.sNNI.mLG.b10
+cp trimal_genafpair.n.phy itrimal_genafpair.n.phy.sSPR.mLG.b10
+cp trimal_genafpair.n.phy itrimal_genafpair.n.phy.sBEST.mLG.b10
+cp trimal_genafpair.n.phy itrimal_genafpair.n.phy.sNNI.mJTT.b10
+cp trimal_genafpair.n.phy itrimal_genafpair.n.phy.sSPR.mJTT.b10
+cp trimal_genafpair.n.phy itrimal_genafpair.n.phy.sBEST.mJTT.b10
+

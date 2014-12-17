@@ -1,0 +1,30 @@
+. Sequence file : [itrimal_genafpair.phy.sBEST.mJTT.b10]
+
+. Model of amino acids substitution : JTT
+
+. Initial tree : [BioNJ]
+
+
+. Data	Nb of 	Likelihood	Discrete   	Number of 	Gamma shape	Proportion of	Nucleotides frequencies               	
+  set	taxa	loglk     	gamma model	categories	parameter  	invariant    	f(A)      f(C)      f(G)      f(T)    	
+
+  #1	266   	-54368.63421	Yes        	4        	0.908    	0.000    	
+
+  #2	266   	-55474.88136	Yes        	4        	0.932    	0.000    	
+
+  #3	266   	-55387.55892	Yes        	4        	0.966    	0.000    	
+
+  #4	266   	-54908.30327	Yes        	4        	0.864    	0.000    	
+
+  #5	266   	-54247.05436	Yes        	4        	1.051    	0.000    	
+
+  #6	266   	-58761.83618	Yes        	4        	1.011    	0.000    	
+
+  #7	266   	-56574.30700	Yes        	4        	0.957    	0.000    	
+
+  #8	266   	-58439.94581	Yes        	4        	1.133    	0.000    	
+
+  #9	266   	-56530.71456	Yes        	4        	1.031    	0.000    	
+
+  #10	266   	-64545.24210	Yes        	4        	1.146    	0.000    	
+

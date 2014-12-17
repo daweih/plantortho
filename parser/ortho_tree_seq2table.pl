@@ -19,7 +19,7 @@ use round;
 use Bio::TreeIO;
 
 my %opts;
-GetOptions(\%opts,'option:s');
+GetOptions(\%opts,'e_tree:s','e_ortholog:s','rio_out:s');
 my $usage= <<"USAGE";
 	Program: $0
 	INPUT:
@@ -28,13 +28,33 @@ my $usage= <<"USAGE";
 	
 USAGE
 
-#die $usage unless ($opts{option});
+die $usage unless ($opts{e_tree}    );
+die $usage unless ($opts{e_ortholog});
+die $usage unless ($opts{rio_out}   );
 my $startTime=localtime();
 ################################ Main ##########################################################################
+=cut
+perl ortho_tree_seq2table.pl \
+-rio_out ../pipeline/bootstrap100.rio.txt \
+-e_ortholog ../pipeline/orthologues-ComparaOrthologs-Oryza_sativa-Gene-Compara_Ortholog-76-OS05G0113900.csv \
+-e_tree ../pipeline/OS05G0113900.genetree.newick.tree
 
+#OS02T0762800-00
+perl ortho_tree_seq2table.pl \
+-rio_out ../pipeline/OS02T0762800-00/OS02T0762800-00.rio.out \
+-e_ortholog ../pipeline/OS02T0762800-00/orthologues-ComparaOrthologs-Oryza_sativa-Gene-Compara_Ortholog-76-OS02G0762800.csv \
+-e_tree ../pipeline/OS02T0762800-00/OS02T0762800-00.genetree.newick.tree >../pipeline/OS02T0762800-00/OS02T0762800-00.rio.out.selectedmatrix.txt
+
+#OS09T0133200-01
+perl ortho_tree_seq2table.pl \
+-rio_out ../pipeline/OS09T0133200-01/OS09G0133200-01.rio.out \
+-e_ortholog ../pipeline/OS09T0133200-01/orthologues-ComparaOrthologs-Oryza_sativa-Gene-Compara_Ortholog-76-OS09G0133200.csv \
+-e_tree ../pipeline/OS09T0133200-01/OS09G0133200-01.genetree.newick.tree > ../pipeline/OS09T0133200-01/OS09G0133200-01.rio.out.selectedmatrix.txt
+=cut
 my @id;
 my $treeio = Bio::TreeIO->new(-format => 'newick',
-								-file   => '../pipeline/OS05G0113900.genetree.newick.tree');
+#								-file   => '../pipeline/OS05G0113900.genetree.newick.tree');
+								-file   => $opts{e_tree});
 while( my $tree = $treeio->next_tree ) {
 	my @nodes  = $tree->get_leaf_nodes();
 	foreach my $node (@nodes){
@@ -47,7 +67,8 @@ while( my $tree = $treeio->next_tree ) {
 
 my @title_row = @id;
 my $ortholog_info;
-open I, "< ../pipeline/orthologues-ComparaOrthologs-Oryza_sativa-Gene-Compara_Ortholog-76-OS05G0113900.csv";
+#open I, "< ../pipeline/orthologues-ComparaOrthologs-Oryza_sativa-Gene-Compara_Ortholog-76-OS05G0113900.csv";
+open I, "< ". $opts{e_ortholog};
 while(<I>){
 	chomp;
 	next if(/.*Species.*/);
@@ -78,7 +99,8 @@ while(<I>){
 }
 close I;
 
-open I, "< ../pipeline/bootstrap100.rio.txt";
+#open I, "< ../pipeline/bootstrap100.rio.txt";
+open I, "< ". $opts{rio_out};
 my $line_no = 0;
 my @title_column;
 my $title_row_selected;
@@ -159,7 +181,11 @@ foreach my $ortholog_info_key (keys %{$ortholog_info} ){
 close I;
 
 
-open I, "< ../pipeline/bootstrap100.rio.txt";
+#open I, "< ../pipeline/bootstrap100.rio.txt";
+open I, "< ". $opts{rio_out};
+my $output = $opts{rio_out};
+$output =~ s/.txt$//;
+open O, "> ". $output. "";
 
 $line_no = 0;
 while(<I>){
@@ -192,8 +218,7 @@ close I;
 
 ################################ Main ##########################################################################
 #===============================================================================================================
-__END__
-my $options="-option $opts{option}";
+my $options=" -e_tree $opts{e_tree} -e_ortholog $opts{e_ortholog} -rio_out $opts{rio_out} ";
 my $endTime=localtime();
 my $Program = $1 if($0 =~ /(.*)\.pl/);
 open  LOG,">>$Program\_ProgramRunning.Log";
