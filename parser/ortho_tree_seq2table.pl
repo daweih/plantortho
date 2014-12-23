@@ -185,7 +185,7 @@ close I;
 open I, "< ". $opts{rio_out};
 my $output = $opts{rio_out};
 $output =~ s/.txt$//;
-open O, "> ". $output. "";
+open O, "> ". $output. ".s.txt";
 
 $line_no = 0;
 while(<I>){
@@ -204,17 +204,18 @@ while(<I>){
 		my $species_id = $1 if( $title_column =~ /.*_(\w{5})$/ );
 		$title_column =~ s/_\w{5}$//;
 		next if( !defined $title_row_selected->{$title_column} );
-		print $species_id, "\t", $title_column;
+		print O $species_id, "\t", $title_column;
 		foreach(0..$#r){
 			if( defined $title_row_selected->{$title_row[$_]} ){
-				print "\t", $r[$_];
+				print O "\t", $r[$_];
 			}
 		}
-		print "\n";
+		print O "\n";
 	}
 	$line_no+=1;
 }
 close I;
+close O;
 
 ################################ Main ##########################################################################
 #===============================================================================================================

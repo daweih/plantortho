@@ -1,0 +1,159 @@
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 itrimal_genafpair.n.phy.sNNI.mLG.b10
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 10
+                . Compute approximate likelihood ratio test:	 no
+                . Model name:					 LG
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 model
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1418698454
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+. 391 patterns found (out of a total of 437 sites). 
+
+. 111 sites without polymorphism (25.40%).
+
+. Computing pairwise distances...
+
+. Building BioNJ tree...
+
+. WARNING: this analysis will use at least 215 Mo of memory space...
+
+. Refining the input tree...
+
+. Maximizing likelihood (using NNI moves)...
+
+. ( 2052 sec) [    -13658.1210] [Alpha              ][  0.802040]
+. ( 2053 sec) [    -13658.1210] [Topology           ][# nnis=  2]
+. ( 2065 sec) [    -13650.7731] [Topology           ][# nnis=  1]
+. ( 2077 sec) [    -13647.6425] [Topology           ][# nnis=  0]
+. ( 2089 sec) [    -13646.5246] [Topology           ][# nnis=  1]
+. ( 2101 sec) [    -13645.9604] [Topology           ][# nnis=  0]
+. ( 2114 sec) [    -13645.4525] [Topology           ][# nnis=  0]
+. ( 2126 sec) [    -13645.2649] [Topology           ]
+. ( 2127 sec) [    -13644.2255] [Alpha              ][  0.749612]
+. ( 2128 sec) [    -13644.2255] [Topology           ][# nnis=  0]
+. ( 2140 sec) [    -13643.8620] [Topology           ][# nnis=  0]
+. ( 2152 sec) [    -13643.6675] [Topology           ]
+. ( 2153 sec) [    -13643.6675] [Branch lengths     ]
+. ( 2161 sec) [    -13643.4260] [Alpha              ][  0.737472]
+. ( 2162 sec) [    -13643.4260] [Branch lengths     ]
+. ( 2169 sec) [    -13643.2948] [Alpha              ][  0.733534]
+. ( 2170 sec) [    -13643.2948] [Branch lengths     ]
+. ( 2177 sec) [    -13643.2233] [Alpha              ][  0.730879]
+. ( 2179 sec) [    -13643.2233] [Branch lengths     ]
+. ( 2186 sec) [    -13643.1881] [Alpha              ][  0.729058]
+. ( 2187 sec) [    -13643.1881] [Branch lengths     ]
+. ( 2194 sec) [    -13643.1676] [Alpha              ][  0.727646]
+. ( 2196 sec) [    -13643.1676] [Branch lengths     ]
+. ( 2203 sec) [    -13643.1564] [Alpha              ][  0.726640]
+. ( 2204 sec) [    -13643.1564] [Branch lengths     ]
+. ( 2211 sec) [    -13643.1494] [Alpha              ][  0.725840]
+. ( 2213 sec) [    -13643.1494] [Branch lengths     ]
+. ( 2220 sec) [    -13643.1452] [Alpha              ][  0.725114]
+. ( 2221 sec) [    -13643.1452] [Branch lengths     ]
+. ( 2228 sec) [    -13643.1423] [Alpha              ][  0.724389]
+. ( 2229 sec) [    -13643.1423] [Branch lengths     ]
+. ( 2237 sec) [    -13643.1403] [Alpha              ][  0.724389]
+. ( 2238 sec) [    -13643.1403] [Branch lengths     ]
+. ( 2245 sec) [    -13643.1389] [Alpha              ][  0.723665]
+. ( 2246 sec) [    -13643.1389] [Branch lengths     ]
+. ( 2254 sec) [    -13643.1377] [Alpha              ][  0.723665]
+. ( 2255 sec) [    -13643.1377] [Branch lengths     ]
+. ( 2262 sec) [    -13643.1368] [Alpha              ][  0.723665]
+. ( 2265 sec) [    -13643.1368] [Alpha              ][  0.723665]
+
+. Checking for NNIs, optimizing five branches...
+
+. ( 2353 sec) [    -13642.9928] [Topology           ]
+. ( 2353 sec) [    -13642.9928] [Branch lengths     ]
+. ( 2361 sec) [    -13642.9378] [Alpha              ][  0.721877]
+. ( 2362 sec) [    -13642.9378] [Branch lengths     ]
+. ( 2369 sec) [    -13642.9254] [Alpha              ][  0.721155]
+. ( 2370 sec) [    -13642.9254] [Branch lengths     ]
+. ( 2378 sec) [    -13642.9193] [Alpha              ][  0.720434]
+. ( 2379 sec) [    -13642.9193] [Branch lengths     ]
+. ( 2386 sec) [    -13642.9159] [Alpha              ][  0.719714]
+. ( 2387 sec) [    -13642.9159] [Branch lengths     ]
+. ( 2395 sec) [    -13642.9133] [Alpha              ][  0.719714]
+. ( 2396 sec) [    -13642.9133] [Branch lengths     ]
+. ( 2403 sec) [    -13642.9114] [Alpha              ][  0.718994]
+. ( 2404 sec) [    -13642.9114] [Branch lengths     ]
+. ( 2411 sec) [    -13642.9097] [Alpha              ][  0.718994]
+. ( 2413 sec) [    -13642.9097] [Branch lengths     ]
+. ( 2420 sec) [    -13642.9083] [Alpha              ][  0.718275]
+. ( 2421 sec) [    -13642.9083] [Branch lengths     ]
+. ( 2428 sec) [    -13642.9070] [Alpha              ][  0.718275]
+. ( 2430 sec) [    -13642.9070] [Branch lengths     ]
+. ( 2437 sec) [    -13642.9059] [Alpha              ][  0.718275]
+. ( 2438 sec) [    -13642.9059] [Branch lengths     ]
+. ( 2445 sec) [    -13642.9049] [Alpha              ][  0.717557]
+. ( 2448 sec) [    -13642.9049] [Alpha              ][  0.717557]
+
+. Checking for NNIs, optimizing five branches...
+
+. ( 2535 sec) [    -13642.7920] [Topology           ]
+. ( 2535 sec) [    -13642.7920] [Branch lengths     ]
+. ( 2543 sec) [    -13642.7532] [Alpha              ][  0.716839]
+. ( 2544 sec) [    -13642.7532] [Branch lengths     ]
+. ( 2551 sec) [    -13642.7472] [Alpha              ][  0.716839]
+. ( 2552 sec) [    -13642.7472] [Branch lengths     ]
+. ( 2560 sec) [    -13642.7452] [Alpha              ][  0.716122]
+. ( 2561 sec) [    -13642.7452] [Branch lengths     ]
+. ( 2568 sec) [    -13642.7437] [Alpha              ][  0.716122]
+. ( 2569 sec) [    -13642.7437] [Branch lengths     ]
+. ( 2577 sec) [    -13642.7425] [Alpha              ][  0.715406]
+. ( 2578 sec) [    -13642.7425] [Branch lengths     ]
+. ( 2585 sec) [    -13642.7413] [Alpha              ][  0.715406]
+. ( 2586 sec) [    -13642.7413] [Branch lengths     ]
+. ( 2593 sec) [    -13642.7403] [Alpha              ][  0.715406]
+. ( 2595 sec) [    -13642.7403] [Branch lengths     ]
+. ( 2602 sec) [    -13642.7394] [Alpha              ][  0.715406]
+. ( 2605 sec) [    -13642.7394] [Alpha              ][  0.715406]
+
+. Checking for NNIs, optimizing five branches...
+
+. ( 2692 sec) [    -13642.7392] [Topology           ]
+
+
+. Log likelihood of the current tree: -13642.739219.
+
+. Launch bootstrap analysis on the most likely tree...
+
+
+. Non parametric bootstrap analysis 
+
+  [..........]   10/  10
+ 
+. Printing the most likely tree in file 'itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_tree.txt'...
+
+. Time used 7h40m5s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

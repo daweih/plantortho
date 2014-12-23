@@ -1,0 +1,1614 @@
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 133.1 (sd: 4.6) (66.5%)
+Median number of duplications: 133 (66.5%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 141 (70.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 883ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 134.6 (sd: 5.3) (67.3%)
+Median number of duplications: 133.5 (66.8%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 142 (71%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 817ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 132.6 (sd: 2.8) (66.3%)
+Median number of duplications: 132.5 (66.2%)
+Minimum duplications         : 129 (64.5%)
+Maximum duplications         : 138 (69%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 827ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 135.6 (sd: 5.1) (67.8%)
+Median number of duplications: 134.5 (67.2%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 145 (72.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 801ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.6 (sd: 4.5) (65.8%)
+Median number of duplications: 131.5 (65.8%)
+Minimum duplications         : 125 (62.5%)
+Maximum duplications         : 141 (70.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 794ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 133.3 (sd: 4.1) (66.7%)
+Median number of duplications: 133 (66.5%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 142 (71%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 794ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130 (sd: 2.9) (65%)
+Median number of duplications: 129 (64.5%)
+Minimum duplications         : 128 (64%)
+Maximum duplications         : 137 (68.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 806ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130.5 (sd: 5.3) (65.2%)
+Median number of duplications: 129 (64.5%)
+Minimum duplications         : 124 (62%)
+Maximum duplications         : 141 (70.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 896ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000]
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 132.5 (sd: 4.4) (66.2%)
+Median number of duplications: 132.5 (66.2%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 139 (69.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 780ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.1 (sd: 2.8) (65.5%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 125 (62.5%)
+Maximum duplications         : 135 (67.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 849ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.3 (sd: 3.6) (65.7%)
+Median number of duplications: 131.5 (65.8%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 138 (69%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 795ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131 (sd: 4.8) (65.5%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 122 (61%)
+Maximum duplications         : 137 (68.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 798ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 129.3 (sd: 4.4) (64.7%)
+Median number of duplications: 131 (65.5%)
+Minimum duplications         : 120 (60%)
+Maximum duplications         : 134 (67%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 787ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 129.4 (sd: 2.3) (64.7%)
+Median number of duplications: 129.5 (64.8%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 134 (67%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 785ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.2 (sd: 2.7) (65.6%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 135 (67.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 796ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.3 (sd: 3.2) (65.7%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 135 (67.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 877ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 128.6 (sd: 4.5) (64.3%)
+Median number of duplications: 126.5 (63.2%)
+Minimum duplications         : 124 (62%)
+Maximum duplications         : 134 (67%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 826ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 133.1 (sd: 4.6) (66.5%)
+Median number of duplications: 133 (66.5%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 141 (70.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 882ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 134.6 (sd: 5.3) (67.3%)
+Median number of duplications: 133.5 (66.8%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 142 (71%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 910ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 132.6 (sd: 2.8) (66.3%)
+Median number of duplications: 132.5 (66.2%)
+Minimum duplications         : 129 (64.5%)
+Maximum duplications         : 138 (69%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 919ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 135.6 (sd: 5.1) (67.8%)
+Median number of duplications: 134.5 (67.2%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 145 (72.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 842ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.6 (sd: 4.5) (65.8%)
+Median number of duplications: 131.5 (65.8%)
+Minimum duplications         : 125 (62.5%)
+Maximum duplications         : 141 (70.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 883ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_auto.n.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_auto.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_auto.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 133.3 (sd: 4.1) (66.7%)
+Median number of duplications: 133 (66.5%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 142 (71%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 827ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130 (sd: 2.9) (65%)
+Median number of duplications: 129 (64.5%)
+Minimum duplications         : 128 (64%)
+Maximum duplications         : 137 (68.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 929ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130.5 (sd: 5.3) (65.2%)
+Median number of duplications: 129 (64.5%)
+Minimum duplications         : 124 (62%)
+Maximum duplications         : 141 (70.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 932ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130.7 (sd: 4.2) (65.3%)
+Median number of duplications: 130.5 (65.2%)
+Minimum duplications         : 122 (61%)
+Maximum duplications         : 137 (68.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 874ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 132.5 (sd: 4.4) (66.2%)
+Median number of duplications: 132.5 (66.2%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 139 (69.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 892ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.1 (sd: 2.8) (65.5%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 125 (62.5%)
+Maximum duplications         : 135 (67.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 940ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_genafpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_genafpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_genafpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.3 (sd: 3.6) (65.7%)
+Median number of duplications: 131.5 (65.8%)
+Minimum duplications         : 127 (63.5%)
+Maximum duplications         : 138 (69%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 908ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131 (sd: 4.8) (65.5%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 122 (61%)
+Maximum duplications         : 137 (68.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 885ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 129.3 (sd: 4.4) (64.7%)
+Median number of duplications: 131 (65.5%)
+Minimum duplications         : 120 (60%)
+Maximum duplications         : 134 (67%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 869ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 129.4 (sd: 2.3) (64.7%)
+Median number of duplications: 129.5 (64.8%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 134 (67%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 906ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.2 (sd: 2.7) (65.6%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 135 (67.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 857ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.3 (sd: 3.2) (65.7%)
+Median number of duplications: 132 (66%)
+Minimum duplications         : 126 (63%)
+Maximum duplications         : 135 (67.5%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 932ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS05G0113900/itrimal_localpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS05G0113900/itrimal_localpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS05G0113900/itrimal_localpair.n.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 128.6 (sd: 4.5) (64.3%)
+Median number of duplications: 126.5 (63.2%)
+Minimum duplications         : 124 (62%)
+Maximum duplications         : 134 (67%)
+Gene tree internal nodes     : 200
+Gene tree external nodes     : 201
+Time: 848ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_auto.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_auto.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_auto.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131 (sd: 3.9) (52.6%)
+Median number of duplications: 131 (52.6%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 136 (54.6%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1055ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_auto.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_auto.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_auto.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130.6 (sd: 3.3) (52.4%)
+Median number of duplications: 131 (52.6%)
+Minimum duplications         : 125 (50.2%)
+Maximum duplications         : 135 (54.2%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1032ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_auto.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_auto.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_auto.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.7 (sd: 5.5) (52.9%)
+Median number of duplications: 131.5 (52.8%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 140 (56.2%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1010ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_auto.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_auto.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_auto.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.2 (sd: 5.2) (52.7%)
+Median number of duplications: 129.5 (52%)
+Minimum duplications         : 125 (50.2%)
+Maximum duplications         : 141 (56.6%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1031ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_auto.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_auto.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_auto.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 132.5 (sd: 4.6) (53.2%)
+Median number of duplications: 132 (53%)
+Minimum duplications         : 126 (50.6%)
+Maximum duplications         : 139 (55.8%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1063ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_auto.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_auto.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_auto.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.8 (sd: 5.6) (52.9%)
+Median number of duplications: 131.5 (52.8%)
+Minimum duplications         : 125 (50.2%)
+Maximum duplications         : 141 (56.6%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1005ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_genafpair.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_genafpair.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_genafpair.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 127.3 (sd: 4.2) (51.1%)
+Median number of duplications: 127 (51%)
+Minimum duplications         : 122 (49%)
+Maximum duplications         : 135 (54.2%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1041ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_genafpair.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_genafpair.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_genafpair.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 129 (sd: 3.1) (51.8%)
+Median number of duplications: 128.5 (51.6%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 134 (53.8%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1075ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_genafpair.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_genafpair.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_genafpair.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 128.8 (sd: 3.9) (51.7%)
+Median number of duplications: 129.5 (52%)
+Minimum duplications         : 123 (49.4%)
+Maximum duplications         : 133 (53.4%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1158ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_genafpair.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_genafpair.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_genafpair.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 128.8 (sd: 3.7) (51.7%)
+Median number of duplications: 127.5 (51.2%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 136 (54.6%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1050ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_genafpair.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_genafpair.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_genafpair.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 128.9 (sd: 2.6) (51.8%)
+Median number of duplications: 128.5 (51.6%)
+Minimum duplications         : 125 (50.2%)
+Maximum duplications         : 133 (53.4%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1035ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_genafpair.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_genafpair.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_genafpair.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130 (sd: 2.6) (52.2%)
+Median number of duplications: 129.5 (52%)
+Minimum duplications         : 127 (51%)
+Maximum duplications         : 134 (53.8%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1173ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_localpair.phy.sBEST.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_localpair.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_localpair.phy.sBEST.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 131.9 (sd: 3.7) (53%)
+Median number of duplications: 132 (53%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 138 (55.4%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1131ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_localpair.phy.sBEST.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_localpair.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_localpair.phy.sBEST.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 128 (sd: 3.4) (51.4%)
+Median number of duplications: 128.5 (51.6%)
+Minimum duplications         : 121 (48.6%)
+Maximum duplications         : 132 (53%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1076ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_localpair.phy.sNNI.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_localpair.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_localpair.phy.sNNI.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130.2 (sd: 3.6) (52.3%)
+Median number of duplications: 130 (52.2%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 136 (54.6%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1086ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_localpair.phy.sNNI.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_localpair.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_localpair.phy.sNNI.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 127.5 (sd: 3.2) (51.2%)
+Median number of duplications: 128 (51.4%)
+Minimum duplications         : 123 (49.4%)
+Maximum duplications         : 132 (53%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1188ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_localpair.phy.sSPR.mJTT.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_localpair.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_localpair.phy.sSPR.mJTT.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 129.5 (sd: 3.6) (52%)
+Median number of duplications: 129.5 (52%)
+Minimum duplications         : 124 (49.8%)
+Maximum duplications         : 136 (54.6%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1208ms
+OK
+
+rio - resampled inference of orthologs 4.000 beta 10 (140211)
+_____________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.036 (140811)
+
+[running on Java 1.8.0_05 Oracle Corporation]
+
+Gene trees                : OS09G0133200-01/itrimal_localpair.phy.sSPR.mLG.b10_phyml_boot_trees.txt
+Species tree              : ../species_tree_rio.Plants_complete.xml
+All vs all orthology table: OS09G0133200-01/itrimal_localpair.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt
+Re-rooting                : by minimizing duplications
+Non binary species tree   : allowed
+warning: species tree has 11 internal nodes with only one descendent which are therefore going to be removed
+
+[000][001][002][003][004][005][006][007][008][009]
+
+Taxonomy linking based on : taxonomy code/mnemonic
+Wrote table to "OS09G0133200-01/itrimal_localpair.phy.sSPR.mLG.b10_phyml_boot_trees.rio.txt"
+Mean number of duplications  : 130.1 (sd: 2.8) (52.2%)
+Median number of duplications: 130 (52.2%)
+Minimum duplications         : 126 (50.6%)
+Maximum duplications         : 134 (53.8%)
+Gene tree internal nodes     : 249
+Gene tree external nodes     : 250
+Time: 1075ms
+OK
