@@ -1,0 +1,87 @@
+gsdi - general speciation duplication inference
+  version         : 1.000
+  date            : 120629
+  forester version: 1.005
+
+Start time                               : 20120629 14:36:39
+Gene tree file                           : /home/czmasek/scratch/gsdi/wnt_gene_tree.xml
+Gene tree name                           : 
+Species tree file                        : /home/czmasek/scratch/gsdi/species.xml
+Species tree name                        : 
+Use most parsimonous duplication model   : false
+Allow stripping of gene tree nodes       : true
+Running time (excluding I/O)             : 26ms
+Mapping based on                         : scientific name
+Wrote resulting gene tree to             : /home/czmasek/scratch/gsdi/wnt
+Wrote (stripped) species tree to         : /home/czmasek/scratch/gsdi/wnt_species_tree_used.xml
+Number of external nodes in gene tree    : 65
+Number of external nodes in species tree : 26
+Number of polytomies in species tree     : 0
+External nodes stripped from gene tree   : 33
+External nodes stripped from species tree: 417
+Number of duplications                   : 33
+Number of potential duplications         : 0
+Number of speciations                    : 31
+
+The following 26 species were used: 
+  Ailuropoda melanoleuca
+  Anolis carolinensis
+  Bos taurus
+  Branchiostoma floridae
+  Callithrix jacchus
+  Cavia porcellus
+  Danio rerio
+  Equus caballus
+  Gallus gallus
+  Homo sapiens
+  Ixodes scapularis
+  Loxodonta africana
+  Macaca mulatta
+  Macropus eugenii
+  Meleagris gallopavo
+  Monodelphis domestica
+  Mus musculus
+  Nomascus leucogenys
+  Ornithorhynchus anatinus
+  Oryctolagus cuniculus
+  Oryzias latipes
+  Rattus norvegicus
+  Saccoglossus kowalevskii
+  Sus scrofa
+  Taeniopygia guttata
+  Tetraodon nigroviridis
+
+The following 33 nodes were stripped from the gene tree: 
+  Bubalus bubalis Bubalus bubalis (water buffalo) WNT4 [ncbi] JQ326275.1
+  Canis lupus familiaris PREDICTED: protein Wnt-11 [refseq] XP_542301
+  Coturnix coturnix japonica Protein Wnt-11 WNT11 [uniprot] P51891
+  Cricetulus griseus PREDICTED: protein Wnt-11 [refseq] XP_003507131
+  Cricetulus griseus PREDICTED: protein Wnt-4-like [refseq] XP_003503693
+  Dicentrarchus labrax Dicentrarchus labrax (European seabass) Protein Wnt [ncbi] FQ310506.3
+  Euprymna scolopes Euprymna scolopes Wnt4 [ncbi] DQ351545.1
+  Heterocephalus glaber Heterocephalus glaber (naked mole-rat) Protein Wnt-11 [ncbi] JH169882.1
+  Heterocephalus glaber Heterocephalus glaber (naked mole-rat) Protein Wnt-4 [ncbi] JH170405.1
+  Mustela putorius furo Mustela putorius furo (domestic ferret) partial wingless-type MMTV [ncbi] JP021206.1
+  Oncorhynchus mykiss Oncorhynchus mykiss (rainbow trout) wingless-type MMTV integration site [ncbi] JF815553.1
+  Oncorhynchus mykiss Oncorhynchus mykiss (rainbow trout) wingless-type MMTV integration site [ncbi] JF815554.1
+  Oreochromis niloticus PREDICTED: protein Wnt-11-like [refseq] XP_003459019
+  Oreochromis niloticus PREDICTED: protein Wnt-4a-like [refseq] XP_003442666
+  Oreochromis niloticus PREDICTED: protein Wnt-5a-like [refseq] XP_003448336
+  Pelodiscus sinensis Pelodiscus sinensis (Chinese soft-shelled turtle) partial Wnt11b [ncbi] AB204883.1
+  Perionyx excavatus Perionyx excavatus WNT11 [ncbi] GU938470.1
+  Perionyx excavatus Perionyx excavatus WNT4a [ncbi] GU938465.1
+  Platynereis dumerilii Platynereis dumerilii (Dumeril's clam worm) Wnt11 [ncbi] HM179276.2
+  Platynereis dumerilii Platynereis dumerilii (Dumeril's clam worm) Wnt4 protein [ncbi] AJ491798.2
+  Rana rugosa Rana rugosa Wnt-4 protein [ncbi] AB204854.1
+  Xenopus laevis Xenopus laevis (African clawed frog) maternal protein [ncbi] L23542.1
+  Xenopus laevis Xenopus laevis (African clawed frog) partial WNT11-R protein [ncbi] BC078589.1
+  Xenopus laevis protein Wnt-11 precursor [refseq] NP_001087079
+  Xenopus laevis protein Wnt-11b precursor [refseq] NP_001084327 NP_001084328
+  Xenopus laevis protein Wnt-4 isoform 1 [refseq] NP_001081197 NP_001081198
+  Xenopus laevis protein Wnt-4 isoform 2 precursor [refseq] NP_001239014
+  Xenopus protein Wnt-11 precursor [refseq] NP_001121530
+  Xenopus protein Wnt-11b-1 precursor [refseq] NP_001008133
+  Xenopus protein Wnt-11b-2 precursor [refseq] NP_001016735
+  Xenopus protein Wnt-4 precursor [refseq] NP_001239015 XP_002937081
+  synthetic construct synthetic construct partial wingless-type MMTV integration site family [ncbi] AY893792.1
+  synthetic construct synthetic construct wingless-type MMTV integration site family member 11 [ncbi] AY888610.1

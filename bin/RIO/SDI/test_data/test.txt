@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns="http://www.phyloxml.org">
+<phylogeny rooted="true" rerootable="true">
+  <clade>
+    <events>
+      <speciations>1</speciations>
+    </events>
+    <clade>
+      <branch_length>0.0810781</branch_length>
+      <events>
+        <duplications>1</duplications>
+      </events>
+      <clade>
+        <branch_length>0.0262246</branch_length>
+        <events>
+          <speciations>1</speciations>
+        </events>
+        <clade>
+          <branch_length>0.106179</branch_length>
+          <events>
+            <duplications>1</duplications>
+          </events>
+          <clade>
+            <branch_length>0.112925</branch_length>
+            <events>
+              <speciations>1</speciations>
+            </events>
+            <clade>
+              <branch_length>0.0330987</branch_length>
+              <events>
+                <duplications>1</duplications>
+              </events>
+              <clade>
+                <branch_length>0.0704368</branch_length>
+                <events>
+                  <duplications>1</duplications>
+                </events>
+                <clade>
+                  <branch_length>0.00853522</branch_length>
+                  <events>
+                    <duplications>1</duplications>
+                  </events>
+                  <clade>
+                    <branch_length>0.00363426</branch_length>
+                    <events>
+                      <duplications>1</duplications>
+                    </events>
+                    <clade>
+                      <branch_length>7.44351E-4</branch_length>
+                      <events>
+                        <duplications>1</duplications>
+                      </events>
+                      <clade>
+                        <branch_length>0.00220231</branch_length>
+                        <events>
+                          <duplications>1</duplications>
+                        </events>
+                        <clade>
+                          <branch_length>0.00205086</branch_length>
+                          <events>
+                            <speciations>1</speciations>
+                          </events>
+                          <clade>
+                            <branch_length>6.71784E-4</branch_length>
+                            <events>
+                              <speciations>1</speciations>
+                            </events>
+                            <clade>
+                              <branch_length>2.78463E-4</branch_length>
+                              <events>
+                                <speciations>1</speciations>
+                              </events>
+                              <clade>
+                                <branch_length>0.00289741</branch_length>
+                                <events>
+                                  <duplications>1</duplications>
+                                </events>
+                                <clade>
+                                  <branch_length>2.51548E-4</branch_length>
+                                  <events>
+                                    <duplications>1</duplications>
+                                  </events>
+                                  <clade>
+                                    <branch_length>4.31084E-4</branch_length>
+                                    <events>
+                                      <duplications>1</duplications>
+                                    </events>
+                                    <clade>
+                                      <branch_length>0.030591412</branch_length>
+                                      <events>
+                                        <duplications>1</duplications>
+                                      </events>
+                                      <clade>
+                                        <branch_length>0.0302193</branch_length>
+                                        <taxonomy>
+                                          <scientific_name>Homo sapiens</scientific_name>
+                                        </taxonomy>
+                                        <sequence>
+                                          <accession source="ncbi">AK075540.1</accession>
+                                          <name>Homo sapiens (human) hypothetical protein</name>
+                                        </sequence>
+                                      </clade>
+                                      <clade>
+                                        <branch_length>0.0</branch_length>
+                                        <taxonomy>
+                                          <scientific_name>Homo sapiens</scientific_name>
+                                        </taxonomy>
+                                        <sequence>
+                                          <accession source="ncbi">JF800675.1</accession>
+                                          <name>Homo sapiens (human) Wnt11 isoform 3</name>
+                                        </sequence>
+                                      </clade>
+                                    </clade>
+                                    <clade>
+                                      <branch_length>0.00256993</branch_length>
+                                      <taxonomy>
+                                        <scientific_name>Homo sapiens</scientific_name>
+                                      </taxonomy>
+                                      <sequence>
+                                        <accession source="ncbi">BT019492.1</accession>
+                                        <name>Homo sapiens (human) wingless-type MMTV integration site family, member 11</name>
+                                      </sequence>
+                                    </clade>
+                                  </clade>
+                                  <clade>
+                                    <branch_length>0.0</branch_length>
+                                    <taxonomy>
+                                      <scientific_name>Homo sapiens</scientific_name>
+                                    </taxonomy>
+                                    <sequence>
+                                      <accession source="refseq">NP_004617</accession>
+                                      <name>protein Wnt-11 precursor</name>
+                                    </sequence>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <branch_length>0.00827541</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Homo sapiens</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="ncbi">Y12692.1</accession>
+                                    <name>Homo sapiens (human) hypothetical protein</name>
+                                  </sequence>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <branch_length>0.0</branch_length>
+                                <taxonomy>
+                                  <scientific_name>Nomascus leucogenys</scientific_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="refseq">XP_003254741</accession>
+                                  <name>PREDICTED: protein Wnt-11</name>
+                                </sequence>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <branch_length>0.0111473</branch_length>
+                              <taxonomy>
+                                <scientific_name>Callithrix jacchus</scientific_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="refseq">XP_002754856</accession>
+                                <name>PREDICTED: protein Wnt-11-like</name>
+                              </sequence>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.0107583</branch_length>
+                            <taxonomy>
+                              <scientific_name>Sus scrofa</scientific_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="refseq">XP_003357253</accession>
+                              <name>PREDICTED: protein Wnt-11-like</name>
+                            </sequence>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.003468</branch_length>
+                          <events>
+                            <duplications>1</duplications>
+                          </events>
+                          <clade>
+                            <branch_length>3.54E-4</branch_length>
+                            <taxonomy>
+                              <scientific_name>Macaca mulatta</scientific_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="ncbi">CM001266.1</accession>
+                              <name>Macaca mulatta (Rhesus monkey) hypothetical protein</name>
+                            </sequence>
+                          </clade>
+                          <clade>
+                            <branch_length>0.0024747</branch_length>
+                            <taxonomy>
+                              <scientific_name>Macaca mulatta</scientific_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="refseq">XP_001086955</accession>
+                              <name>PREDICTED: protein Wnt-11</name>
+                            </sequence>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <branch_length>0.00183438</branch_length>
+                        <events>
+                          <speciations>1</speciations>
+                        </events>
+                        <clade>
+                          <branch_length>0.00518031</branch_length>
+                          <taxonomy>
+                            <scientific_name>Ailuropoda melanoleuca</scientific_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="refseq">XP_002915341</accession>
+                            <name>PREDICTED: protein Wnt-11-like</name>
+                          </sequence>
+                        </clade>
+                        <clade>
+                          <branch_length>0.01148578</branch_length>
+                          <taxonomy>
+                            <scientific_name>Bos taurus</scientific_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="refseq">NP_001075925 XP_868944</accession>
+                            <name>protein Wnt-11</name>
+                          </sequence>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.00122167</branch_length>
+                      <events>
+                        <duplications>1</duplications>
+                      </events>
+                      <clade>
+                        <branch_length>0.00701834</branch_length>
+                        <taxonomy>
+                          <scientific_name>Cavia porcellus</scientific_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="refseq">XP_003468598</accession>
+                          <name>PREDICTED: protein Wnt-11-like</name>
+                        </sequence>
+                      </clade>
+                      <clade>
+                        <branch_length>0.0015897</branch_length>
+                        <events>
+                          <speciations>1</speciations>
+                        </events>
+                        <clade>
+                          <branch_length>0.00897318</branch_length>
+                          <taxonomy>
+                            <scientific_name>Loxodonta africana</scientific_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="refseq">XP_003420125</accession>
+                            <name>PREDICTED: protein Wnt-11-like</name>
+                          </sequence>
+                        </clade>
+                        <clade>
+                          <branch_length>0.00960427</branch_length>
+                          <taxonomy>
+                            <scientific_name>Oryctolagus cuniculus</scientific_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="refseq">NP_001075693</accession>
+                            <name>WNT-11 protein</name>
+                          </sequence>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.00917752</branch_length>
+                    <events>
+                      <speciations>1</speciations>
+                    </events>
+                    <clade>
+                      <branch_length>0.0056165</branch_length>
+                      <events>
+                        <duplications>1</duplications>
+                      </events>
+                      <clade>
+                        <branch_length>7.4424E-5</branch_length>
+                        <taxonomy>
+                          <scientific_name>Mus musculus</scientific_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="refseq">NP_033545</accession>
+                          <name>protein Wnt-11 precursor</name>
+                        </sequence>
+                      </clade>
+                      <clade>
+                        <branch_length>0.0</branch_length>
+                        <taxonomy>
+                          <scientific_name>Mus musculus</scientific_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="ncbi">AK138967.1</accession>
+                          <name>Mus musculus (house mouse) hypothetical protein</name>
+                        </sequence>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>6.89E-4</branch_length>
+                      <taxonomy>
+                        <scientific_name>Rattus norvegicus</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">NP_536326 XP_001065413 XP_238122</accession>
+                        <name>wingless-type MMTV integration site family, member 11</name>
+                      </sequence>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.0058944</branch_length>
+                  <taxonomy>
+                    <scientific_name>Equus caballus</scientific_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="refseq">XP_001495213</accession>
+                    <name>PREDICTED: protein Wnt-11-like</name>
+                  </sequence>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.018843</branch_length>
+                <events>
+                  <speciations>1</speciations>
+                </events>
+                <clade>
+                  <branch_length>0.0304848</branch_length>
+                  <events>
+                    <duplications>1</duplications>
+                  </events>
+                  <clade>
+                    <branch_length>0.00775104</branch_length>
+                    <events>
+                      <speciations>1</speciations>
+                    </events>
+                    <clade>
+                      <branch_length>0.00958261</branch_length>
+                      <events>
+                        <speciations>1</speciations>
+                      </events>
+                      <clade>
+                        <branch_length>0.00264015</branch_length>
+                        <taxonomy>
+                          <scientific_name>Gallus gallus</scientific_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="refseq">NP_990115</accession>
+                          <name>protein Wnt-11 precursor</name>
+                        </sequence>
+                      </clade>
+                      <clade>
+                        <branch_length>1.88713E-4</branch_length>
+                        <taxonomy>
+                          <scientific_name>Meleagris gallopavo</scientific_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="refseq">XP_003203619</accession>
+                          <name>PREDICTED: protein Wnt-11-like</name>
+                        </sequence>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.00781053</branch_length>
+                      <taxonomy>
+                        <scientific_name>Taeniopygia guttata</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_002187913</accession>
+                        <name>PREDICTED: wingless-type MMTV integration site family, member 11</name>
+                      </sequence>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.00542893</branch_length>
+                    <events>
+                      <speciations>1</speciations>
+                    </events>
+                    <clade>
+                      <branch_length>0.0392092</branch_length>
+                      <taxonomy>
+                        <scientific_name>Anolis carolinensis</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_003225479</accession>
+                        <name>PREDICTED: protein Wnt-11-like</name>
+                      </sequence>
+                    </clade>
+                    <clade>
+                      <branch_length>0.0219833</branch_length>
+                      <taxonomy>
+                        <scientific_name>Taeniopygia guttata</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_002199577</accession>
+                        <name>PREDICTED: wingless-type MMTV integration site family, member 11,</name>
+                      </sequence>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.0696105</branch_length>
+                  <taxonomy>
+                    <scientific_name>Ornithorhynchus anatinus</scientific_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="refseq">XP_003429117</accession>
+                    <name>PREDICTED: LOW QUALITY PROTEIN: protein Wnt-11-like</name>
+                  </sequence>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.0434939</branch_length>
+              <events>
+                <speciations>1</speciations>
+              </events>
+              <clade>
+                <branch_length>0.1246905</branch_length>
+                <taxonomy>
+                  <scientific_name>Tetraodon nigroviridis</scientific_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="ncbi">CAAE01000518.1</accession>
+                  <name>Tetraodon nigroviridis hypothetical protein</name>
+                </sequence>
+              </clade>
+              <clade>
+                <branch_length>0.058741</branch_length>
+                <taxonomy>
+                  <scientific_name>Danio rerio</scientific_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="refseq">NP_571151</accession>
+                  <name>protein Wnt-11 precursor</name>
+                </sequence>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.0440517</branch_length>
+            <events>
+              <speciations>1</speciations>
+            </events>
+            <clade>
+              <branch_length>0.23724175</branch_length>
+              <events>
+                <duplications>1</duplications>
+              </events>
+              <clade>
+                <branch_length>0.00164817</branch_length>
+                <events>
+                  <duplications>1</duplications>
+                </events>
+                <clade>
+                  <branch_length>0.00118889</branch_length>
+                  <taxonomy>
+                    <scientific_name>Danio rerio</scientific_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="refseq">NP_001138276 NP_571031 XP_001331379</accession>
+                    <name>protein Wnt-11 precursor</name>
+                  </sequence>
+                </clade>
+                <clade>
+                  <branch_length>0.0134104</branch_length>
+                  <taxonomy>
+                    <scientific_name>Danio rerio</scientific_name>
+                  </taxonomy>
+                  <sequence>
+                    <symbol>wnt11</symbol>
+                    <accession source="uniprot">O73864</accession>
+                    <name>Protein Wnt-11</name>
+                  </sequence>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.001276</branch_length>
+                <taxonomy>
+                  <scientific_name>Danio rerio</scientific_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="ncbi">BC162630.1</accession>
+                  <name>Danio rerio (zebrafish) wnt11 protein</name>
+                </sequence>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.090552</branch_length>
+              <events>
+                <speciations>1</speciations>
+              </events>
+              <clade>
+                <branch_length>0.118515</branch_length>
+                <events>
+                  <speciations>1</speciations>
+                </events>
+                <clade>
+                  <branch_length>0.027494</branch_length>
+                  <taxonomy>
+                    <scientific_name>Gallus gallus</scientific_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="refseq">NP_001124216</accession>
+                    <name>protein Wnt-11 precursor</name>
+                  </sequence>
+                </clade>
+                <clade>
+                  <branch_length>0.036111</branch_length>
+                  <taxonomy>
+                    <scientific_name>Meleagris gallopavo</scientific_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="refseq">XP_003208322</accession>
+                    <name>PREDICTED: protein Wnt-11b-like</name>
+                  </sequence>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.21354</branch_length>
+                <taxonomy>
+                  <scientific_name>Taeniopygia guttata</scientific_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="refseq">XP_002189037</accession>
+                  <name>PREDICTED: similar to wingless-type MMTV integration site family,</name>
+                </sequence>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <branch_length>0.376048</branch_length>
+          <events>
+            <duplications>1</duplications>
+          </events>
+          <clade>
+            <branch_length>0.00289093</branch_length>
+            <taxonomy>
+              <scientific_name>Branchiostoma floridae</scientific_name>
+            </taxonomy>
+            <sequence>
+              <accession source="ncbi">AF187553.1</accession>
+              <name>Branchiostoma floridae (Florida lancelet) Wnt11</name>
+            </sequence>
+          </clade>
+          <clade>
+            <branch_length>0.00295707</branch_length>
+            <taxonomy>
+              <scientific_name>Branchiostoma floridae</scientific_name>
+            </taxonomy>
+            <sequence>
+              <accession source="refseq">XP_002593786</accession>
+              <name>hypothetical protein BRAFLDRAFT_271417</name>
+            </sequence>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <branch_length>0.0127274</branch_length>
+        <events>
+          <duplications>1</duplications>
+        </events>
+        <clade>
+          <branch_length>0.2752026</branch_length>
+          <events>
+            <speciations>1</speciations>
+          </events>
+          <clade>
+            <branch_length>0.0284849</branch_length>
+            <events>
+              <speciations>1</speciations>
+            </events>
+            <clade>
+              <branch_length>0.116947</branch_length>
+              <events>
+                <speciations>1</speciations>
+              </events>
+              <clade>
+                <branch_length>0.00640349</branch_length>
+                <events>
+                  <speciations>1</speciations>
+                </events>
+                <clade>
+                  <branch_length>0.0327454</branch_length>
+                  <events>
+                    <speciations>1</speciations>
+                  </events>
+                  <clade>
+                    <branch_length>0.0422827</branch_length>
+                    <events>
+                      <duplications>1</duplications>
+                    </events>
+                    <clade>
+                      <branch_length>0.00249228</branch_length>
+                      <events>
+                        <duplications>1</duplications>
+                      </events>
+                      <clade>
+                        <branch_length>6.4578E-4</branch_length>
+                        <events>
+                          <duplications>1</duplications>
+                        </events>
+                        <clade>
+                          <branch_length>9.93478E-4</branch_length>
+                          <events>
+                            <duplications>1</duplications>
+                          </events>
+                          <clade>
+                            <branch_length>5.01604E-4</branch_length>
+                            <events>
+                              <duplications>1</duplications>
+                            </events>
+                            <clade>
+                              <branch_length>0.0024501</branch_length>
+                              <events>
+                                <speciations>1</speciations>
+                              </events>
+                              <clade>
+                                <branch_length>0.02026</branch_length>
+                                <taxonomy>
+                                  <scientific_name>Bos taurus</scientific_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="refseq">XP_003581950</accession>
+                                  <name>PREDICTED: protein Wnt-4-like</name>
+                                </sequence>
+                              </clade>
+                              <clade>
+                                <branch_length>0.0</branch_length>
+                                <taxonomy>
+                                  <scientific_name>Equus caballus</scientific_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="refseq">XP_001501560</accession>
+                                  <name>PREDICTED: protein Wnt-4</name>
+                                </sequence>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <branch_length>0.00574521</branch_length>
+                              <events>
+                                <speciations>1</speciations>
+                              </events>
+                              <clade>
+                                <branch_length>0.00724651</branch_length>
+                                <events>
+                                  <speciations>1</speciations>
+                                </events>
+                                <clade>
+                                  <branch_length>0.0</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Macaca mulatta</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="refseq">XP_002802264</accession>
+                                    <name>PREDICTED: protein Wnt-4 isoform 2</name>
+                                  </sequence>
+                                </clade>
+                                <clade>
+                                  <branch_length>0.0359451</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Oryctolagus cuniculus</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="refseq">XP_002716079</accession>
+                                    <name>PREDICTED: wingless-type MMTV integration site family, member 4</name>
+                                  </sequence>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <branch_length>0.0</branch_length>
+                                <taxonomy>
+                                  <scientific_name>Bos taurus</scientific_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="refseq">XP_003585839</accession>
+                                  <name>PREDICTED: protein Wnt-4-like</name>
+                                </sequence>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.00522595</branch_length>
+                            <taxonomy>
+                              <scientific_name>Cavia porcellus</scientific_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="refseq">XP_003471186</accession>
+                              <name>PREDICTED: protein Wnt-4-like</name>
+                            </sequence>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>9.314E-4</branch_length>
+                          <events>
+                            <duplications>1</duplications>
+                          </events>
+                          <clade>
+                            <branch_length>9.20304E-4</branch_length>
+                            <events>
+                              <speciations>1</speciations>
+                            </events>
+                            <clade>
+                              <branch_length>0.008636642</branch_length>
+                              <events>
+                                <speciations>1</speciations>
+                              </events>
+                              <clade>
+                                <branch_length>0.00602544</branch_length>
+                                <events>
+                                  <duplications>1</duplications>
+                                </events>
+                                <clade>
+                                  <branch_length>0.0</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Rattus norvegicus</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="ncbi">BC098752.1</accession>
+                                    <name>Rattus norvegicus (Norway rat) wingless-type MMTV integration site family,</name>
+                                  </sequence>
+                                </clade>
+                                <clade>
+                                  <branch_length>0.00292772</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Rattus norvegicus</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="refseq">NP_445854</accession>
+                                    <name>protein Wnt-4 precursor</name>
+                                  </sequence>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <branch_length>0.00262</branch_length>
+                                <taxonomy>
+                                  <scientific_name>Mus musculus</scientific_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="refseq">NP_033549</accession>
+                                  <name>protein Wnt-4 precursor</name>
+                                </sequence>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <branch_length>4.4792E-4</branch_length>
+                              <events>
+                                <duplications>1</duplications>
+                              </events>
+                              <clade>
+                                <branch_length>1.50754E-4</branch_length>
+                                <events>
+                                  <duplications>1</duplications>
+                                </events>
+                                <clade>
+                                  <branch_length>0.002821</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Homo sapiens</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="ncbi">AB061675.1</accession>
+                                    <name>Homo sapiens (human) WNT4</name>
+                                  </sequence>
+                                </clade>
+                                <clade>
+                                  <branch_length>0.005812</branch_length>
+                                  <taxonomy>
+                                    <scientific_name>Homo sapiens</scientific_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="ncbi">AY009398.1</accession>
+                                    <name>Homo sapiens (human) WNT4 precursor</name>
+                                  </sequence>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <branch_length>0.0</branch_length>
+                                <taxonomy>
+                                  <scientific_name>Homo sapiens</scientific_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="refseq">NP_110388</accession>
+                                  <name>protein Wnt-4 precursor</name>
+                                </sequence>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.0</branch_length>
+                            <taxonomy>
+                              <scientific_name>Macaca mulatta</scientific_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="ncbi">CM001253.1</accession>
+                              <name>Macaca mulatta (Rhesus monkey) partial hypothetical protein</name>
+                            </sequence>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <branch_length>0.00517047</branch_length>
+                        <taxonomy>
+                          <scientific_name>Callithrix jacchus</scientific_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="refseq">XP_002750404</accession>
+                          <name>PREDICTED: protein Wnt-4-like</name>
+                        </sequence>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.00681767</branch_length>
+                      <taxonomy>
+                        <scientific_name>Ailuropoda melanoleuca</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_002919583</accession>
+                        <name>PREDICTED: LOW QUALITY PROTEIN: protein Wnt-4-like</name>
+                      </sequence>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.022039</branch_length>
+                    <events>
+                      <speciations>1</speciations>
+                    </events>
+                    <clade>
+                      <branch_length>0.00829078</branch_length>
+                      <taxonomy>
+                        <scientific_name>Macropus eugenii</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="ncbi">AY940685.1</accession>
+                        <name>Macropus eugenii (tammar wallaby) wingless-related MMTV integration site 4</name>
+                      </sequence>
+                    </clade>
+                    <clade>
+                      <branch_length>0.00731079</branch_length>
+                      <taxonomy>
+                        <scientific_name>Monodelphis domestica</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_001376793</accession>
+                        <name>PREDICTED: protein Wnt-4-like</name>
+                      </sequence>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.068096</branch_length>
+                  <events>
+                    <duplications>1</duplications>
+                  </events>
+                  <clade>
+                    <branch_length>0.00212171</branch_length>
+                    <events>
+                      <speciations>1</speciations>
+                    </events>
+                    <clade>
+                      <branch_length>0.007581</branch_length>
+                      <taxonomy>
+                        <scientific_name>Meleagris gallopavo</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_003212403</accession>
+                        <name>PREDICTED: protein Wnt-4-like</name>
+                      </sequence>
+                    </clade>
+                    <clade>
+                      <branch_length>0.0</branch_length>
+                      <taxonomy>
+                        <scientific_name>Taeniopygia guttata</scientific_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="refseq">XP_002194190</accession>
+                        <name>PREDICTED: wingless-type MMTV integration site family, member 4</name>
+                      </sequence>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.00699759</branch_length>
+                    <taxonomy>
+                      <scientific_name>Gallus gallus</scientific_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="refseq">NP_990114</accession>
+                      <name>protein Wnt-4 precursor</name>
+                    </sequence>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.04596</branch_length>
+                <events>
+                  <speciations>1</speciations>
+                </events>
+                <clade>
+                  <branch_length>0.034685</branch_length>
+                  <events>
+                    <speciations>1</speciations>
+                  </events>
+                  <clade>
+                    <branch_length>0.02843344</branch_length>
+                    <taxonomy>
+                      <scientific_name>Tetraodon nigroviridis</scientific_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="ncbi">CAAE01014528.1</accession>
+                      <name>Tetraodon nigroviridis hypothetical protein</name>
+                    </sequence>
+                  </clade>
+                  <clade>
+                    <branch_length>0.03571477</branch_length>
+                    <taxonomy>
+                      <scientific_name>Oryzias latipes</scientific_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="refseq">NP_001153911</accession>
+                      <name>wingless-type MMTV integration site family member 4a precursor</name>
+                    </sequence>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.0503382</branch_length>
+                  <events>
+                    <duplications>1</duplications>
+                  </events>
+                  <clade>
+                    <branch_length>0.00103857</branch_length>
+                    <taxonomy>
+                      <scientific_name>Danio rerio</scientific_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="refseq">NP_001035477 NP_571022</accession>
+                      <name>protein Wnt-4a precursor</name>
+                    </sequence>
+                  </clade>
+                  <clade>
+                    <branch_length>0.00777218</branch_length>
+                    <taxonomy>
+                      <scientific_name>Danio rerio</scientific_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="ncbi">U51267.1</accession>
+                      <name>Danio rerio (zebrafish) Wnt4</name>
+                    </sequence>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.183281</branch_length>
+              <events>
+                <duplications>1</duplications>
+              </events>
+              <clade>
+                <branch_length>3.2603E-4</branch_length>
+                <taxonomy>
+                  <scientific_name>Branchiostoma floridae</scientific_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="refseq">XP_002613927</accession>
+                  <name>hypothetical protein BRAFLDRAFT_56711</name>
+                </sequence>
+              </clade>
+              <clade>
+                <branch_length>0.0111029</branch_length>
+                <taxonomy>
+                  <scientific_name>Branchiostoma floridae</scientific_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="ncbi">AF061973.1</accession>
+                  <name>Branchiostoma floridae (Florida lancelet) AmphiWnt4</name>
+                </sequence>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.164216</branch_length>
+            <events>
+              <duplications>1</duplications>
+            </events>
+            <clade>
+              <branch_length>0.0123794</branch_length>
+              <taxonomy>
+                <scientific_name>Saccoglossus kowalevskii</scientific_name>
+              </taxonomy>
+              <sequence>
+                <accession source="refseq">XP_002737259</accession>
+                <name>PREDICTED: wingless-type MMTV integration site family member 4</name>
+              </sequence>
+            </clade>
+            <clade>
+              <branch_length>0.0</branch_length>
+              <taxonomy>
+                <scientific_name>Saccoglossus kowalevskii</scientific_name>
+              </taxonomy>
+              <sequence>
+                <accession source="ncbi">GU224244.1</accession>
+                <name>Saccoglossus kowalevskii partial wingless-type MMTV integration site family</name>
+              </sequence>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <branch_length>0.366952</branch_length>
+          <taxonomy>
+            <scientific_name>Saccoglossus kowalevskii</scientific_name>
+          </taxonomy>
+          <sequence>
+            <accession source="refseq">NP_001161493</accession>
+            <name>wingless-type MMTV integration site family, member 11 precursor</name>
+          </sequence>
+        </clade>
+      </clade>
+    </clade>
+    <clade>
+      <branch_length>0.436934</branch_length>
+      <taxonomy>
+        <scientific_name>Ixodes scapularis</scientific_name>
+      </taxonomy>
+      <sequence>
+        <accession source="refseq">XP_002434188</accession>
+        <name>AmphiWnt4, putative</name>
+      </sequence>
+    </clade>
+  </clade>
+</phylogeny>
+</phyloxml>
