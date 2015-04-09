@@ -1,0 +1,30 @@
+. Sequence file : [tri_gfp.b10.jtt.nni.phy]
+
+. Model of amino acids substitution : JTT
+
+. Initial tree : [BioNJ]
+
+
+. Data	Nb of 	Likelihood	Discrete   	Number of 	Gamma shape	Proportion of	Nucleotides frequencies               	
+  set	taxa	loglk     	gamma model	categories	parameter  	invariant    	f(A)      f(C)      f(G)      f(T)    	
+
+  #1	38   	-5822.71311	Yes        	4        	1.157    	0.000    	
+
+  #2	38   	-6077.61287	Yes        	4        	1.382    	0.000    	
+
+  #3	38   	-6020.87043	Yes        	4        	1.315    	0.000    	
+
+  #4	38   	-6225.25154	Yes        	4        	1.338    	0.000    	
+
+  #5	38   	-5870.57656	Yes        	4        	1.227    	0.000    	
+
+  #6	38   	-6052.68377	Yes        	4        	1.377    	0.000    	
+
+  #7	38   	-5879.76051	Yes        	4        	1.044    	0.000    	
+
+  #8	38   	-5990.03721	Yes        	4        	1.295    	0.000    	
+
+  #9	38   	-6185.76890	Yes        	4        	1.371    	0.000    	
+
+  #10	38   	-5872.95260	Yes        	4        	1.276    	0.000    	
+

@@ -1,0 +1,17 @@
+arabidopsis_thaliana
+brassica_rapa
+glycine_max
+oryza_barthii
+oryza_brachyantha
+oryza_glaberrima
+oryza_glumaepatula
+oryza_indica
+oryza_meridionalis
+oryza_nivara
+oryza_punctata
+oryza_rufipogon
+oryza_sativa
+populus_trichocarpa
+solanum_lycopersicum
+sorghum_bicolor
+zea_mays
