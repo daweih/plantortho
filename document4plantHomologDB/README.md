@@ -49,6 +49,10 @@ Data pipeline for Plant Homolog Database.
 
 ### OrthoMCL (Homolog group)
 
+#### BLAST
+
+#### 配置 MCL 的 MySQL 数据库
+
 `grep -P "^[^#]" orthomcl.blastout > blastresult`
 
 `orthomclBlastParser blastresult compliantFasta > similarSequences.txt`
@@ -72,6 +76,8 @@ Data pipeline for Plant Homolog Database.
 `orthomclPairs orthomcl.config.template orthomcl_pairs.log cleanup=no`
 
 `orthomclDumpPairsFiles orthomcl.config.template`
+
+#### 运行 OrthoMCL
 
 `mcl mclInput --abc -I 1.1 -o mclOutput11`
 
