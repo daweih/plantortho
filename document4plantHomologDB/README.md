@@ -22,6 +22,8 @@ Data pipeline for Plant Homolog Database.
 
 # 中文版
 
+本分析流程是IC4R数据库的子库，[Plant Homolog Database](http://homolog.ic4r.org) 的数据分析流程。这个分析流程是在[北京基因组研究所](http://www.big.ac.cn)的服务器上运行的。其中的一些细节受限于服务器的集群环境。生物学的部分，则是通用的。如果使用本流程，发表文章请引用IC4R数据库的文章（pubmed链接会在文章发表后列出）。
+
 ## 原始数据
 
 采用 emsembl release-24 的数据，路径：
