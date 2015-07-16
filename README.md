@@ -1,4 +1,4 @@
-plantortho
+Data pipeline for Plant Homolog Database.
 ==========
 
 Plant Homolog Database ([PHD](http://homolog.ic4r.org)) is a database composed of plant homologous genes. It combines phylogenetic and heuristic best-match approaches, yielding an accurate collection of more than 14,000 homologous groups covering multiple different species (including rice, Arabidopsis thaliana, tomato, maize, sorghum, etc).
@@ -9,3 +9,4 @@ For more information, visit:
 - [Plant Homolog Database](http://homolog.ic4r.org)
 - [DaWei Huang's Homepage at Zhang Zhang Lab](http://cbb.big.ac.cn/Dawei_Huang)
 - [Li Yang's Home page at Zhang Zhang Lab](http://cbb.big.ac.cn/Li_Yang)
+- [Xingjian Xu's Home page at Zhang Zhang Lab](http://cbb.big.ac.cn/Xingjian_Xu)
