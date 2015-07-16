@@ -39,15 +39,28 @@ Data pipeline for Plant Homolog Database.
 `>OS01T0100100-01 pep:known chromosome:IRGSP-1.0:1:2983:10815:1 gene:OS01G0100100 transcript:OS01T0100100-01 description:"Note\x3dRabGAP/TBC domain containing protein., Transcript_evidence\x3dAK242339 (DDBJ, antisense transcript), ORF_evidence\x3dQ655M0 (UniProt), NIAS_FLcDNA\x3dJ075199P03,"`
 `MSSAAGQDNGDTAGDYIKWMCGAGGRAGGAMANLQRGVGSLVRDIGDPCLNPSPVKGSKM`
 
-其中，gene:OS01G0100100 标明这个蛋白对应的基因，只有一个转录本。而 gene:OS08G0564300 有 6 条转录本，所有需要写一个 perl 脚本选择一个。其他几个的 ID 也同时保存，勇于后面数据的搜索用。
+其中，gene:OS01G0100100 标明这个蛋白对应的基因，只有一个转录本。而 gene:OS08G0564300 有 6 条转录本，所有需要写一个 perl 脚本选择一个。其他几个的 ID 也同时保存，用于后面数据的搜索用。
 
 ## Method
+
+这个部分是数据的分析流程。可以分成两大部分。OrthoMCL 部分（OrthoMCL），脚本生成/提交部分。由于这个研究使用了集群，所有任务采用 dsub 命令提交。
 
 ### OrthoMCL (Homolog group)
 
 ### Phylogenetic Analysis
 
+#### mafft
+
+#### trimal
+
+#### PhyML
+
 ### Ortholog inference
+
+#### RIO
+
+#### GSDI
+
 
 ### dN/dS Analysis
 
