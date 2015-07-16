@@ -49,6 +49,35 @@ Data pipeline for Plant Homolog Database.
 
 ### OrthoMCL (Homolog group)
 
+`grep -P "^[^#]" orthomcl.blastout > blastresult`
+
+`orthomclBlastParser blastresult compliantFasta > similarSequences.txt`
+
+`perl -p -i -e 's/\t(\w+)(\|.*)orthomcl/\t$1$2$1/' similarSequences.txt`
+
+`perl -p -i -e 's/0\t0/1\t-181/' similarSequences.txt 
+
+`create database orthomcl;`
+
+`DROP TABLE BestHit, BestInterTaxonScore, BestQueryTaxonScore, BetterHit, CoOrthNotOrtholog, CoOrtholog, CoOrthologAvgScore, CoOrthologCandidate, CoOrthologTaxon, CoOrthologTemp, InParalog, InParalog2Way, InParalogAvgScore, InParalogOrtholog, InParalogTaxonAvg, InParalogTemp, InplgOrthTaxonAvg, InplgOrthoInplg, InterTaxonMatch, Ortholog, Ortholog2Way, OrthologAvgScore, OrthologTaxon, OrthologTemp, OrthologUniqueId, SimilarSequences, UniqSimSeqsQueryId;`
+
+`DROP TABLE BestQueryTaxonScore;`
+
+`orthomclInstallSchema orthomcl.config.template`
+
+`orthomclLoadBlast orthomcl.config.template similarSequences.txt`
+
+`orthomclLoadBlast orthomcl.config.template similarSequences.txt.rmisoform`
+
+`orthomclPairs orthomcl.config.template orthomcl_pairs.log cleanup=no`
+
+`orthomclDumpPairsFiles orthomcl.config.template`
+
+`mcl mclInput --abc -I 1.1 -o mclOutput11`
+
+`orthomclMclToGroups ORYSA 1 < mclOutput11 > groups11x.txt`
+
+
 ### Phylogenetic Analysis
 
 #### mafft
