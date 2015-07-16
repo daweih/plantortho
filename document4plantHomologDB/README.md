@@ -59,7 +59,7 @@ Data pipeline for Plant Homolog Database.
 
 `perl -p -i -e 's/\t(\w+)(\|.*)orthomcl/\t$1$2$1/' similarSequences.txt`
 
-`perl -p -i -e 's/0\t0/1\t-181/' similarSequences.txt 
+`perl -p -i -e 's/0\t0/1\t-181/' similarSequences.txt`
 
 `create database orthomcl;`
 
