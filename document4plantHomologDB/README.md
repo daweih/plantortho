@@ -39,6 +39,14 @@ Data pipeline for Plant Homolog Database.
 `>OS01T0100100-01 pep:known chromosome:IRGSP-1.0:1:2983:10815:1 gene:OS01G0100100 transcript:OS01T0100100-01 description:"Note\x3dRabGAP/TBC domain containing protein., Transcript_evidence\x3dAK242339 (DDBJ, antisense transcript), ORF_evidence\x3dQ655M0 (UniProt), NIAS_FLcDNA\x3dJ075199P03,"`
 `MSSAAGQDNGDTAGDYIKWMCGAGGRAGGAMANLQRGVGSLVRDIGDPCLNPSPVKGSKM`
 
+`>ENSP00000328693 pep:novel chromosome:NCBI35:1:904515:910768:1 gene:ENSG00000158815:transcript:ENST00000328693`
+` ^               ^   ^     ^                                   ^                    ^`
+` ID              |   |  LOCATION                          GENE:stable gene ID       |`
+`                 | STATUS                                           TRANSCRIPT: stable transcript ID`
+`               SEQTYPE`
+
+
+
 ## Method
 
 ### OrthoMCL (Homolog group)
