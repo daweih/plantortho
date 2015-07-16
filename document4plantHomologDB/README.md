@@ -1,22 +1,26 @@
 Data pipeline for Plant Homolog Database.
 ==========
 
-# Rawdata download
+#English version
 
-# Method
+## Rawdata download
 
-## OrthoMCL (Homolog group)
+## Method
 
-## Phylogenetic Analysis
+### OrthoMCL (Homolog group)
 
-## Ortholog inference
+### Phylogenetic Analysis
 
-## dN/dS Analysis
+### Ortholog inference
 
-## Annotation using cv
+### dN/dS Analysis
 
-# Reference
+### Annotation using cv
+
+## Reference
 * [Rouard,M. et al. (2011) GreenPhylDB v2.0: comparative and functional genomics in plants. Nucleic Acids Research, 39, D1095–102.](http://www.ncbi.nlm.nih.gov/pubmed/?term=20864446)
+
+# 中文版
 
 For more information, visit:
 - [Plant Homolog Database](http://homolog.ic4r.org)
