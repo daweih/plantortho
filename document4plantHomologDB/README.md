@@ -34,18 +34,12 @@ Data pipeline for Plant Homolog Database.
 
 ### 数据整理和统计
 
-由于做 homolog 分析要用到蛋白序列比对，所以需要对下载好的蛋白数据做整合。对于一个基因有多个 isoform，因此对应多个蛋白的，选择其中一条进入下游分析（*.pep.all.fa.gz）。聚类的依据是 ensembl 的注释信息，如下：
+由于做 homolog 分析要用到蛋白序列比对，所以需要对下载好的蛋白数据做整合。对于一个基因有多个 isoform，因此对应多个蛋白的，选择其中一条进入下游分析（*.pep.all.fa.gz）。聚类的依据是 ensembl 的注释信息，例子如下：
 
 `>OS01T0100100-01 pep:known chromosome:IRGSP-1.0:1:2983:10815:1 gene:OS01G0100100 transcript:OS01T0100100-01 description:"Note\x3dRabGAP/TBC domain containing protein., Transcript_evidence\x3dAK242339 (DDBJ, antisense transcript), ORF_evidence\x3dQ655M0 (UniProt), NIAS_FLcDNA\x3dJ075199P03,"`
 `MSSAAGQDNGDTAGDYIKWMCGAGGRAGGAMANLQRGVGSLVRDIGDPCLNPSPVKGSKM`
 
-`>ENSP00000328693 pep:novel chromosome:NCBI35:1:904515:910768:1 gene:ENSG00000158815:transcript:ENST00000328693`
-` ^               ^   ^     ^                                   ^                    ^`
-` ID              |   |  LOCATION                          GENE:stable gene ID       |`
-`                 | STATUS                                           TRANSCRIPT: stable transcript ID`
-`               SEQTYPE`
-
-
+其中，gene:OS01G0100100 标明这个蛋白对应的基因，只有一个转录本。而 gene:OS08G0564300 有 6 条转录本，所有需要写一个 perl 脚本选择一个。其他几个的 ID 也同时保存，勇于后面数据的搜索用。
 
 ## Method
 
